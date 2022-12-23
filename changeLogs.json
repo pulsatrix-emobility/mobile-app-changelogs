@@ -24,7 +24,7 @@
         }
     },
     "iOS": {
-        "0.1.0": {
+        "PRE-0.1.0": {
             "de": {
                 "releaseDate": "dd.mm.yyyy",
                 "changeLog": "aktuell"
@@ -46,6 +46,16 @@
         }
     },
     "android": {
+        "PRE-0.1.0": {
+            "de": {
+                "releaseDate": "dd.mm.yyyy",
+                "changeLog": "aktuell"
+            },
+            "en": {
+                "releaseDate": "mm/dd/yyyy",
+                "changeLog": "current"
+            }
+        },
         "VERSION_android": {
             "de": {
                 "releaseDate": "dd.mm.yyyy",
