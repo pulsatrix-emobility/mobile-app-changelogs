@@ -1,0 +1,12 @@
+{
+    "VERSION": {
+        "de": {
+            "releaseDate": "dd.mm.yyyy",
+            "changeLog": "..."
+        },
+        "en": {
+            "releaseDate": "mm/dd/yyyy",
+            "changeLog": "..."
+        }
+    }
+}
