@@ -12,7 +12,7 @@
             }
         },
         "android": {
-            "version": "PRE-0.1.0",
+            "version": "PRE-0.1.1",
             "de": {
                 "releaseDate": "23.12.2022",
                 "changeLog": "Coole neue android Sachen hinzugefügt!"
