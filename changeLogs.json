@@ -1,0 +1,24 @@
+{
+    "iOS": {
+        "version": "PRE-0.0.6",
+        "de": {
+            "releaseDate": "5.1.2023",
+            "changeLog": "Coole neue iOS Sachen hinzugefügt!"
+        },
+        "en": {
+            "releaseDate": "1/5/2023",
+            "changeLog": "Added cool new iOS stuff!"
+        }
+    },
+    "android": {
+        "version": "PRE-0.0.6",
+        "de": {
+            "releaseDate": "5.1.2023",
+            "changeLog": "Coole neue android Sachen hinzugefügt!"
+        },
+        "en": {
+            "releaseDate": "1/5/2023",
+            "changeLog": "Added cool new android stuff!"
+        }
+    }
+}
