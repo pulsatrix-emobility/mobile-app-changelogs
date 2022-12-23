@@ -1,70 +1,28 @@
 {
     "current": {
         "iOS": {
-            "version": "PRE-0.1.1",
+            "version": "PRE-2.0.0",
             "de": {
-                "releaseDate": "23.12.2022",
-                "changeLog": "Coole neue iOS Sachen hinzugefügt!"
+                "releaseDate": "24.12.2022 🎄",
+                "changeLog": "- Komplett neues design\n- Sprache wird jetzt standartmäßig auf der Systemstandartsprache\n- Ladebildschirm bewegt sich wärend dem Laden nicht mehr\n⚠️ Transaktionen und Station Auswählen Seite sind aktuell noch nicht verfügbar!"
             },
             "en": {
-                "releaseDate": "12/23/2022",
-                "changeLog": "Added cool new iOS stuff!"
+                "releaseDate": "12/24/2022 🎄",
+                "changeLog": "- Completely new design\n- Language is now defaulted to the system language\n- Fixed Splash screen moving between loading\n⚠️ History and Select Station Screens are not available at this point."
             }
         },
         "android": {
-            "version": "PRE-0.1.1",
+            "version": "PRE-2.0.0",
             "de": {
-                "releaseDate": "23.12.2022",
-                "changeLog": "Coole neue android Sachen hinzugefügt!"
+                "releaseDate": "24.12.2022 🎄",
+                "changeLog": "- Komplett neues Design\n- Sprache wird jetzt standartmäßig auf der Systemstandartsprache\n- Ladebildschirm bewegt sich wärend dem Laden nicht mehr\n⚠️ Transaktionen und Station Auswählen Seite sind aktuell noch nicht verfügbar!"
             },
             "en": {
-                "releaseDate": "12/23/2022",
-                "changeLog": "Added cool new android stuff!"
+                "releaseDate": "12/24/2022 🎄",
+                "changeLog": "- Completely new design\n- Language is now defaulted to the system language\n- Fixed Splash screen moving between loading\n⚠️ History and Select Station Screens are not available at this point."
             }
         }
     },
-    "iOS": {
-        "PRE-0.1.0": {
-            "de": {
-                "releaseDate": "dd.mm.yyyy",
-                "changeLog": "aktuell"
-            },
-            "en": {
-                "releaseDate": "mm/dd/yyyy",
-                "changeLog": "current"
-            }
-        },
-        "VERSION_iOS": {
-            "de": {
-                "releaseDate": "dd.mm.yyyy",
-                "changeLog": "aktuell"
-            },
-            "en": {
-                "releaseDate": "mm/dd/yyyy",
-                "changeLog": "current"
-            }
-        }
-    },
-    "android": {
-        "PRE-0.1.0": {
-            "de": {
-                "releaseDate": "dd.mm.yyyy",
-                "changeLog": "aktuell"
-            },
-            "en": {
-                "releaseDate": "mm/dd/yyyy",
-                "changeLog": "current"
-            }
-        },
-        "VERSION_android": {
-            "de": {
-                "releaseDate": "dd.mm.yyyy",
-                "changeLog": "..."
-            },
-            "en": {
-                "releaseDate": "mm/dd/yyyy",
-                "changeLog": "..."
-            }
-        }
-    }
+    "iOS": {},
+    "android": {}
 }
