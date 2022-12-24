@@ -1,28 +1,50 @@
 {
     "current": {
         "iOS": {
-            "version": "PRE-2.0.0",
+            "version": "PRE-2.0.1",
             "de": {
                 "releaseDate": "24.12.2022 🎄",
-                "changeLog": "- Komplett neues design\n- Sprache wird jetzt standartmäßig auf Systemstandartsprache gestellt\n- Ladebildschirm bewegt sich wärend dem Laden nicht mehr\n\n⚠️ Transaktionen und Station Auswählen Seite sind aktuell noch nicht verfügbar!"
+                "changeLog": "- Alle Schreibfehler korrigiert\n\nHinzugefügt:\n- Biometrische Appsperre\n- Zugangsdaten Autovervollständigung\n\n⚠️ Transaktionen und Station Auswählen Seiten sind aktuell noch nicht verfügbar!"
             },
             "en": {
                 "releaseDate": "12/24/2022 🎄",
-                "changeLog": "- Completely new design\n- Language is now defaulted to the system language\n- Fixed Splash screen moving between loading\n\n⚠️ History and Select Station Screens are not available at this point."
+                "changeLog": "- Corrected all spelling mistakes\n\nAdded:\n- Biometric App Lock\n- Autofill credentials\n\n⚠️ History and Select Station Screens are not available at this point."
             }
         },
         "android": {
-            "version": "PRE-2.0.0",
+            "version": "PRE-2.0.1",
             "de": {
                 "releaseDate": "24.12.2022 🎄",
-                "changeLog": "- Komplett neues Design\n- Sprache wird jetzt standartmäßig auf Systemstandartsprache gestellt\n- Ladebildschirm bewegt sich wärend dem Laden nicht mehr\n\n⚠️ Transaktionen und Station Auswählen Seite sind aktuell noch nicht verfügbar!"
+                "changeLog": "- Alle Schreibfehler korrigiert\n\nHinzugefügt:\n- Biometrische Appsperre\n\n⚠️ Transaktionen und Station Auswählen Seiten sind aktuell noch nicht verfügbar!"
             },
             "en": {
                 "releaseDate": "12/24/2022 🎄",
-                "changeLog": "- Completely new design\n- Language is now defaulted to the system language\n- Fixed Splash screen moving between loading\n\n⚠️ History and Select Station Screens are not available at this point."
+                "changeLog": "- Corrected all spelling mistakes\n\nAdded:\n- Biometric App Lock\n\n⚠️ History and Select Station Screens are not available at this point."
             }
         }
     },
-    "iOS": {},
-    "android": {}
+    "iOS": {
+        "PRE-2.0.0": {
+            "de": {
+                "releaseDate": "24.12.2022 🎄",
+                "changeLog": "- Komplett neues Design\n- Sprache wird jetzt standartmäßig auf Systemstandartsprache gestellt\n- Ladebildschirm bewegt sich wärend dem Laden nicht mehr\n\n⚠️ Transaktionen und Station Auswählen Seiten sind aktuell noch nicht verfügbar!"
+            },
+            "en": {
+                "releaseDate": "12/24/2022 🎄",
+                "changeLog": "- Completely new design\n- Language is now defaulted to the system language\n- Fixed Splash screen moving while loading\n\n⚠️ History and Select Station Screens are not available at this point."
+            }
+        }
+    },
+    "android": {
+        "PRE-2.0.0": {
+            "de": {
+                "releaseDate": "24.12.2022 🎄",
+                "changeLog": "- Komplett neues Design\n- Sprache wird jetzt standartmäßig auf Systemstandartsprache gestellt\n- Ladebildschirm bewegt sich wärend dem Laden nicht mehr\n\n⚠️ Transaktionen und Station Auswählen Seiten sind aktuell noch nicht verfügbar!"
+            },
+            "en": {
+                "releaseDate": "12/24/2022 🎄",
+                "changeLog": "- Completely new design\n- Language is now defaulted to the system language\n- Fixed Splash screen moving while loading\n\n⚠️ History and Select Station Screens are not available at this point."
+            }
+        }
+    }
 }
