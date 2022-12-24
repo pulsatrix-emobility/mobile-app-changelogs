@@ -1,7 +1,30 @@
 {
     "current": {
         "iOS": {
-            "version": "PRE-2.0.1",
+            "version": "PRE-2.0.2",
+            "de": {
+                "releaseDate": "24.12.2022 🎄",
+                "changeLog": "Hinzugefügt:\n- Biometrische Appsperre nach Fokusverlust der App\n\n⚠️ Transaktionen und Station Auswählen Seiten sind aktuell noch nicht verfügbar!"
+            },
+            "en": {
+                "releaseDate": "12/24/2022 🎄",
+                "changeLog": "Added:\n- Biometric App Lock after app focus loss\n\n⚠️ History and Select Station Screens are not available at this point."
+            }
+        },
+        "android": {
+            "version": "PRE-2.0.2",
+            "de": {
+                "releaseDate": "24.12.2022 🎄",
+                "changeLog": "Hinzugefügt:\n- Biometrische Appsperre nach Fokusverlust der App\n\n⚠️ Transaktionen und Station Auswählen Seiten sind aktuell noch nicht verfügbar!"
+            },
+            "en": {
+                "releaseDate": "12/24/2022 🎄",
+                "changeLog": "Added:\n- Biometric App Lock after app focus loss\n\n⚠️ History and Select Station Screens are not available at this point."
+            }
+        }
+    },
+    "iOS": {
+        "PRE-2.0.1": {
             "de": {
                 "releaseDate": "24.12.2022 🎄",
                 "changeLog": "- Alle Schreibfehler korrigiert\n\nHinzugefügt:\n- Biometrische Appsperre\n- Zugangsdaten Autovervollständigung\n\n⚠️ Transaktionen und Station Auswählen Seiten sind aktuell noch nicht verfügbar!"
@@ -11,19 +34,6 @@
                 "changeLog": "- Corrected all spelling mistakes\n\nAdded:\n- Biometric App Lock\n- Autofill credentials\n\n⚠️ History and Select Station Screens are not available at this point."
             }
         },
-        "android": {
-            "version": "PRE-2.0.1",
-            "de": {
-                "releaseDate": "24.12.2022 🎄",
-                "changeLog": "- Alle Schreibfehler korrigiert\n\nHinzugefügt:\n- Biometrische Appsperre\n\n⚠️ Transaktionen und Station Auswählen Seiten sind aktuell noch nicht verfügbar!"
-            },
-            "en": {
-                "releaseDate": "12/24/2022 🎄",
-                "changeLog": "- Corrected all spelling mistakes\n\nAdded:\n- Biometric App Lock\n\n⚠️ History and Select Station Screens are not available at this point."
-            }
-        }
-    },
-    "iOS": {
         "PRE-2.0.0": {
             "de": {
                 "releaseDate": "24.12.2022 🎄",
@@ -36,6 +46,16 @@
         }
     },
     "android": {
+        "PRE-2.0.1": {
+            "de": {
+                "releaseDate": "24.12.2022 🎄",
+                "changeLog": "- Alle Schreibfehler korrigiert\n\nHinzugefügt:\n- Biometrische Appsperre\n\n⚠️ Transaktionen und Station Auswählen Seiten sind aktuell noch nicht verfügbar!"
+            },
+            "en": {
+                "releaseDate": "12/24/2022 🎄",
+                "changeLog": "- Corrected all spelling mistakes\n\nAdded:\n- Biometric App Lock\n\n⚠️ History and Select Station Screens are not available at this point."
+            }
+        },
         "PRE-2.0.0": {
             "de": {
                 "releaseDate": "24.12.2022 🎄",
