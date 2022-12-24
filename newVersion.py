@@ -48,6 +48,7 @@ print()
 print('Stimmen die folgenden Angeben?')
 print()
 print(f'Platform: {OS}')
+print(f'Version: {version}')
 print(f'Erscheinungsdatum: {releaseDate}')
 print(f'Änderungen: (DE)')
 print()
@@ -76,15 +77,19 @@ newVersion = {
     }
 }
 
-oldVerison = changeLogs['current'][OS]['version']
-oldVersionData = {
-    'de': changeLogs['current'][OS]['de'],
-    'en': changeLogs['current'][OS]['en'],
+newOS = {
+    changeLogs['current'][OS]['version']: {
+        'de': changeLogs['current'][OS]['de'],
+        'en': changeLogs['current'][OS]['en'],
+    }
 }
+
+for changeLog in changeLogs[OS]:
+    newOS[changeLog] = changeLogs[OS][changeLog]
 
 changeLogs['current'][OS] = newVersion
 
-changeLogs[OS][oldVerison] = oldVersionData
+changeLogs[OS] = newOS
 
 print(json.dumps(changeLogs, indent=4))
 
