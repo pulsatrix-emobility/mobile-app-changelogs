@@ -8,7 +8,7 @@
             },
             "en": {
                 "releaseDate": "12/26/2022",
-                "changeLog": "Added:\n- Charging Stations page\n\nRemoved:\n- Removed tenant from basic history view (will later be moved into the details page)\n\n⚠️Detailed information for running transactions and a list of transaction that are assigned to your account are currently not available."
+                "changeLog": "Added:\n- Charging Stations page\n\nRemoved:\n- Removed tenant from basic history view (will later be moved into the details page)\n\n⚠️Detailed information for running transactions and a list of transactions that are assigned to your account are currently not available."
             },
             "hidden": false
         },
@@ -20,7 +20,7 @@
             },
             "en": {
                 "releaseDate": "12/26/2022",
-                "changeLog": "Added:\n- Charging Stations page\n\nRemoved:\n- Removed tenant from basic history view (will later be moved into the details page)\n\n⚠️Detailed information for running transactions and a list of transaction that are assigned to your account are currently not available."
+                "changeLog": "Added:\n- Charging Stations page\n\nRemoved:\n- Removed tenant from basic history view (will later be moved into the details page)\n\n⚠️Detailed information for running transactions and a list of transactions that are assigned to your account are currently not available."
             },
             "hidden": false
         }
