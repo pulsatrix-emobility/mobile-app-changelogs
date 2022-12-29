@@ -1,28 +1,28 @@
 {
     "current": {
         "iOS": {
-            "version": "PRE-2.0.4",
+            "version": "PRE-2.0.5",
             "de": {
-                "releaseDate": "26.12.2022",
-                "changeLog": "Hinzugefügt:\n- Transaktionen Seite\n\n⚠️Station Auswählen Seite ist aktuell noch nicht verfügbar."
+                "releaseDate": "30.12.2022",
+                "changeLog": "Hinzugefügt:\n- Ladestationen Seite\n\nEntfernt:\n- Tenant aus basis Transaktionsliste entfernt (wird später in die detailierte Seite verschoben)\n\n⚠️Detailierte Übersichten der Ladevorgänge und eine aktuelle Liste von ihnen zugewiesenen Ladestationen sind noch nicht verfügbar."
             },
             "en": {
                 "releaseDate": "12/26/2022",
-                "changeLog": "Added:\n- Transactions page\n\n⚠️Select Station screen is not available at this point."
+                "changeLog": "Added:\n- Charging Stations page\n\nRemoved:\n- Removed tenant from basic history view (will later be moved into the details page)\n\n⚠️Detailed information for running transactions and a list of transaction that are assigned to your account are currently not available."
             },
-            "hidden": true
+            "hidden": false
         },
         "android": {
-            "version": "PRE-2.0.4",
+            "version": "PRE-2.0.5",
             "de": {
-                "releaseDate": "26.12.2022",
-                "changeLog": "Hinzugefügt:\n- Transaktionen Seite\n\n⚠️Station Auswählen Seite ist aktuell noch nicht verfügbar."
+                "releaseDate": "30.12.2022",
+                "changeLog": "Hinzugefügt:\n- Ladestationen Seite\n\nEntfernt:\n- Tenant aus basis Transaktionsliste entfernt (wird später in die detailierte Seite verschoben)\n\n⚠️Detailierte Übersichten der Ladevorgänge und eine aktuelle Liste von ihnen zugewiesenen Ladestationen sind noch nicht verfügbar."
             },
             "en": {
                 "releaseDate": "12/26/2022",
-                "changeLog": "Added:\n- Transactions page\n\n⚠️Select Station screen is not available at this point."
+                "changeLog": "Added:\n- Charging Stations page\n\nRemoved:\n- Removed tenant from basic history view (will later be moved into the details page)\n\n⚠️Detailed information for running transactions and a list of transaction that are assigned to your account are currently not available."
             },
-            "hidden": true
+            "hidden": false
         }
     },
     "iOS": {
