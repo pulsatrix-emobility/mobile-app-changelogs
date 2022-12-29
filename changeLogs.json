@@ -21,7 +21,8 @@
             "en": {
                 "releaseDate": "12/26/2022",
                 "changeLog": "Added:\n- Transactions page\n\n⚠️Select Station screen is not available at this point."
-            }
+            },
+            "hidden": true
         }
     },
     "iOS": {
