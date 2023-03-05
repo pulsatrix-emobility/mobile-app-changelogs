@@ -10,7 +10,7 @@
                 "releaseDate": "03/05/2023",
                 "changeLog": "Added:\n- Transaction Overview Page\n- Scan Station (QR and NFC)\n\nFixed:\n- New year indicator in history invisible"
             },
-            "hidden": true
+            "hidden": false
         },
         "android": {
             "version": "PRE-2.0.6",
