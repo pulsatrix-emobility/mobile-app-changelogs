@@ -22,7 +22,7 @@
                 "releaseDate": "03/05/2023",
                 "changeLog": "Added:\n- Transaction Overview Page\n- Scan Station (QR and NFC)\n\nFixed:\n- New year indicator in history invisible\n- Biometric authentication not saved on first activation"
             },
-            "hidden": true
+            "hidden": false
         }
     },
     "iOS": {
