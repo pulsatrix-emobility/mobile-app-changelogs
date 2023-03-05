@@ -1,31 +1,41 @@
 {
     "current": {
         "iOS": {
-            "version": "PRE-2.0.5",
+            "version": "PRE-2.0.6",
             "de": {
-                "releaseDate": "30.12.2022",
-                "changeLog": "Hinzugefügt:\n- Ladestationen Seite\n\nEntfernt:\n- Tenant aus basis Transaktionsliste entfernt (wird später in die detailierte Seite verschoben)\n\n⚠️Detailierte Übersichten der Ladevorgänge und eine aktuelle Liste von ihnen zugewiesenen Ladestationen sind noch nicht verfügbar."
+                "releaseDate": "05.03.2023",
+                "changeLog": "Hinzugefügt:\n- Transaktion Übersicht Seite\n- Station scannen (QR und NFC)\n\nBehoben:\n- Jahrestrenner in Transaktionsliste unsichtbar"
             },
             "en": {
-                "releaseDate": "12/30/2022",
-                "changeLog": "Added:\n- Charging Stations page\n\nRemoved:\n- Removed tenant from basic history view (will later be moved into the details page)\n\n⚠️Detailed information for running transactions and a list of transactions that are assigned to your account are currently not available."
+                "releaseDate": "03/05/2023",
+                "changeLog": "Added:\n- Transaction Overview Page\n- Scan Station (QR and NFC)\n\nFixed:\n- New year indicator in history invisible"
             },
-            "hidden": false
+            "hidden": true
         },
         "android": {
-            "version": "PRE-2.0.5",
+            "version": "PRE-2.0.6",
             "de": {
-                "releaseDate": "30.12.2022",
-                "changeLog": "Hinzugefügt:\n- Ladestationen Seite\n\nEntfernt:\n- Tenant aus basis Transaktionsliste entfernt (wird später in die detailierte Seite verschoben)\n\n⚠️Detailierte Übersichten der Ladevorgänge und eine aktuelle Liste von ihnen zugewiesenen Ladestationen sind noch nicht verfügbar."
+                "releaseDate": "05.03.2023",
+                "changeLog": "Hinzugefügt:\n- Transaktion Übersicht Seite\n- Scannen (QR und NFC)\n\nBehoben:\n- Jahrestrenner in Transaktionsliste unsichtbar\n- Biometrische Authentifizierung wird bei erster Aktivierung nicht gespeichert"
             },
             "en": {
-                "releaseDate": "12/30/2022",
-                "changeLog": "Added:\n- Charging Stations page\n\nRemoved:\n- Removed tenant from basic history view (will later be moved into the details page)\n\n⚠️Detailed information for running transactions and a list of transactions that are assigned to your account are currently not available."
+                "releaseDate": "03/05/2023",
+                "changeLog": "Added:\n- Transaction Overview Page\n- Scan Station (QR and NFC)\n\nFixed:\n- New year indicator in history invisible\n- Biometric authentication not saved on first activation"
             },
-            "hidden": false
+            "hidden": true
         }
     },
     "iOS": {
+        "PRE-2.0.5": {
+            "de": {
+                "releaseDate": "30.12.2022",
+                "changeLog": "Hinzugefügt:\n- Ladestationen Seite\n\nEntfernt:\n- Tenant aus basis Transaktionsliste entfernt (wird später in die detailierte Seite verschoben)\n\n⚠️Detailierte Übersichten der Ladevorgänge und eine aktuelle Liste von ihnen zugewiesenen Ladestationen sind noch nicht verfügbar."
+            },
+            "en": {
+                "releaseDate": "12/30/2022",
+                "changeLog": "Added:\n- Charging Stations page\n\nRemoved:\n- Removed tenant from basic history view (will later be moved into the details page)\n\n⚠️Detailed information for running transactions and a list of transactions that are assigned to your account are currently not available."
+            }
+        },
         "PRE-2.0.4": { 
             "de": {
                 "releaseDate": "26.12.2022",
@@ -78,6 +88,16 @@
         }
     },
     "android": {
+        "PRE-2.0.5": {
+            "de": {
+                "releaseDate": "30.12.2022",
+                "changeLog": "Hinzugefügt:\n- Ladestationen Seite\n\nEntfernt:\n- Tenant aus basis Transaktionsliste entfernt (wird später in die detailierte Seite verschoben)\n\n⚠️Detailierte Übersichten der Ladevorgänge und eine aktuelle Liste von ihnen zugewiesenen Ladestationen sind noch nicht verfügbar."
+            },
+            "en": {
+                "releaseDate": "12/30/2022",
+                "changeLog": "Added:\n- Charging Stations page\n\nRemoved:\n- Removed tenant from basic history view (will later be moved into the details page)\n\n⚠️Detailed information for running transactions and a list of transactions that are assigned to your account are currently not available."
+            }
+        },
         "PRE-2.0.4": { 
             "de": {
                 "releaseDate": "26.12.2022",
