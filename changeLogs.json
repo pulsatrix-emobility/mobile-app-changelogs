@@ -3,26 +3,26 @@
         "iOS": {
             "version": "PRE-2.0.7",
             "de": {
-                "releaseDate": "06.03.2023",
+                "releaseDate": "05.03.2023",
                 "changeLog": "Behoben:\n- Powerdomains öffnen und schließen sich von alleine"
             },
             "en": {
-                "releaseDate": "03/06/2023",
+                "releaseDate": "03/05/2023",
                 "changeLog": "Fixed:\n- Powerdomains opening and closing by themselves"
             },
-            "hidden": true
+            "hidden": false
         },
         "android": {
             "version": "PRE-2.0.7",
             "de": {
-                "releaseDate": "06.03.2023",
+                "releaseDate": "05.03.2023",
                 "changeLog": "Behoben:\n- Powerdomains öffnen und schließen sich von alleine"
             },
             "en": {
-                "releaseDate": "03/06/2023",
+                "releaseDate": "03/05/2023",
                 "changeLog": "Fixed:\n- Powerdomains opening and closing by themselves"
             },
-            "hidden": true
+            "hidden": false
         }
     },
     "iOS": {
