@@ -1,7 +1,32 @@
 {
     "current": {
         "iOS": {
-            "version": "PRE-2.0.6",
+            "version": "PRE-2.0.7",
+            "de": {
+                "releaseDate": "06.03.2023",
+                "changeLog": "Behoben:\n- Powerdomains öffnen und schließen sich von alleine"
+            },
+            "en": {
+                "releaseDate": "03/06/2023",
+                "changeLog": "Fixed:\n- Powerdomains opening and closing by themselves"
+            },
+            "hidden": true
+        },
+        "android": {
+            "version": "PRE-2.0.7",
+            "de": {
+                "releaseDate": "06.03.2023",
+                "changeLog": "Behoben:\n- Powerdomains öffnen und schließen sich von alleine"
+            },
+            "en": {
+                "releaseDate": "03/06/2023",
+                "changeLog": "Fixed:\n- Powerdomains opening and closing by themselves"
+            },
+            "hidden": true
+        }
+    },
+    "iOS": {
+        "PRE-2.0.6": {
             "de": {
                 "releaseDate": "05.03.2023",
                 "changeLog": "Hinzugefügt:\n- Transaktion Übersicht Seite\n- Station scannen (QR und NFC)\n\nBehoben:\n- Jahrestrenner in Transaktionsliste unsichtbar"
@@ -9,23 +34,8 @@
             "en": {
                 "releaseDate": "03/05/2023",
                 "changeLog": "Added:\n- Transaction Overview Page\n- Scan Station (QR and NFC)\n\nFixed:\n- New year indicator in history invisible"
-            },
-            "hidden": false
+            }
         },
-        "android": {
-            "version": "PRE-2.0.6",
-            "de": {
-                "releaseDate": "05.03.2023",
-                "changeLog": "Hinzugefügt:\n- Transaktion Übersicht Seite\n- Scannen (QR und NFC)\n\nBehoben:\n- Jahrestrenner in Transaktionsliste unsichtbar\n- Biometrische Authentifizierung wird bei erster Aktivierung nicht gespeichert"
-            },
-            "en": {
-                "releaseDate": "03/05/2023",
-                "changeLog": "Added:\n- Transaction Overview Page\n- Scan Station (QR and NFC)\n\nFixed:\n- New year indicator in history invisible\n- Biometric authentication not saved on first activation"
-            },
-            "hidden": false
-        }
-    },
-    "iOS": {
         "PRE-2.0.5": {
             "de": {
                 "releaseDate": "30.12.2022",
@@ -88,6 +98,16 @@
         }
     },
     "android": {
+        "PRE-2.0.6": {
+            "de": {
+                "releaseDate": "05.03.2023",
+                "changeLog": "Hinzugefügt:\n- Transaktion Übersicht Seite\n- Scannen (QR und NFC)\n\nBehoben:\n- Jahrestrenner in Transaktionsliste unsichtbar\n- Biometrische Authentifizierung wird bei erster Aktivierung nicht gespeichert"
+            },
+            "en": {
+                "releaseDate": "03/05/2023",
+                "changeLog": "Added:\n- Transaction Overview Page\n- Scan Station (QR and NFC)\n\nFixed:\n- New year indicator in history invisible\n- Biometric authentication not saved on first activation"
+            }
+        },
         "PRE-2.0.5": {
             "de": {
                 "releaseDate": "30.12.2022",
