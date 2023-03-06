@@ -1,31 +1,41 @@
 {
     "current": {
         "iOS": {
-            "version": "PRE-2.0.7",
+            "version": "PRE-2.0.8",
             "de": {
-                "releaseDate": "05.03.2023",
-                "changeLog": "Behoben:\n- Powerdomains öffnen und schließen sich von alleine"
+                "releaseDate": "06.03.2023",
+                "changeLog": "Behoben:\n- Powerdomains werden nicht gruppiert\n- Schnell wechselnder Transaktionsstatus"
             },
             "en": {
-                "releaseDate": "03/05/2023",
-                "changeLog": "Fixed:\n- Powerdomains opening and closing by themselves"
+                "releaseDate": "03/06/2023",
+                "changeLog": "Fixed:\n- Powerdomains dont't group correctly\n- Flickering transaction state"
             },
-            "hidden": false
+            "hidden": true
         },
         "android": {
-            "version": "PRE-2.0.7",
+            "version": "PRE-2.0.8",
             "de": {
-                "releaseDate": "05.03.2023",
-                "changeLog": "Behoben:\n- Powerdomains öffnen und schließen sich von alleine"
+                "releaseDate": "06.03.2023",
+                "changeLog": "Behoben:\n- Powerdomains werden nicht gruppiert\n- Schnell wechselnder Transaktionsstatus"
             },
             "en": {
-                "releaseDate": "03/05/2023",
-                "changeLog": "Fixed:\n- Powerdomains opening and closing by themselves"
+                "releaseDate": "03/06/2023",
+                "changeLog": "Fixed:\n- Powerdomains dont't group correctly\n- Flickering transaction state"
             },
-            "hidden": false
+            "hidden": true
         }
     },
     "iOS": {
+        "PRE-2.0.7": {
+            "de": {
+                "releaseDate": "05.03.2023",
+                "changeLog": "Behoben:\n- Powerdomains öffnen und schließen sich von alleine"
+            },
+            "en": {
+                "releaseDate": "03/05/2023",
+                "changeLog": "Fixed:\n- Powerdomains opening and closing by themselves"
+            }
+        },
         "PRE-2.0.6": {
             "de": {
                 "releaseDate": "05.03.2023",
@@ -98,6 +108,16 @@
         }
     },
     "android": {
+        "PRE-2.0.7": {
+            "de": {
+                "releaseDate": "05.03.2023",
+                "changeLog": "Behoben:\n- Powerdomains öffnen und schließen sich von alleine"
+            },
+            "en": {
+                "releaseDate": "03/05/2023",
+                "changeLog": "Fixed:\n- Powerdomains opening and closing by themselves"
+            }
+        },
         "PRE-2.0.6": {
             "de": {
                 "releaseDate": "05.03.2023",
