@@ -22,7 +22,7 @@
                 "releaseDate": "03/06/2023",
                 "changeLog": "Fixed:\n- Powerdomains dont't group correctly\n- Flickering transaction state"
             },
-            "hidden": true
+            "hidden": false
         }
     },
     "iOS": {
