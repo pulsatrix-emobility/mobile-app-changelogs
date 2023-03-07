@@ -1,31 +1,41 @@
 {
     "current": {
         "iOS": {
-            "version": "PRE-2.0.8",
+            "version": "PRE-2.0.9",
             "de": {
-                "releaseDate": "06.03.2023",
-                "changeLog": "Behoben:\n- Powerdomains werden nicht gruppiert\n- Schnell wechselnder Transaktionsstatus"
+                "releaseDate": "08.03.2023",
+                "changeLog": "Behoben:\n- Keine schöne Info wenn Transaktionsliste leer"
             },
             "en": {
-                "releaseDate": "03/06/2023",
-                "changeLog": "Fixed:\n- Powerdomains don't group correctly\n- Flickering transaction state"
+                "releaseDate": "03/08/2023",
+                "changeLog": "Fixed:\n- Missing information if history is empty"
             },
-            "hidden": false
+            "hidden": true
         },
         "android": {
-            "version": "PRE-2.0.8",
+            "version": "PRE-2.0.9",
             "de": {
-                "releaseDate": "06.03.2023",
-                "changeLog": "Behoben:\n- Powerdomains werden nicht gruppiert\n- Schnell wechselnder Transaktionsstatus"
+                "releaseDate": "08.03.2023",
+                "changeLog": "Hinzugefügt:\n- Neues Design bei den Einstellungem\n\nBehoben:\n- Keine Fehlermeldung wenn die Transaktionsliste leer ist"
             },
             "en": {
-                "releaseDate": "03/06/2023",
-                "changeLog": "Fixed:\n- Powerdomains don't group correctly\n- Flickering transaction state"
+                "releaseDate": "03/08/2023",
+                "changeLog": "Added:\n- New design for settings page\n\nFixed:\n- Missing error if history is empty"
             },
-            "hidden": false
+            "hidden": true
         }
     },
     "iOS": {
+        "PRE-2.0.8": {
+            "de": {
+                "releaseDate": "06.03.2023",
+                "changeLog": "Behoben:\n- Powerdomains werden nicht gruppiert\n- Schnell wechselnder Transaktionsstatus"
+            },
+            "en": {
+                "releaseDate": "03/06/2023",
+                "changeLog": "Fixed:\n- Powerdomains don't group correctly\n- Flickering transaction state"
+            }
+        },
         "PRE-2.0.7": {
             "de": {
                 "releaseDate": "05.03.2023",
@@ -108,6 +118,16 @@
         }
     },
     "android": {
+        "PRE-2.0.8": {
+            "de": {
+                "releaseDate": "06.03.2023",
+                "changeLog": "Behoben:\n- Powerdomains werden nicht gruppiert\n- Schnell wechselnder Transaktionsstatus"
+            },
+            "en": {
+                "releaseDate": "03/06/2023",
+                "changeLog": "Fixed:\n- Powerdomains don't group correctly\n- Flickering transaction state"
+            }
+        },
         "PRE-2.0.7": {
             "de": {
                 "releaseDate": "05.03.2023",
