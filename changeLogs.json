@@ -10,7 +10,7 @@
                 "releaseDate": "03/06/2023",
                 "changeLog": "Fixed:\n- Powerdomains don't group correctly\n- Flickering transaction state"
             },
-            "hidden": true
+            "hidden": false
         },
         "android": {
             "version": "PRE-2.0.8",
