@@ -8,7 +8,7 @@
             },
             "en": {
                 "releaseDate": "03/06/2023",
-                "changeLog": "Fixed:\n- Powerdomains dont't group correctly\n- Flickering transaction state"
+                "changeLog": "Fixed:\n- Powerdomains don't group correctly\n- Flickering transaction state"
             },
             "hidden": true
         },
@@ -20,7 +20,7 @@
             },
             "en": {
                 "releaseDate": "03/06/2023",
-                "changeLog": "Fixed:\n- Powerdomains dont't group correctly\n- Flickering transaction state"
+                "changeLog": "Fixed:\n- Powerdomains don't group correctly\n- Flickering transaction state"
             },
             "hidden": false
         }
