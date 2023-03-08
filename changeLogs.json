@@ -10,7 +10,7 @@
                 "releaseDate": "03/08/2023",
                 "changeLog": "Fixed:\n- Missing error if history is empty"
             },
-            "hidden": true
+            "hidden": false
         },
         "android": {
             "version": "PRE-2.0.9",
