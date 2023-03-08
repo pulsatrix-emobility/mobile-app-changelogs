@@ -22,7 +22,7 @@
                 "releaseDate": "03/08/2023",
                 "changeLog": "Added:\n- New design for settings page\n\nFixed:\n- Missing error if history is empty"
             },
-            "hidden": true
+            "hidden": false
         }
     },
     "iOS": {
