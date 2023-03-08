@@ -4,11 +4,11 @@
             "version": "PRE-2.0.9",
             "de": {
                 "releaseDate": "08.03.2023",
-                "changeLog": "Behoben:\n- Keine schöne Info wenn Transaktionsliste leer"
+                "changeLog": "Behoben:\n- Keine Fehlermeldung wenn die Transaktionsliste leer ist"
             },
             "en": {
                 "releaseDate": "03/08/2023",
-                "changeLog": "Fixed:\n- Missing information if history is empty"
+                "changeLog": "Fixed:\n- Missing error if history is empty"
             },
             "hidden": true
         },
