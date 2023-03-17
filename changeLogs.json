@@ -1,31 +1,41 @@
 {
     "current": {
         "iOS": {
-            "version": "PRE-2.0.10",
+            "version": "PRE-2.0.11",
             "de": {
-                "releaseDate": "16.03.2023",
-                "changeLog": "Hinzugefügt:\n- Einstellungen und Verwaltung für RFID Karten\n- Filter für Ladestationen Liste\n\nBehoben:\n- Umlaute werden nicht richtig angezeigt"
+                "releaseDate": "17.03.2023",
+                "changeLog": "Entfernt:\n- RFID Karten hinzufügen (temporär)\n\nGeändert:\n- Sortierung für Ladestations Liste (ABC, 123)\n- Kleine Änderungen auf der Anmelden & Registrieren Seite"
             },
             "en": {
-                "releaseDate": "03/16/2023",
-                "changeLog": "Added:\n- Settings and management for RFID cards\n- Filter for charging stations list\n\nFixed:\n- Certain letters are not displayed correctly"
+                "releaseDate": "03/17/2023",
+                "changeLog": "Removed:\n- Add RFID cards (temporary)\n\nChanged:\n- Sorting for charging stations list (ABC, 123)\n- Small changes on the SignIn & SignUp page"
             },
-            "hidden": false
+            "hidden": true
         },
         "android": {
-            "version": "PRE-2.0.10",
+            "version": "PRE-2.0.11",
             "de": {
-                "releaseDate": "16.03.2023",
-                "changeLog": "Hinzugefügt:\n- Einstellungen und Verwaltung für RFID Karten\n- Filter für Ladestationen Liste\n\nBehoben:\n- Umlaute werden nicht richtig angezeigt"
+                "releaseDate": "17.03.2023",
+                "changeLog": "Geändert:\n- Sortierung für Ladestations Liste (ABC, 123)\n- Kleine Änderungen auf der Anmelden & Registrieren Seite"
             },
             "en": {
-                "releaseDate": "03/16/2023",
-                "changeLog": "Added:\n- Settings and management for RFID cards\n- Filter for charging stations list\n\nFixed:\n- Certain letters are not displayed correctly"
+                "releaseDate": "03/17/2023",
+                "changeLog": "Changed:\n- Sorting for charging stations list (ABC, 123)\n- Small changes on the SignIn & SignUp page"
             },
-            "hidden": false
+            "hidden": true
         }
     },
     "iOS": {
+        "PRE-2.0.10": {
+            "de": {
+                "releaseDate": "16.03.2023",
+                "changeLog": "Hinzugefügt:\n- Einstellungen und Verwaltung für RFID Karten\n- Filter für Ladestationen Liste\n\nBehoben:\n- Umlaute werden nicht richtig angezeigt"
+            },
+            "en": {
+                "releaseDate": "03/16/2023",
+                "changeLog": "Added:\n- Settings and management for RFID cards\n- Filter for charging stations list\n\nFixed:\n- Certain letters are not displayed correctly"
+            }
+        },
         "PRE-2.0.9": {
             "de": {
                 "releaseDate": "08.03.2023",
@@ -128,6 +138,16 @@
         }
     },
     "android": {
+        "PRE-2.0.10": {
+            "de": {
+                "releaseDate": "16.03.2023",
+                "changeLog": "Hinzugefügt:\n- Einstellungen und Verwaltung für RFID Karten\n- Filter für Ladestationen Liste\n\nBehoben:\n- Umlaute werden nicht richtig angezeigt"
+            },
+            "en": {
+                "releaseDate": "03/16/2023",
+                "changeLog": "Added:\n- Settings and management for RFID cards\n- Filter for charging stations list\n\nFixed:\n- Certain letters are not displayed correctly"
+            }
+        },
         "PRE-2.0.9": {
             "de": {
                 "releaseDate": "08.03.2023",
