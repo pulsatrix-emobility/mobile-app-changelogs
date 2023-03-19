@@ -10,7 +10,7 @@
                 "releaseDate": "03/20/2023",
                 "changeLog": "Added:\n- Add RFID cards with a charging point (Special Beta Testers only)"
             },
-            "hidden": true
+            "hidden": false
         },
         "android": {
             "version": "PRE-2.0.12",
