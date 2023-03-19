@@ -1,7 +1,32 @@
 {
     "current": {
         "iOS": {
-            "version": "PRE-2.0.11",
+            "version": "PRE-2.0.12",
+            "de": {
+                "releaseDate": "20.03.2023",
+                "changeLog": "Hinzugefügt:\n- RFID Karten mit einem Ladepunkt hinzufügen (Nur für spezielle Beta Tester)"
+            },
+            "en": {
+                "releaseDate": "03/20/2023",
+                "changeLog": "Added:\n- Add RFID cards with a charging point (Special Beta Testers only)"
+            },
+            "hidden": true
+        },
+        "android": {
+            "version": "PRE-2.0.12",
+            "de": {
+                "releaseDate": "20.03.2023",
+                "changeLog": "Hinzugefügt:\n- RFID Karten mit einem Ladepunkt hinzufügen (Nur für spezielle Beta Tester)"
+            },
+            "en": {
+                "releaseDate": "03/20/2023",
+                "changeLog": "Added:\n- Add RFID cards with a charging point (Special Beta Testers only)"
+            },
+            "hidden": true
+        }
+    },
+    "iOS": {
+        "PRE-2.0.11": {
             "de": {
                 "releaseDate": "17.03.2023",
                 "changeLog": "Entfernt:\n- RFID Karten hinzufügen (temporär)\n\nGeändert:\n- Sortierung für Ladestations Liste (ABC, 123)\n- Kleine Änderungen auf der Anmelden & Registrieren Seite"
@@ -9,23 +34,8 @@
             "en": {
                 "releaseDate": "03/17/2023",
                 "changeLog": "Removed:\n- Add RFID cards (temporary)\n\nChanged:\n- Sorting for charging stations list (ABC, 123)\n- Small changes on the SignIn & SignUp page"
-            },
-            "hidden": false
+            }
         },
-        "android": {
-            "version": "PRE-2.0.11",
-            "de": {
-                "releaseDate": "17.03.2023",
-                "changeLog": "Geändert:\n- Sortierung für Ladestations Liste (ABC, 123)\n- Kleine Änderungen auf der Anmelden & Registrieren Seite"
-            },
-            "en": {
-                "releaseDate": "03/17/2023",
-                "changeLog": "Changed:\n- Sorting for charging stations list (ABC, 123)\n- Small changes on the SignIn & SignUp page"
-            },
-            "hidden": false
-        }
-    },
-    "iOS": {
         "PRE-2.0.10": {
             "de": {
                 "releaseDate": "16.03.2023",
@@ -138,6 +148,16 @@
         }
     },
     "android": {
+        "PRE-2.0.11": {
+            "de": {
+                "releaseDate": "17.03.2023",
+                "changeLog": "Geändert:\n- Sortierung für Ladestations Liste (ABC, 123)\n- Kleine Änderungen auf der Anmelden & Registrieren Seite"
+            },
+            "en": {
+                "releaseDate": "03/17/2023",
+                "changeLog": "Changed:\n- Sorting for charging stations list (ABC, 123)\n- Small changes on the SignIn & SignUp page"
+            }
+        },
         "PRE-2.0.10": {
             "de": {
                 "releaseDate": "16.03.2023",
