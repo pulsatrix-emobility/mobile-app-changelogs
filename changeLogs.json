@@ -3,11 +3,11 @@
         "iOS": {
             "version": "PRE-2.0.12",
             "de": {
-                "releaseDate": "20.03.2023",
+                "releaseDate": "19.03.2023",
                 "changeLog": "Hinzugefügt:\n- RFID Karten mit einem Ladepunkt hinzufügen (Nur für spezielle Beta Tester)"
             },
             "en": {
-                "releaseDate": "03/20/2023",
+                "releaseDate": "03/19/2023",
                 "changeLog": "Added:\n- Add RFID cards with a charging point (Special Beta Testers only)"
             },
             "hidden": false
@@ -15,14 +15,14 @@
         "android": {
             "version": "PRE-2.0.12",
             "de": {
-                "releaseDate": "20.03.2023",
+                "releaseDate": "19.03.2023",
                 "changeLog": "Hinzugefügt:\n- RFID Karten mit einem Ladepunkt hinzufügen (Nur für spezielle Beta Tester)"
             },
             "en": {
-                "releaseDate": "03/20/2023",
+                "releaseDate": "03/19/2023",
                 "changeLog": "Added:\n- Add RFID cards with a charging point (Special Beta Testers only)"
             },
-            "hidden": true
+            "hidden": false
         }
     },
     "iOS": {
