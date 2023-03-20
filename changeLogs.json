@@ -1,31 +1,41 @@
 {
     "current": {
         "iOS": {
-            "version": "PRE-2.0.12",
+            "version": "1.0.0",
             "de": {
-                "releaseDate": "19.03.2023",
-                "changeLog": "Hinzugefügt:\n- RFID Karten mit einem Ladepunkt hinzufügen (Nur für spezielle Beta Tester)"
+                "releaseDate": "21.03.2023",
+                "changeLog": "Veröffentlichung! 🎉"
             },
             "en": {
-                "releaseDate": "03/19/2023",
-                "changeLog": "Added:\n- Add RFID cards with a charging point (Special Beta Testers only)"
+                "releaseDate": "03/21/2023",
+                "changeLog": "Public launch! 🎉"
             },
-            "hidden": false
+            "hidden": true
         },
         "android": {
-            "version": "PRE-2.0.12",
+            "version": "1.0.0",
             "de": {
-                "releaseDate": "19.03.2023",
-                "changeLog": "Hinzugefügt:\n- RFID Karten mit einem Ladepunkt hinzufügen (Nur für spezielle Beta Tester)"
+                "releaseDate": "21.03.2023",
+                "changeLog": "Veröffentlichung! 🎉"
             },
             "en": {
-                "releaseDate": "03/19/2023",
-                "changeLog": "Added:\n- Add RFID cards with a charging point (Special Beta Testers only)"
+                "releaseDate": "03/21/2023",
+                "changeLog": "Public launch! 🎉"
             },
-            "hidden": false
+            "hidden": true
         }
     },
     "iOS": {
+        "PRE-2.0.12": {
+            "de": {
+                "releaseDate": "19.03.2023",
+                "changeLog": "Hinzugefügt:\n- RFID Karten mit einem Ladepunkt hinzufügen (Nur für spezielle Beta Tester)"
+            },
+            "en": {
+                "releaseDate": "03/19/2023",
+                "changeLog": "Added:\n- Add RFID cards with a charging point (Special Beta Testers only)"
+            }
+        },
         "PRE-2.0.11": {
             "de": {
                 "releaseDate": "17.03.2023",
@@ -148,6 +158,16 @@
         }
     },
     "android": {
+        "PRE-2.0.12": {
+            "de": {
+                "releaseDate": "19.03.2023",
+                "changeLog": "Hinzugefügt:\n- RFID Karten mit einem Ladepunkt hinzufügen (Nur für spezielle Beta Tester)"
+            },
+            "en": {
+                "releaseDate": "03/19/2023",
+                "changeLog": "Added:\n- Add RFID cards with a charging point (Special Beta Testers only)"
+            }
+        },
         "PRE-2.0.11": {
             "de": {
                 "releaseDate": "17.03.2023",
