@@ -22,7 +22,7 @@
                 "releaseDate": "03/21/2023",
                 "changeLog": "Public launch! 🎉"
             },
-            "hidden": true
+            "hidden": false
         }
     },
     "iOS": {
