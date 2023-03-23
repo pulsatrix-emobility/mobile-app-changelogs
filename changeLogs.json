@@ -1,31 +1,41 @@
 {
     "current": {
         "iOS": {
-            "version": "1.0.0",
+            "version": "PRE-2.0.13",
             "de": {
-                "releaseDate": "21.03.2023",
-                "changeLog": "Veröffentlichung! 🎉"
+                "releaseDate": "23.03.2023",
+                "changeLog": "Hinzugefügt:\n- Neuer Filter (Nur freie Ladepunkte anzeigen)\n\nGeändert:\n- Neues Filter GUI\n\nBehoben:\n- \"Station Scannen\" button reagiert an manchen Stellen nicht"
             },
             "en": {
-                "releaseDate": "03/21/2023",
-                "changeLog": "Public launch! 🎉"
+                "releaseDate": "03/23/2023",
+                "changeLog": "Added:\n- New filter (Only show unused charging points)\n\nChanged:\n- New filter GUI\n\nBehoben:\n- \"Scan Station\" button doesn't react in some spots"
             },
             "hidden": true
         },
         "android": {
-            "version": "1.0.0",
+            "version": "2.0.13",
             "de": {
-                "releaseDate": "21.03.2023",
-                "changeLog": "Veröffentlichung! 🎉"
+                "releaseDate": "23.03.2023",
+                "changeLog": "Hinzugefügt:\n- Neuer Filter (Nur freie Ladepunkte anzeigen)\n\nGeändert:\n- Neues Filter GUI"
             },
             "en": {
-                "releaseDate": "03/21/2023",
-                "changeLog": "Public launch! 🎉"
+                "releaseDate": "03/23/2023",
+                "changeLog": "Added:\n- New filter (Only show unused charging points)\n\nChanged:\n- New filter GUI"
             },
             "hidden": true
         }
     },
     "iOS": {
+        "1.0.0": {
+            "de": {
+                "releaseDate": "21.03.2023",
+                "changeLog": "Veröffentlichung! 🎉"
+            },
+            "en": {
+                "releaseDate": "03/21/2023",
+                "changeLog": "Public launch! 🎉"
+            }
+        },
         "PRE-2.0.12": {
             "de": {
                 "releaseDate": "19.03.2023",
@@ -158,6 +168,16 @@
         }
     },
     "android": {
+        "1.0.0": {
+            "de": {
+                "releaseDate": "21.03.2023",
+                "changeLog": "Veröffentlichung! 🎉"
+            },
+            "en": {
+                "releaseDate": "03/21/2023",
+                "changeLog": "Public launch! 🎉"
+            }
+        },
         "PRE-2.0.12": {
             "de": {
                 "releaseDate": "19.03.2023",
