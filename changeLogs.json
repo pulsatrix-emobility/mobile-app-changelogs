@@ -10,7 +10,7 @@
                 "releaseDate": "03/23/2023",
                 "changeLog": "Added:\n- New filter (Only show unused charging points)\n\nChanged:\n- New filter GUI\n\nBehoben:\n- \"Scan Station\" button doesn't react in some spots"
             },
-            "hidden": true
+            "hidden": false
         },
         "android": {
             "version": "2.0.13",
@@ -22,7 +22,7 @@
                 "releaseDate": "03/23/2023",
                 "changeLog": "Added:\n- New filter (Only show unused charging points)\n\nChanged:\n- New filter GUI"
             },
-            "hidden": true
+            "hidden": false
         }
     },
     "iOS": {
