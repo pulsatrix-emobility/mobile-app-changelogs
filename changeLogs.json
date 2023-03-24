@@ -13,7 +13,7 @@
             "hidden": false
         },
         "android": {
-            "version": "2.0.13",
+            "version": "PRE-2.0.13",
             "de": {
                 "releaseDate": "23.03.2023",
                 "changeLog": "Hinzugefügt:\n- Neuer Filter (Nur freie Ladepunkte anzeigen)\n\nGeändert:\n- Neues Filter GUI"
