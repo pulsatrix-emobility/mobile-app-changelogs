@@ -1,7 +1,32 @@
 {
     "current": {
         "iOS": {
-            "version": "PRE-2.0.13",
+            "version": "1.0.1",
+            "de": {
+                "releaseDate": "28.03.2023",
+                "changeLog": "Hinzugefügt:\n- Neuer Filter (Nur freie Ladepunkte anzeigen)\n\nGeändert:\n- Neues Filter GUI\n\nBehoben:\n- \"Station Scannen\" button reagiert an manchen Stellen nicht"
+            },
+            "en": {
+                "releaseDate": "03/28/2023",
+                "changeLog": "Added:\n- New filter (Only show unused charging points)\n\nChanged:\n- New filter GUI\n\nBehoben:\n- \"Scan Station\" button doesn't react in some spots"
+            },
+            "hidden": true
+        },
+        "android": {
+            "version": "1.0.1",
+            "de": {
+                "releaseDate": "28.03.2023",
+                "changeLog": "Hinzugefügt:\n- Neuer Filter (Nur freie Ladepunkte anzeigen)\n\nGeändert:\n- Neues Filter GUI"
+            },
+            "en": {
+                "releaseDate": "03/28/2023",
+                "changeLog": "Added:\n- New filter (Only show unused charging points)\n\nChanged:\n- New filter GUI"
+            },
+            "hidden": true
+        }
+    },
+    "iOS": {
+        "PRE-2.0.13": {
             "de": {
                 "releaseDate": "23.03.2023",
                 "changeLog": "Hinzugefügt:\n- Neuer Filter (Nur freie Ladepunkte anzeigen)\n\nGeändert:\n- Neues Filter GUI\n\nBehoben:\n- \"Station Scannen\" button reagiert an manchen Stellen nicht"
@@ -9,23 +34,8 @@
             "en": {
                 "releaseDate": "03/23/2023",
                 "changeLog": "Added:\n- New filter (Only show unused charging points)\n\nChanged:\n- New filter GUI\n\nBehoben:\n- \"Scan Station\" button doesn't react in some spots"
-            },
-            "hidden": false
+            }
         },
-        "android": {
-            "version": "PRE-2.0.13",
-            "de": {
-                "releaseDate": "23.03.2023",
-                "changeLog": "Hinzugefügt:\n- Neuer Filter (Nur freie Ladepunkte anzeigen)\n\nGeändert:\n- Neues Filter GUI"
-            },
-            "en": {
-                "releaseDate": "03/23/2023",
-                "changeLog": "Added:\n- New filter (Only show unused charging points)\n\nChanged:\n- New filter GUI"
-            },
-            "hidden": false
-        }
-    },
-    "iOS": {
         "1.0.0": {
             "de": {
                 "releaseDate": "21.03.2023",
@@ -168,6 +178,16 @@
         }
     },
     "android": {
+        "PRE-2.0.13": {
+            "de": {
+                "releaseDate": "23.03.2023",
+                "changeLog": "Hinzugefügt:\n- Neuer Filter (Nur freie Ladepunkte anzeigen)\n\nGeändert:\n- Neues Filter GUI"
+            },
+            "en": {
+                "releaseDate": "03/23/2023",
+                "changeLog": "Added:\n- New filter (Only show unused charging points)\n\nChanged:\n- New filter GUI"
+            }
+        },
         "1.0.0": {
             "de": {
                 "releaseDate": "21.03.2023",
