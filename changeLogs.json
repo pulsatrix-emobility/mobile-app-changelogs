@@ -22,7 +22,7 @@
                 "releaseDate": "03/28/2023",
                 "changeLog": "Added:\n- New filter (Only show unused charging points)\n\nChanged:\n- New filter GUI\n\nFixed:\n- RFID Card doesn't update it's state after reactivation"
             },
-            "hidden": true
+            "hidden": false
         }
     },
     "iOS": {
