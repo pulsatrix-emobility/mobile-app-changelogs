@@ -1,7 +1,7 @@
 {
     "current": {
         "iOS": {
-            "version": "PRE-2.0.14",
+            "version": "PRE-1.0.2",
             "de": {
                 "releaseDate": "02.04.2023",
                 "changeLog": "Hinzugefügt:\n- Probleme melden in der App"
@@ -13,7 +13,7 @@
             "hidden": true
         },
         "android": {
-            "version": "PRE-2.0.14",
+            "version": "PRE-1.0.2",
             "de": {
                 "releaseDate": "02.04.2023",
                 "changeLog": "Hinzugefügt:\n- Probleme melden in der App"
