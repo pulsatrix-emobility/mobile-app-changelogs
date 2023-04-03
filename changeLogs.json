@@ -3,11 +3,11 @@
         "iOS": {
             "version": "PRE-1.0.2",
             "de": {
-                "releaseDate": "02.04.2023",
+                "releaseDate": "03.04.2023",
                 "changeLog": "Hinzugefügt:\n- Probleme melden in der App"
             },
             "en": {
-                "releaseDate": "04/02/2023",
+                "releaseDate": "04/03/2023",
                 "changeLog": "Added:\n- Report issues through the App"
             },
             "hidden": true
@@ -15,11 +15,11 @@
         "android": {
             "version": "PRE-1.0.2",
             "de": {
-                "releaseDate": "02.04.2023",
+                "releaseDate": "03.04.2023",
                 "changeLog": "Hinzugefügt:\n- Probleme melden in der App"
             },
             "en": {
-                "releaseDate": "04/02/2023",
+                "releaseDate": "04/03/2023",
                 "changeLog": "Added:\n- Report issues through the App"
             },
             "hidden": true
