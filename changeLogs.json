@@ -10,7 +10,7 @@
                 "releaseDate": "04/06/2023",
                 "changeLog": "Added:\n- Support for iPad and MacBook\n\nFixed:\n- To many floating points on past transactions"
             },
-            "hidden": true
+            "hidden": false
         },
         "android": {
             "version": "PRE-1.0.2-2",
@@ -22,7 +22,7 @@
                 "releaseDate": "04/06/2023",
                 "changeLog": "Fixed:\n- To many floating points on past transactions\n- Known issues don't show up"
             },
-            "hidden": true
+            "hidden": false
         }
     },
     "iOS": {
