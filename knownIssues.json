@@ -1,10 +1,12 @@
 {
     "android": {
+        "*": [],
         "0": [{"de": "\"Meldung absenden\" button funktioniert tortz leeren Feldern", "en": "\"Submit report\" button works even if detail fields are empty"}],
         "1": [{"de": "\"Meldung absenden\" button funktioniert tortz leeren Feldern", "en": "\"Submit report\" button works even if detail fields are empty"}],
         "2": [{"de": "\"Meldung absenden\" button funktioniert tortz leeren Feldern", "en": "\"Submit report\" button works even if detail fields are empty"}]
     },
     "iOS": {
+        "*": [],
         "0": [],
         "1": [],
         "2": []
