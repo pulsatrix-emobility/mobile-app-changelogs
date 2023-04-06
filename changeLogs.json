@@ -1,7 +1,7 @@
 {
     "current": {
         "iOS": {
-            "version": "PRE-1.0.2",
+            "version": "PRE-1.0.2-1",
             "de": {
                 "releaseDate": "03.04.2023",
                 "changeLog": "Hinzugefügt:\n- Probleme melden in der App"
@@ -13,7 +13,7 @@
             "hidden": false
         },
         "android": {
-            "version": "PRE-1.0.2",
+            "version": "PRE-1.0.2-1",
             "de": {
                 "releaseDate": "03.04.2023",
                 "changeLog": "Hinzugefügt:\n- Probleme melden in der App"
@@ -36,7 +36,7 @@
                 "changeLog": "Added:\n- New filter (Only show unused charging points)\n\nChanged:\n- New filter GUI\n\nFixed:\n- \"Scan Station\" button doesn't react in some spots\n- RFID Card doesn't update it's state after reactivation"
             }
         },
-        "PRE-2.0.13": {
+        "PRE-1.0.1-1": {
             "de": {
                 "releaseDate": "23.03.2023",
                 "changeLog": "Hinzugefügt:\n- Neuer Filter (Nur freie Ladepunkte anzeigen)\n\nGeändert:\n- Neues Filter GUI\n\nBehoben:\n- \"Station Scannen\" button reagiert an manchen Stellen nicht"
@@ -56,7 +56,7 @@
                 "changeLog": "Public launch! 🎉"
             }
         },
-        "PRE-2.0.12": {
+        "PRE-1.0.0-13": {
             "de": {
                 "releaseDate": "19.03.2023",
                 "changeLog": "Hinzugefügt:\n- RFID Karten mit einem Ladepunkt hinzufügen (Nur für spezielle Beta Tester)"
@@ -66,7 +66,7 @@
                 "changeLog": "Added:\n- Add RFID cards with a charging point (Special Beta Testers only)"
             }
         },
-        "PRE-2.0.11": {
+        "PRE-1.0.0-12": {
             "de": {
                 "releaseDate": "17.03.2023",
                 "changeLog": "Entfernt:\n- RFID Karten hinzufügen (temporär)\n\nGeändert:\n- Sortierung für Ladestations Liste (ABC, 123)\n- Kleine Änderungen auf der Anmelden & Registrieren Seite"
@@ -76,7 +76,7 @@
                 "changeLog": "Removed:\n- Add RFID cards (temporary)\n\nChanged:\n- Sorting for charging stations list (ABC, 123)\n- Small changes on the SignIn & SignUp page"
             }
         },
-        "PRE-2.0.10": {
+        "PRE-1.0.0-11": {
             "de": {
                 "releaseDate": "16.03.2023",
                 "changeLog": "Hinzugefügt:\n- Einstellungen und Verwaltung für RFID Karten\n- Filter für Ladestationen Liste\n\nBehoben:\n- Umlaute werden nicht richtig angezeigt"
@@ -86,7 +86,7 @@
                 "changeLog": "Added:\n- Settings and management for RFID cards\n- Filter for charging stations list\n\nFixed:\n- Certain letters are not displayed correctly"
             }
         },
-        "PRE-2.0.9": {
+        "PRE-1.0.0-10": {
             "de": {
                 "releaseDate": "08.03.2023",
                 "changeLog": "Behoben:\n- Keine Fehlermeldung wenn die Transaktionsliste leer ist"
@@ -96,7 +96,7 @@
                 "changeLog": "Fixed:\n- Missing error if history is empty"
             }
         },
-        "PRE-2.0.8": {
+        "PRE-1.0.0-9": {
             "de": {
                 "releaseDate": "06.03.2023",
                 "changeLog": "Behoben:\n- Powerdomains werden nicht gruppiert\n- Schnell wechselnder Transaktionsstatus"
@@ -106,7 +106,7 @@
                 "changeLog": "Fixed:\n- Powerdomains don't group correctly\n- Flickering transaction state"
             }
         },
-        "PRE-2.0.7": {
+        "PRE-1.0.0-8": {
             "de": {
                 "releaseDate": "05.03.2023",
                 "changeLog": "Behoben:\n- Powerdomains öffnen und schließen sich von alleine"
@@ -116,7 +116,7 @@
                 "changeLog": "Fixed:\n- Powerdomains opening and closing by themselves"
             }
         },
-        "PRE-2.0.6": {
+        "PRE-1.0.0-7": {
             "de": {
                 "releaseDate": "05.03.2023",
                 "changeLog": "Hinzugefügt:\n- Transaktion Übersicht Seite\n- Station scannen (QR und NFC)\n\nBehoben:\n- Jahrestrenner in Transaktionsliste unsichtbar"
@@ -126,7 +126,7 @@
                 "changeLog": "Added:\n- Transaction Overview Page\n- Scan Station (QR and NFC)\n\nFixed:\n- New year indicator in history invisible"
             }
         },
-        "PRE-2.0.5": {
+        "PRE-1.0.0-6": {
             "de": {
                 "releaseDate": "30.12.2022",
                 "changeLog": "Hinzugefügt:\n- Ladestationen Seite\n\nEntfernt:\n- Tenant aus basis Transaktionsliste entfernt (wird später in die detailierte Seite verschoben)\n\n⚠️Detailierte Übersichten der Ladevorgänge und eine aktuelle Liste von ihnen zugewiesenen Ladestationen sind noch nicht verfügbar."
@@ -136,7 +136,7 @@
                 "changeLog": "Added:\n- Charging Stations page\n\nRemoved:\n- Removed tenant from basic history view (will later be moved into the details page)\n\n⚠️Detailed information for running transactions and a list of transactions that are assigned to your account are currently not available."
             }
         },
-        "PRE-2.0.4": { 
+        "PRE-1.0.0-5": { 
             "de": {
                 "releaseDate": "26.12.2022",
                 "changeLog": "Hinzugefügt:\n- Transaktionen Seite\n\n⚠️Station Auswählen Seite ist aktuell noch nicht verfügbar."
@@ -146,7 +146,7 @@
                 "changeLog": "Added:\n- Transactions page\n\n⚠️Select Station screen is not available at this point."
             }
         },
-        "PRE-2.0.3": { 
+        "PRE-1.0.0-4": { 
             "de": {
                 "releaseDate": "25.12.2022",
                 "changeLog": "Behoben:\n- Änderungsprotokolldaten laden nicht\n\n⚠️Transaktionen und Station Auswählen Seiten sind aktuell noch nicht verfügbar."
@@ -156,7 +156,7 @@
                 "changeLog": "Fixed:\n- Changelog data not loading\n\n⚠️History and Select Station screens are not available at this point."
             }
         },
-        "PRE-2.0.2": {
+        "PRE-1.0.0-3": {
             "de": {
                 "releaseDate": "24.12.2022 🎄",
                 "changeLog": "Hinzugefügt:\n- Biometrische Appsperre nach Fokusverlust der App\n\n⚠️Transaktionen und Station Auswählen Seiten sind aktuell noch nicht verfügbar."
@@ -166,7 +166,7 @@
                 "changeLog": "Added:\n- Biometric App Lock after app focus loss\n\n⚠️History and Select Station screens are not available at this point."
             }
         },
-        "PRE-2.0.1": {
+        "PRE-1.0.0-2": {
             "de": {
                 "releaseDate": "24.12.2022 🎄",
                 "changeLog": "- Alle Schreibfehler korrigiert\n\nHinzugefügt:\n- Biometrische Appsperre\n- Zugangsdaten Autovervollständigung\n\n⚠️Transaktionen und Station Auswählen Seiten sind aktuell noch nicht verfügbar."
@@ -176,7 +176,7 @@
                 "changeLog": "- Corrected all spelling mistakes\n\nAdded:\n- Biometric App Lock\n- Autofill credentials\n\n⚠️History and Select Station screens are not available at this point."
             }
         },
-        "PRE-2.0.0": {
+        "PRE-1.0.0-1": {
             "de": {
                 "releaseDate": "24.12.2022 🎄",
                 "changeLog": "- Komplett neues Design\n- Sprache wird jetzt standartmäßig auf Systemstandartsprache gestellt\n- Ladebildschirm bewegt sich wärend dem Laden nicht mehr\n\n⚠️Transaktionen und Station Auswählen Seiten sind aktuell noch nicht verfügbar."
@@ -198,7 +198,7 @@
                 "changeLog": "Added:\n- New filter (Only show unused charging points)\n\nChanged:\n- New filter GUI\n\nFixed:\n- RFID Card doesn't update it's state after reactivation"
             }
         },
-        "PRE-2.0.13": {
+        "PRE-1.0.1-1": {
             "de": {
                 "releaseDate": "23.03.2023",
                 "changeLog": "Hinzugefügt:\n- Neuer Filter (Nur freie Ladepunkte anzeigen)\n\nGeändert:\n- Neues Filter GUI"
@@ -218,7 +218,7 @@
                 "changeLog": "Public launch! 🎉"
             }
         },
-        "PRE-2.0.12": {
+        "PRE-1.0.0-13": {
             "de": {
                 "releaseDate": "19.03.2023",
                 "changeLog": "Hinzugefügt:\n- RFID Karten mit einem Ladepunkt hinzufügen (Nur für spezielle Beta Tester)"
@@ -228,7 +228,7 @@
                 "changeLog": "Added:\n- Add RFID cards with a charging point (Special Beta Testers only)"
             }
         },
-        "PRE-2.0.11": {
+        "PRE-1.0.0-12": {
             "de": {
                 "releaseDate": "17.03.2023",
                 "changeLog": "Geändert:\n- Sortierung für Ladestations Liste (ABC, 123)\n- Kleine Änderungen auf der Anmelden & Registrieren Seite"
@@ -238,7 +238,7 @@
                 "changeLog": "Changed:\n- Sorting for charging stations list (ABC, 123)\n- Small changes on the SignIn & SignUp page"
             }
         },
-        "PRE-2.0.10": {
+        "PRE-1.0.0-11": {
             "de": {
                 "releaseDate": "16.03.2023",
                 "changeLog": "Hinzugefügt:\n- Einstellungen und Verwaltung für RFID Karten\n- Filter für Ladestationen Liste\n\nBehoben:\n- Umlaute werden nicht richtig angezeigt"
@@ -248,7 +248,7 @@
                 "changeLog": "Added:\n- Settings and management for RFID cards\n- Filter for charging stations list\n\nFixed:\n- Certain letters are not displayed correctly"
             }
         },
-        "PRE-2.0.9": {
+        "PRE-1.0.0-10": {
             "de": {
                 "releaseDate": "08.03.2023",
                 "changeLog": "Hinzugefügt:\n- Neues Design bei den Einstellungem\n\nBehoben:\n- Keine Fehlermeldung wenn die Transaktionsliste leer ist"
@@ -258,7 +258,7 @@
                 "changeLog": "Added:\n- New design for settings page\n\nFixed:\n- Missing error if history is empty"
             }
         },
-        "PRE-2.0.8": {
+        "PRE-1.0.0-9": {
             "de": {
                 "releaseDate": "06.03.2023",
                 "changeLog": "Behoben:\n- Powerdomains werden nicht gruppiert\n- Schnell wechselnder Transaktionsstatus"
@@ -268,7 +268,7 @@
                 "changeLog": "Fixed:\n- Powerdomains don't group correctly\n- Flickering transaction state"
             }
         },
-        "PRE-2.0.7": {
+        "PRE-1.0.0-8": {
             "de": {
                 "releaseDate": "05.03.2023",
                 "changeLog": "Behoben:\n- Powerdomains öffnen und schließen sich von alleine"
@@ -278,7 +278,7 @@
                 "changeLog": "Fixed:\n- Powerdomains opening and closing by themselves"
             }
         },
-        "PRE-2.0.6": {
+        "PRE-1.0.0-7": {
             "de": {
                 "releaseDate": "05.03.2023",
                 "changeLog": "Hinzugefügt:\n- Transaktion Übersicht Seite\n- Scannen (QR und NFC)\n\nBehoben:\n- Jahrestrenner in Transaktionsliste unsichtbar\n- Biometrische Authentifizierung wird bei erster Aktivierung nicht gespeichert"
@@ -288,7 +288,7 @@
                 "changeLog": "Added:\n- Transaction Overview Page\n- Scan Station (QR and NFC)\n\nFixed:\n- New year indicator in history invisible\n- Biometric authentication not saved on first activation"
             }
         },
-        "PRE-2.0.5": {
+        "PRE-1.0.0-6": {
             "de": {
                 "releaseDate": "30.12.2022",
                 "changeLog": "Hinzugefügt:\n- Ladestationen Seite\n\nEntfernt:\n- Tenant aus basis Transaktionsliste entfernt (wird später in die detailierte Seite verschoben)\n\n⚠️Detailierte Übersichten der Ladevorgänge und eine aktuelle Liste von ihnen zugewiesenen Ladestationen sind noch nicht verfügbar."
@@ -298,7 +298,7 @@
                 "changeLog": "Added:\n- Charging Stations page\n\nRemoved:\n- Removed tenant from basic history view (will later be moved into the details page)\n\n⚠️Detailed information for running transactions and a list of transactions that are assigned to your account are currently not available."
             }
         },
-        "PRE-2.0.4": { 
+        "PRE-1.0.0-5": { 
             "de": {
                 "releaseDate": "26.12.2022",
                 "changeLog": "Hinzugefügt:\n- Transaktionen Seite\n\n⚠️Station Auswählen Seite ist aktuell noch nicht verfügbar."
@@ -308,7 +308,7 @@
                 "changeLog": "Added:\n- Transactions page\n\n⚠️Select Station screen is not available at this point."
             }
         },
-        "PRE-2.0.3": {
+        "PRE-1.0.0-4": {
             "de": {
                 "releaseDate": "25.12.2022",
                 "changeLog": "Behoben:\n- Änderungsprotokolldaten laden nicht\n\n⚠️Transaktionen und Station Auswählen Seiten sind aktuell noch nicht verfügbar."
@@ -318,7 +318,7 @@
                 "changeLog": "Fixed:\n- Changelog data not loading\n\n⚠️History and Select Station screens are not available at this point."
             }
         },
-        "PRE-2.0.2": {
+        "PRE-1.0.0-3": {
             "de": {
                 "releaseDate": "24.12.2022 🎄",
                 "changeLog": "Hinzugefügt:\n- Biometrische Appsperre nach Fokusverlust der App\n\n⚠️Transaktionen und Station Auswählen Seiten sind aktuell noch nicht verfügbar."
@@ -328,7 +328,7 @@
                 "changeLog": "Added:\n- Biometric App Lock after app focus loss\n\n⚠️History and Select Station screens are not available at this point."
             }
         },
-        "PRE-2.0.1": {
+        "PRE-1.0.0-2": {
             "de": {
                 "releaseDate": "24.12.2022 🎄",
                 "changeLog": "- Alle Schreibfehler korrigiert\n\nHinzugefügt:\n- Biometrische Appsperre\n\n⚠️Transaktionen und Station Auswählen Seiten sind aktuell noch nicht verfügbar."
@@ -338,7 +338,7 @@
                 "changeLog": "- Corrected all spelling mistakes\n\nAdded:\n- Biometric App Lock\n\n⚠️History and Select Station screens are not available at this point."
             }
         },
-        "PRE-2.0.0": {
+        "PRE-1.0.0-1": {
             "de": {
                 "releaseDate": "24.12.2022 🎄",
                 "changeLog": "- Komplett neues Design\n- Sprache wird jetzt standartmäßig auf Systemstandartsprache gestellt\n- Ladebildschirm bewegt sich wärend dem Laden nicht mehr\n\n⚠️Transaktionen und Station Auswählen Seiten sind aktuell noch nicht verfügbar."
