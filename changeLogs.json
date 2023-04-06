@@ -16,7 +16,8 @@
             "version": "PRE-1.0.2-2",
             "de": {
                 "releaseDate": "06.04.2023",
-                "changeLog": "Behoben:\n- Zu viele Nachkommastellen bei abgeschlossenen Transaktionen\n- Bekannte Probleme werden nicht angezeigt"            },
+                "changeLog": "Behoben:\n- Zu viele Nachkommastellen bei abgeschlossenen Transaktionen\n- Bekannte Probleme werden nicht angezeigt"
+            },
             "en": {
                 "releaseDate": "04/06/2023",
                 "changeLog": "Fixed:\n- To many floating points on past transactions\n- Known issues don't show up"
