@@ -10,7 +10,7 @@
                 "releaseDate": "04/03/2023",
                 "changeLog": "Added:\n- Report issues through the App"
             },
-            "hidden": true
+            "hidden": false
         },
         "android": {
             "version": "PRE-1.0.2",
@@ -22,7 +22,7 @@
                 "releaseDate": "04/03/2023",
                 "changeLog": "Added:\n- Report issues through the App"
             },
-            "hidden": true
+            "hidden": false
         }
     },
     "iOS": {
