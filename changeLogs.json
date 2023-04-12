@@ -1,7 +1,32 @@
 {
     "current": {
         "iOS": {
-            "version": "PRE-1.0.2-2",
+            "version": "1.0.2",
+            "de": {
+                "releaseDate": "12.04.2023",
+                "changeLog": "Hinzugefügt:\n- Kompatibilität für iPad's (BETA)\n- Probleme melden in der App\n\nBehoben:\n- Zu viele Nachkommastellen bei abgeschlossenen Transaktionen"
+            },
+            "en": {
+                "releaseDate": "04/12/2023",
+                "changeLog": "Added:\n- Support for iPad's (BETA)\n- Report issues through the app\n\nFixed:\n- To many floating points on past transactions"
+            },
+            "hidden": true
+        },
+        "android": {
+            "version": "1.0.2",
+            "de": {
+                "releaseDate": "12.04.2023",
+                "changeLog": "Hinzugefügt:\n- Probleme melden in der App\n\nBehoben:\n- Zu viele Nachkommastellen bei abgeschlossenen Transaktionen"
+            },
+            "en": {
+                "releaseDate": "04/12/2023",
+                "changeLog": "Added:\n- Report issues through the app\n\nFixed:\n- To many floating points on past transactions"
+            },
+            "hidden": true
+        }
+    },
+    "iOS": {
+        "PRE-1.0.2-2": {
             "de": {
                 "releaseDate": "06.04.2023",
                 "changeLog": "Hinzugefügt:\n- Kompatibilität für iPad und MacBook\n\nBehoben:\n- Zu viele Nachkommastellen bei abgeschlossenen Transaktionen"
@@ -9,23 +34,8 @@
             "en": {
                 "releaseDate": "04/06/2023",
                 "changeLog": "Added:\n- Support for iPad and MacBook\n\nFixed:\n- To many floating points on past transactions"
-            },
-            "hidden": false
+            }
         },
-        "android": {
-            "version": "PRE-1.0.2-2",
-            "de": {
-                "releaseDate": "06.04.2023",
-                "changeLog": "Behoben:\n- Zu viele Nachkommastellen bei abgeschlossenen Transaktionen\n- Bekannte Probleme werden nicht angezeigt"
-            },
-            "en": {
-                "releaseDate": "04/06/2023",
-                "changeLog": "Fixed:\n- To many floating points on past transactions\n- Known issues don't show up"
-            },
-            "hidden": false
-        }
-    },
-    "iOS": {
         "PRE-1.0.2-1": {
             "de": {
                 "releaseDate": "03.04.2023",
@@ -198,6 +208,16 @@
         }
     },
     "android": {
+        "PRE-1.0.2-2": {
+            "de": {
+                "releaseDate": "06.04.2023",
+                "changeLog": "Behoben:\n- Zu viele Nachkommastellen bei abgeschlossenen Transaktionen\n- Bekannte Probleme werden nicht angezeigt"
+            },
+            "en": {
+                "releaseDate": "04/06/2023",
+                "changeLog": "Fixed:\n- To many floating points on past transactions\n- Known issues don't show up"
+            }
+        },
         "PRE-1.0.2-1": {
             "de": {
                 "releaseDate": "03.04.2023",
