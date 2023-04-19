@@ -22,7 +22,7 @@
                 "releaseDate": "04/19/2023",
                 "changeLog": "Fixed:\n- Gray screen when switching to fast between active transactions"
             },
-            "hidden": true
+            "hidden": false
         }
     },
     "iOS": {
