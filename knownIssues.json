@@ -1,12 +1,12 @@
 {
     "android": {
-        "*": [{"en":"App shwos gray screen when switching to fast between active transactions","de":"Grauer Bildschirm bei zu schnellem Wechseln zwischen aktiven Transaktionen"}],
+        "*": [],
         "0": [],
         "1": [],
         "2": []
     },
     "iOS": {
-        "*": [{"en":"App shwos gray screen when switching to fast between active transactions","de":"Grauer Bildschirm bei zu schnellem Wechseln zwischen aktiven Transaktionen"}],
+        "*": [],
         "0": [],
         "1": [],
         "2": []
