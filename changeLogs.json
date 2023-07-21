@@ -22,7 +22,7 @@
                 "releaseDate": "07/21/2023",
                 "changeLog": "Added:\n- Unlimited RFID-Card lifespand\n\nFixed:\n- Webapp and mobile-app use different names and display completely different states\n- To long RFID-Card names push the logo over the card border"
             },
-            "hidden": true
+            "hidden": false
         }
     },
     "iOS": {
