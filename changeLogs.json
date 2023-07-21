@@ -1,7 +1,7 @@
 {
     "current": {
         "iOS": {
-            "version": "PRE-2.0.4-1",
+            "version": "PRE-1.0.4-1",
             "de": {
                 "releaseDate": "21.07.2023",
                 "changeLog": "Hinzugefügt:\n- Unendliche RFID-Karten Lebensdauer\n\nBehoben:\n- Webseite und App nutzen unterschiedliche Bezeichnungen und zeigen komplett andere Dinge an\n- Zu lange RFID-Karten Namen schieben das Logo über den Kartenrand"
@@ -13,7 +13,7 @@
             "hidden": true
         },
         "android": {
-            "version": "PRE-2.0.4-1",
+            "version": "PRE-1.0.4-1",
             "de": {
                 "releaseDate": "21.07.2023",
                 "changeLog": "Hinzugefügt:\n- Unendliche RFID-Karten Lebensdauer\n\nBehoben:\n- Webseite und App nutzen unterschiedliche Bezeichnungen und zeigen komplett andere Dinge an\n- Zu lange RFID-Karten Namen schieben das Logo über den Kartenrand"
