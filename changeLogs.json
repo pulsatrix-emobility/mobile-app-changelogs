@@ -1,31 +1,41 @@
 {
     "current": {
         "iOS": {
-            "version": "1.0.3",
+            "version": "PRE-2.0.4-1",
             "de": {
-                "releaseDate": "19.04.2023",
-                "changeLog": "Behoben:\n- Grauer Bildschirm bei zu schnellem Wechseln zwischen aktiven Transaktionen"
+                "releaseDate": "21.07.2023",
+                "changeLog": "Hinzugefügt:\n- Unendliche RFID-Karten Lebensdauer\n\nBehoben:\n- Webseite und App nutzen unterschiedliche Bezeichnungen und zeigen komplett andere Dinge an\n- Zu lange RFID-Karten Namen schieben das Logo über den Kartenrand"
             },
             "en": {
-                "releaseDate": "04/19/2023",
-                "changeLog": "Fixed:\n- Gray screen when switching to fast between active transactions"
+                "releaseDate": "07/21/2023",
+                "changeLog": "Added:\n- Unlimited RFID-Card lifespand\n\nFixed:\n- Webapp and mobile-app use different names and display completely different states\n- To long RFID-Card names push the logo over the card border"
             },
-            "hidden": false
+            "hidden": true
         },
         "android": {
-            "version": "1.0.3",
+            "version": "PRE-2.0.4-1",
             "de": {
-                "releaseDate": "19.04.2023",
-                "changeLog": "Behoben:\n- Grauer Bildschirm bei zu schnellem Wechseln zwischen aktiven Transaktionen"
+                "releaseDate": "21.07.2023",
+                "changeLog": "Hinzugefügt:\n- Unendliche RFID-Karten Lebensdauer\n\nBehoben:\n- Webseite und App nutzen unterschiedliche Bezeichnungen und zeigen komplett andere Dinge an\n- Zu lange RFID-Karten Namen schieben das Logo über den Kartenrand"
             },
             "en": {
-                "releaseDate": "04/19/2023",
-                "changeLog": "Fixed:\n- Gray screen when switching to fast between active transactions"
+                "releaseDate": "07/21/2023",
+                "changeLog": "Added:\n- Unlimited RFID-Card lifespand\n\nFixed:\n- Webapp and mobile-app use different names and display completely different states\n- To long RFID-Card names push the logo over the card border"
             },
-            "hidden": false
+            "hidden": true
         }
     },
     "iOS": {
+        "1.0.3": {
+            "de": {
+                "releaseDate": "19.04.2023",
+                "changeLog": "Behoben:\n- Grauer Bildschirm bei zu schnellem Wechseln zwischen aktiven Transaktionen"
+            },
+            "en": {
+                "releaseDate": "04/19/2023",
+                "changeLog": "Fixed:\n- Gray screen when switching to fast between active transactions"
+            }
+        },
         "1.0.2": {
             "de": {
                 "releaseDate": "12.04.2023",
@@ -218,6 +228,16 @@
         }
     },
     "android": {
+        "1.0.3": {
+            "de": {
+                "releaseDate": "19.04.2023",
+                "changeLog": "Behoben:\n- Grauer Bildschirm bei zu schnellem Wechseln zwischen aktiven Transaktionen"
+            },
+            "en": {
+                "releaseDate": "04/19/2023",
+                "changeLog": "Fixed:\n- Gray screen when switching to fast between active transactions"
+            }
+        },
         "1.0.2": {
             "de": {
                 "releaseDate": "12.04.2023",
