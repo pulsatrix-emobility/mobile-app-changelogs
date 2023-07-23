@@ -4,7 +4,7 @@
             "version": "PRE-1.0.4-2",
             "de": {
                 "releaseDate": "23.07.2023",
-                "changeLog": "Hinzugefügt:\n- Einfache Implementierung von erweiterten Optionen (Nur für Entwickler)"
+                "changeLog": "Hinzugefügt:\n- Einfache Implementierung von erweiterten Optionen (Nur für Techniker)"
             },
             "en": {
                 "releaseDate": "07/23/2023",
@@ -16,7 +16,7 @@
             "version": "PRE-1.0.4-2",
             "de": {
                 "releaseDate": "23.07.2023",
-                "changeLog": "Hinzugefügt:\n- Einfache Implementierung von erweiterten Optionen (Nur für Entwickler)\n\nBehoben:\n- Grauer Bildschirm bei 'Ladestationen' wenn der Benutzer keine Ladestationen hat"
+                "changeLog": "Hinzugefügt:\n- Einfache Implementierung von erweiterten Optionen (Nur für Techniker)\n\nBehoben:\n- Grauer Bildschirm bei 'Ladestationen' wenn der Benutzer keine Ladestationen hat"
             },
             "en": {
                 "releaseDate": "07/23/2023",
