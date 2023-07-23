@@ -1,12 +1,12 @@
 {
     "android": {
-        "*": [{"de": "Ladevorgänge können teilweise aus unerklärlichen Gründen nicht übernommen werden", "en": "Transaction can't be assigned to user for unknown reasons"}],
+        "*": [],
         "0": [],
         "1": [],
         "2": []
     },
     "iOS": {
-        "*": [{"de": "Ladevorgänge können teilweise aus unerklärlichen Gründen nicht übernommen werden", "en": "Transaction can't be assigned to user for unknown reasons"}],
+        "*": [],
         "0": [],
         "1": [],
         "2": []
