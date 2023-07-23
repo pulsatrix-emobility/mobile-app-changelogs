@@ -22,7 +22,7 @@
                 "releaseDate": "07/23/2023",
                 "changeLog": "Added:\n- Basic advanced options (for developers only)\n\nFixed:\n- Gray screen on 'Charging Stations' when the user doesn't have any charging stations"
             },
-            "hidden": true
+            "hidden": false
         }
     },
     "iOS": {
