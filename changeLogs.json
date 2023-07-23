@@ -10,7 +10,7 @@
                 "releaseDate": "07/24/2023",
                 "changeLog": "Added:\n- Basic Can-Connect Debug screen (for technicians only)\n\nFixed:\n- Users can't assume ownership of transactions for seemingly no reason"
             },
-            "hidden": true
+            "hidden": false
         },
         "android": {
             "version": "PRE-1.0.4-3",
