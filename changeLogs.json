@@ -1,31 +1,41 @@
 {
     "current": {
         "iOS": {
-            "version": "PRE-1.0.4-1",
+            "version": "PRE-1.0.4-2",
             "de": {
-                "releaseDate": "21.07.2023",
-                "changeLog": "Hinzugefügt:\n- Unendliche RFID-Karten Lebensdauer\n\nBehoben:\n- Webseite und App nutzen unterschiedliche Bezeichnungen und zeigen komplett andere Dinge an\n- Zu lange RFID-Karten Namen schieben das Logo über den Kartenrand"
+                "releaseDate": "23.07.2023",
+                "changeLog": "Hinzugefügt:\n- Einfache Implementierung von erweiterten Optionen (Nur für Entwickler)"
             },
             "en": {
-                "releaseDate": "07/21/2023",
-                "changeLog": "Added:\n- Unlimited RFID-Card lifespand\n\nFixed:\n- Webapp and mobile-app use different names and display completely different states\n- To long RFID-Card names push the logo over the card border"
+                "releaseDate": "07/23/2023",
+                "changeLog": "Added:\n- Basic advanced options (for developers only)"
             },
-            "hidden": false
+            "hidden": true
         },
         "android": {
-            "version": "PRE-1.0.4-1",
+            "version": "PRE-1.0.4-2",
             "de": {
-                "releaseDate": "21.07.2023",
-                "changeLog": "Hinzugefügt:\n- Unendliche RFID-Karten Lebensdauer\n\nBehoben:\n- Webseite und App nutzen unterschiedliche Bezeichnungen und zeigen komplett andere Dinge an\n- Zu lange RFID-Karten Namen schieben das Logo über den Kartenrand"
+                "releaseDate": "23.07.2023",
+                "changeLog": "Hinzugefügt:\n- Einfache Implementierung von erweiterten Optionen (Nur für Entwickler)\n\nBehoben:\n- Grauer Bildschirm bei 'Ladestationen' wenn der Benutzer keine Ladestationen hat"
             },
             "en": {
-                "releaseDate": "07/21/2023",
-                "changeLog": "Added:\n- Unlimited RFID-Card lifespand\n\nFixed:\n- Webapp and mobile-app use different names and display completely different states\n- To long RFID-Card names push the logo over the card border"
+                "releaseDate": "07/23/2023",
+                "changeLog": "Added:\n- Basic advanced options (for developers only)\n\nFixed:\n- Gray screen on 'Charging Stations' when the user doesn't have any charging stations"
             },
-            "hidden": false
+            "hidden": true
         }
     },
     "iOS": {
+        "PRE-1.0.4-1": {
+            "de": {
+                "releaseDate": "21.07.2023",
+                "changeLog": "Hinzugefügt:\n- Unendliche RFID-Karten Lebensdauer\n\nBehoben:\n- Webseite und App nutzen unterschiedliche Bezeichnungen und zeigen komplett andere Dinge an\n- Zu lange RFID-Karten Namen schieben das Logo über den Kartenrand"
+            },
+            "en": {
+                "releaseDate": "07/21/2023",
+                "changeLog": "Added:\n- Unlimited RFID-Card lifespand\n\nFixed:\n- Webapp and mobile-app use different names and display completely different states\n- To long RFID-Card names push the logo over the card border"
+            }
+        },
         "1.0.3": {
             "de": {
                 "releaseDate": "19.04.2023",
@@ -228,6 +238,16 @@
         }
     },
     "android": {
+        "PRE-1.0.4-1": {
+            "de": {
+                "releaseDate": "21.07.2023",
+                "changeLog": "Hinzugefügt:\n- Unendliche RFID-Karten Lebensdauer\n\nBehoben:\n- Webseite und App nutzen unterschiedliche Bezeichnungen und zeigen komplett andere Dinge an\n- Zu lange RFID-Karten Namen schieben das Logo über den Kartenrand"
+            },
+            "en": {
+                "releaseDate": "07/21/2023",
+                "changeLog": "Added:\n- Unlimited RFID-Card lifespand\n\nFixed:\n- Webapp and mobile-app use different names and display completely different states\n- To long RFID-Card names push the logo over the card border"
+            }
+        },
         "1.0.3": {
             "de": {
                 "releaseDate": "19.04.2023",
