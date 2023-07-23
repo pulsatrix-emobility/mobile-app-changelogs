@@ -10,7 +10,7 @@
                 "releaseDate": "07/23/2023",
                 "changeLog": "Added:\n- Basic advanced options (for developers only)"
             },
-            "hidden": true
+            "hidden": false
         },
         "android": {
             "version": "PRE-1.0.4-2",
