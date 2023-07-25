@@ -1,31 +1,41 @@
 {
     "current": {
         "iOS": {
-            "version": "PRE-1.0.4-3",
+            "version": "PRE-1.0.4-4",
             "de": {
-                "releaseDate": "24.07.2023",
-                "changeLog": "Hinzugefügt:\n- Einfache Implementierung von einer Can-Connect Debug Seite (Nur für Techniker)\n\nBehoben:\n- Nutzer können aus unerklärlichen Gründen Transaktionen nicht übernehmen"
+                "releaseDate": "26.07.2023",
+                "changeLog": "Hinzugefügt:\n- Anzeige für zu meinem Account zugewiesenen, aktiven Transaktionen"
             },
             "en": {
-                "releaseDate": "07/24/2023",
-                "changeLog": "Added:\n- Basic Can-Connect Debug screen (for technicians only)\n\nFixed:\n- Users can't assume ownership of transactions for seemingly no reason"
+                "releaseDate": "07/26/2023",
+                "changeLog": "Added:\n- Display for active transactions that are assigned to my account"
             },
             "hidden": false
         },
         "android": {
-            "version": "PRE-1.0.4-3",
+            "version": "PRE-1.0.4-4",
             "de": {
-                "releaseDate": "24.07.2023",
-                "changeLog": "Hinzugefügt:\n- Einfache Implementierung von einer Can-Connect Debug Seite (Nur für Techniker)\n\nBehoben:\n- Nutzer können aus unerklärlichen Gründen Transaktionen nicht übernehmen"
+                "releaseDate": "26.07.2023",
+                "changeLog": "Hinzugefügt:\n- Anzeige für zu meinem Account zugewiesenen, aktiven Transaktionen"
             },
             "en": {
-                "releaseDate": "07/24/2023",
-                "changeLog": "Added:\n- Basic Can-Connect Debug screen (for technicians only)\n\nFixed:\n- Users can't assume ownership of transactions for seemingly no reason"
+                "releaseDate": "07/26/2023",
+                "changeLog": "Added:\n- Display for active transactions that are assigned to my account"
             },
             "hidden": false       
         }
     },
     "iOS": {
+        "PRE-1.0.4-3": {
+            "de": {
+                "releaseDate": "24.07.2023",
+                "changeLog": "Hinzugefügt:\n- Einfache Implementierung von einer Can-Connect Debug Seite (Nur für Techniker)\n\nBehoben:\n- Nutzer können aus unerklärlichen Gründen Transaktionen nicht übernehmen"
+            },
+            "en": {
+                "releaseDate": "07/24/2023",
+                "changeLog": "Added:\n- Basic Can-Connect Debug screen (for technicians only)\n\nFixed:\n- Users can't assume ownership of transactions for seemingly no reason"
+            }
+        },
         "PRE-1.0.4-2": {
             "de": {
                 "releaseDate": "23.07.2023",
@@ -248,6 +258,16 @@
         }
     },
     "android": {
+        "PRE-1.0.4-3": {
+            "de": {
+                "releaseDate": "24.07.2023",
+                "changeLog": "Hinzugefügt:\n- Einfache Implementierung von einer Can-Connect Debug Seite (Nur für Techniker)\n\nBehoben:\n- Nutzer können aus unerklärlichen Gründen Transaktionen nicht übernehmen"
+            },
+            "en": {
+                "releaseDate": "07/24/2023",
+                "changeLog": "Added:\n- Basic Can-Connect Debug screen (for technicians only)\n\nFixed:\n- Users can't assume ownership of transactions for seemingly no reason"
+            }
+        },
         "PRE-1.0.4-2": {
             "de": {
                 "releaseDate": "23.07.2023",
