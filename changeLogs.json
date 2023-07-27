@@ -1,7 +1,7 @@
 {
     "current": {
         "iOS": {
-            "version": "PRE-1.0.4-4",
+            "version": "PRE-1.0.4-5",
             "de": {
                 "releaseDate": "26.07.2023",
                 "changeLog": "Hinzugefügt:\n- Hinzufügen von RFID Karten über pulsatrix Ladepunkte\n- Hinzufügen von RFID Karten über NFC/RFID am Handy (Nur auf TEST verfügbar)\n- Can-Connect Werte werden am Anfang einmal veruscht zu laden und geben einen Fehler aus wenn sie nicht gelesen werden können"
@@ -13,7 +13,7 @@
             "hidden": false
         },
         "android": {
-            "version": "PRE-1.0.4-4",
+            "version": "PRE-1.0.4-5",
             "de": {
                 "releaseDate": "26.07.2023",
                 "changeLog": "Hinzugefügt:\n- Hinzufügen von RFID Karten über pulsatrix Ladepunkte\n- Can-Connect Werte werden am Anfang einmal veruscht zu laden und geben einen Fehler aus wenn sie nicht gelesen werden können"
