@@ -1,7 +1,32 @@
 {
     "current": {
         "iOS": {
-            "version": "PRE-1.0.4-5",
+            "version": "PRE-1.0.4-6",
+            "de": {
+                "releaseDate": "29.07.2023",
+                "changeLog": "Hinzugefügt:\n- Erweiterte Optionen über REST API\n\nGeändert:\n- Neues Datum für unendliche RFID Karten"
+            },
+            "en": {
+                "releaseDate": "07/29/2023",
+                "changeLog": "Added:\n- Advanced Options over REST API\n\nChanged:\n- New date for unlimited RFID cards"
+            },
+            "hidden": false
+        },
+        "android": {
+            "version": "PRE-1.0.4-6",
+            "de": {
+                "releaseDate": "29.07.2023",
+                "changeLog": "Hinzugefügt:\n- Erweiterte Optionen über REST API\n\nGeändert:\n- Neues Datum für unendliche RFID Karten"
+            },
+            "en": {
+                "releaseDate": "07/29/2023",
+                "changeLog": "Added:\n- Advanced Options over REST API\n\nChanged:\n- New date for unlimited RFID cards"
+            },
+            "hidden": false
+        }
+    },
+    "iOS": {
+        "PRE-1.0.4-5": {
             "de": {
                 "releaseDate": "26.07.2023",
                 "changeLog": "Hinzugefügt:\n- Hinzufügen von RFID Karten über pulsatrix Ladepunkte\n- Hinzufügen von RFID Karten über NFC/RFID am Handy (Nur auf TEST verfügbar)\n- Can-Connect Werte werden am Anfang einmal veruscht zu laden und geben einen Fehler aus wenn sie nicht gelesen werden können"
@@ -9,23 +34,8 @@
             "en": {
                 "releaseDate": "07/26/2023",
                 "changeLog": "Added:\n- Add RFID cards with pulsatrix charging points\n- Adding RFID cards with NFC/RFID using your phone (Only available in TEST)\n- Can-Connect values are read once at the beginning and show an error if they can not be read"
-            },
-            "hidden": false
+            }
         },
-        "android": {
-            "version": "PRE-1.0.4-5",
-            "de": {
-                "releaseDate": "26.07.2023",
-                "changeLog": "Hinzugefügt:\n- Hinzufügen von RFID Karten über pulsatrix Ladepunkte\n- Can-Connect Werte werden am Anfang einmal veruscht zu laden und geben einen Fehler aus wenn sie nicht gelesen werden können"
-            },
-            "en": {
-                "releaseDate": "07/26/2023",
-                "changeLog": "Added:\n- Add RFID cards with pulsatrix charging points\n- Can-Connect values are read once at the beginning and show an error if they can not be read"
-            },
-            "hidden": false
-        }
-    },
-    "iOS": {
         "PRE-1.0.4-4": {
             "de": {
                 "releaseDate": "26.07.2023",
@@ -268,6 +278,16 @@
         }
     },
     "android": {
+        "PRE-1.0.4-5": {
+            "de": {
+                "releaseDate": "26.07.2023",
+                "changeLog": "Hinzugefügt:\n- Hinzufügen von RFID Karten über pulsatrix Ladepunkte\n- Can-Connect Werte werden am Anfang einmal veruscht zu laden und geben einen Fehler aus wenn sie nicht gelesen werden können"
+            },
+            "en": {
+                "releaseDate": "07/26/2023",
+                "changeLog": "Added:\n- Add RFID cards with pulsatrix charging points\n- Can-Connect values are read once at the beginning and show an error if they can not be read"
+            }
+        },
         "PRE-1.0.4-4": {
             "de": {
                 "releaseDate": "26.07.2023",
