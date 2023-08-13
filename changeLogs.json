@@ -22,7 +22,7 @@
                 "releaseDate": "08/13/2023",
                 "changeLog": "Added:\n- 'Suspended by vehicle' state\n- Account hotswitching\n\nFixed:\n- Charging points display incorrect state\n- Extremly high data usage"
             },
-            "hidden": true
+            "hidden": false
         }
     },
     "iOS": {
