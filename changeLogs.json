@@ -1,7 +1,32 @@
 {
     "current": {
         "iOS": {
-            "version": "1.0.4",
+            "version": "1.0.5",
+            "de": {
+                "releaseDate": "29.09.2023",
+                "changeLog": "Behoben:\n- Transaktionen werden nicht angezeigt\n- Ladevorgänge können nicht übernommen werden\n- Zu große Schriftarten machen teile der App unnutzbar"
+            },
+            "en": {
+                "releaseDate": "09/29/2023",
+                "changeLog": "Fixed:\n- Transactions are not displayed\n- Active transactions cannot be assigned to your account\n- Fonts that are too large make parts of the app unusable"
+            },
+            "hidden": false
+        },
+        "android": {
+            "version": "1.0.5",
+            "de": {
+                "releaseDate": "29.09.2023",
+                "changeLog": "Behoben:\n- App wird bei älteren Geräten nicht im PlayStore angezeigt\n- Transaktionen werden nicht angezeigt\n- Ladevorgänge können nicht übernommen werden\n- Zu große Schriftarten machen teile der App unnutzbar"
+            },
+            "en": {
+                "releaseDate": "09/29/2023",
+                "changeLog": "Fixed:\n- App does not show up in the PlayStore on older devices\n- Transactions are not displayed\n- Active transactions cannot be assigned to your account\n- Fonts that are too large make parts of the app unusable"
+            },
+            "hidden": false
+        }
+    },
+    "iOS": {
+        "1.0.4": {
             "de": {
                 "releaseDate": "18.08.2023",
                 "changeLog": "Hinzugefügt:\n- Anzeige für zu meinem Account zugewiesenen, aktiven Transaktionen\n- 'Pausiert durch Fahrzeug' Status\n- Unendliche RFID-Karten Lebensdauer\n- Hinzufügen von RFID Karten über pulsatrix Ladepunkte\n\nBehoben:\n- Ladestationen zeigen falschen Status an\n- Extrem hoher Datenverbrauch\n- Nutzer können aus unerklärlichen Gründen Transaktionen nicht übernehmen\n- Webseite und App nutzen unterschiedliche Bezeichnungen und zeigen komplett andere Dinge an\n- Zu lange RFID-Karten Namen schieben das Logo über den Kartenrand"
@@ -9,23 +34,8 @@
             "en": {
                 "releaseDate": "08/18/2023",
                 "changeLog": "Added:\n- Display for active transactions that are assigned to my account\n- 'Suspended by vehicle' state\n- Unlimited RFID-Card lifespand\n- Add RFID cards with pulsatrix charging points\n\nFixed:\n- Charging points display incorrect state\n- Extremly high data usage\n- Users can't assume ownership of transactions for seemingly no reason\n- Webapp and mobile-app use different names and display completely different states\n- To long RFID-Card names push the logo over the card border"
-            },
-            "hidden": false
+            }
         },
-        "android": {
-            "version": "1.0.4",
-            "de": {
-                "releaseDate": "18.08.2023",
-                "changeLog": "Hinzugefügt:\n- Anzeige für zu meinem Account zugewiesenen, aktiven Transaktionen\n- 'Pausiert durch Fahrzeug' Status\n- Unendliche RFID-Karten Lebensdauer\n- Hinzufügen von RFID Karten über pulsatrix Ladepunkte\n\nBehoben:\n- Ladestationen zeigen falschen Status an\n- Extrem hoher Datenverbrauch\n- Nutzer können aus unerklärlichen Gründen Transaktionen nicht übernehmen\n- Webseite und App nutzen unterschiedliche Bezeichnungen und zeigen komplett andere Dinge an\n- Zu lange RFID-Karten Namen schieben das Logo über den Kartenrand"
-            },
-            "en": {
-                "releaseDate": "08/18/2023",
-                "changeLog": "Added:\n- 'Suspended by vehicle' state\n- Account hotswitching\n\nFixed:\n- Charging points display incorrect state\n- Extremly high data usage"
-            },
-            "hidden": false
-        }
-    },
-    "iOS": {
         "PRE-1.0.4-7": {
             "de": {
                 "releaseDate": "13.08.2023",
@@ -298,6 +308,16 @@
         }
     },
     "android": {
+        "1.0.4": {
+            "de": {
+                "releaseDate": "18.08.2023",
+                "changeLog": "Hinzugefügt:\n- Anzeige für zu meinem Account zugewiesenen, aktiven Transaktionen\n- 'Pausiert durch Fahrzeug' Status\n- Unendliche RFID-Karten Lebensdauer\n- Hinzufügen von RFID Karten über pulsatrix Ladepunkte\n\nBehoben:\n- Ladestationen zeigen falschen Status an\n- Extrem hoher Datenverbrauch\n- Nutzer können aus unerklärlichen Gründen Transaktionen nicht übernehmen\n- Webseite und App nutzen unterschiedliche Bezeichnungen und zeigen komplett andere Dinge an\n- Zu lange RFID-Karten Namen schieben das Logo über den Kartenrand"
+            },
+            "en": {
+                "releaseDate": "08/18/2023",
+                "changeLog": "Added:\n- 'Suspended by vehicle' state\n- Account hotswitching\n\nFixed:\n- Charging points display incorrect state\n- Extremly high data usage"
+            }
+        },
         "PRE-1.0.4-7": {
             "de": {
                 "releaseDate": "13.08.2023",
