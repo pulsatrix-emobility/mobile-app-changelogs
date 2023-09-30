@@ -4,7 +4,7 @@
             "version": "1.0.5",
             "de": {
                 "releaseDate": "29.09.2023",
-                "changeLog": "Behoben:\n- Transaktionen werden nicht angezeigt\n- Ladevorgänge können nicht übernommen werden\n- Zu große Schriftarten machen teile der App unnutzbar"
+                "changeLog": "Behoben:\n- Transaktionen werden nicht angezeigt\n- Ladevorgänge können nicht übernommen werden\n- Zu große Schriftarten machen Teile der App unnutzbar"
             },
             "en": {
                 "releaseDate": "09/29/2023",
@@ -16,7 +16,7 @@
             "version": "1.0.5",
             "de": {
                 "releaseDate": "29.09.2023",
-                "changeLog": "Behoben:\n- App wird bei älteren Geräten nicht im PlayStore angezeigt\n- Transaktionen werden nicht angezeigt\n- Ladevorgänge können nicht übernommen werden\n- Zu große Schriftarten machen teile der App unnutzbar"
+                "changeLog": "Behoben:\n- App wird bei älteren Geräten nicht im PlayStore angezeigt\n- Transaktionen werden nicht angezeigt\n- Ladevorgänge können nicht übernommen werden\n- Zu große Schriftarten machen Teile der App unnutzbar"
             },
             "en": {
                 "releaseDate": "09/29/2023",
