@@ -1,7 +1,7 @@
 {
     "current": {
         "iOS": {
-            "version": "1.0.5",
+            "version": "1.0.6",
             "de": {
                 "releaseDate": "30.11.2023",
                 "changeLog": "Hinzugefügt:\n- Letzte Nachricht vom Server Indikator in den Details einer laufenden Transaktion\n\nBehoben:\n- Flackernde Anzeige in der Ladepunktliste"
@@ -13,7 +13,7 @@
             "hidden": true
         },
         "android": {
-            "version": "1.0.5",
+            "version": "1.0.6",
             "de": {
                 "releaseDate": "30.11.2023",
                 "changeLog": "Hinzugefügt:\n- Letzte Nachricht vom Server Indikator in den Details einer laufenden Transaktion\n\nBehoben:\n- Flackernde Anzeige in der Ladepunktliste\n\n⚠️ Problem melden Funktion ist temporär deaktiviert!"
