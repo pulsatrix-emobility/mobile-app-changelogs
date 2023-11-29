@@ -3,29 +3,39 @@
         "iOS": {
             "version": "1.0.5",
             "de": {
+                "releaseDate": "30.11.2023",
+                "changeLog": "Hinzugefügt:\n- Letzte Nachricht vom Server Indikator in den Details einer laufenden Transaktion\n\nBehoben:\n- Flackernde Anzeige in der Ladepunktliste"
+            },
+            "en": {
+                "releaseDate": "11/30/2023",
+                "changeLog": "Added:\n- Last message from server indicator in the details of a active transaction\n\nFixed:\n- Flickering in charging point list"
+            },
+            "hidden": true
+        },
+        "android": {
+            "version": "1.0.5",
+            "de": {
+                "releaseDate": "30.11.2023",
+                "changeLog": "Hinzugefügt:\n- Letzte Nachricht vom Server Indikator in den Details einer laufenden Transaktion\n\nBehoben:\n- Flackernde Anzeige in der Ladepunktliste\n\n⚠️ Problem melden Funktion ist temporär deaktiviert!"
+            },
+            "en": {
+                "releaseDate": "11/30/2023",
+                "changeLog": "Added:\n- Last message from server indicator in the details of a active transaction\n\nFixed:\n- Flickering in charging point list\n\n⚠️ Temporarily disabled report problem feature!"
+            },
+            "hidden": true
+        }
+    },
+    "iOS": {
+        "1.0.5": {
+            "de": {
                 "releaseDate": "29.09.2023",
                 "changeLog": "Behoben:\n- Transaktionen werden nicht angezeigt\n- Ladevorgänge können nicht übernommen werden\n- Zu große Schriftarten machen Teile der App unnutzbar"
             },
             "en": {
                 "releaseDate": "09/29/2023",
                 "changeLog": "Fixed:\n- Transactions are not displayed\n- Active transactions cannot be assigned to your account\n- Fonts that are too large make parts of the app unusable"
-            },
-            "hidden": false
+            }
         },
-        "android": {
-            "version": "1.0.5",
-            "de": {
-                "releaseDate": "29.09.2023",
-                "changeLog": "Behoben:\n- App wird bei älteren Geräten nicht im PlayStore angezeigt\n- Transaktionen werden nicht angezeigt\n- Ladevorgänge können nicht übernommen werden\n- Zu große Schriftarten machen Teile der App unnutzbar"
-            },
-            "en": {
-                "releaseDate": "09/29/2023",
-                "changeLog": "Fixed:\n- App does not show up in the PlayStore on older devices\n- Transactions are not displayed\n- Active transactions cannot be assigned to your account\n- Fonts that are too large make parts of the app unusable"
-            },
-            "hidden": false
-        }
-    },
-    "iOS": {
         "1.0.4": {
             "de": {
                 "releaseDate": "18.08.2023",
@@ -308,6 +318,16 @@
         }
     },
     "android": {
+        "1.0.5": {
+            "de": {
+                "releaseDate": "29.09.2023",
+                "changeLog": "Behoben:\n- App wird bei älteren Geräten nicht im PlayStore angezeigt\n- Transaktionen werden nicht angezeigt\n- Ladevorgänge können nicht übernommen werden\n- Zu große Schriftarten machen Teile der App unnutzbar"
+            },
+            "en": {
+                "releaseDate": "09/29/2023",
+                "changeLog": "Fixed:\n- App does not show up in the PlayStore on older devices\n- Transactions are not displayed\n- Active transactions cannot be assigned to your account\n- Fonts that are too large make parts of the app unusable"
+            }
+        },
         "1.0.4": {
             "de": {
                 "releaseDate": "18.08.2023",
