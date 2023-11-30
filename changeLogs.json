@@ -10,7 +10,7 @@
                 "releaseDate": "11/30/2023",
                 "changeLog": "Added:\n- Last message from server indicator in the details of a active transaction\n\nFixed:\n- Flickering in charging point list"
             },
-            "hidden": true
+            "hidden": false
         },
         "android": {
             "version": "1.0.6",
@@ -22,7 +22,7 @@
                 "releaseDate": "11/30/2023",
                 "changeLog": "Added:\n- Last message from server indicator in the details of a active transaction\n\nFixed:\n- Flickering in charging point list\n\n⚠️ Temporarily disabled report problem feature!"
             },
-            "hidden": true
+            "hidden": false
         }
     },
     "iOS": {
