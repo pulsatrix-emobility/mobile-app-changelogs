@@ -1,7 +1,32 @@
 {
     "current": {
         "iOS": {
-            "version": "1.0.6",
+            "version": "PRE-1.0.7-1",
+            "de": {
+                "releaseDate": "08.01.2024",
+                "changeLog": "Geändert:\n- Passwort anzeigen Icon Sichtbarkeit behoben\n\nEntfernt:\n- Maximaler Strom Anzeige bei Transaktionen Details"
+            },
+            "en": {
+                "releaseDate": "01/08/2024",
+                "changeLog": "Chnaged:\n- Fixed show icon password visibility\n\nRemoved:\n- Max power in detailed transactions"
+            },
+            "hidden": true
+        },
+        "android": {
+            "version": "PRE-1.0.7-1",
+            "de": {
+                "releaseDate": "08.01.2024",
+                "changeLog": "Geändert:\n- Biometrische Authentifizierung Umgehung behoben\n\nEntfernt:\n- Maximaler Strom Anzeige bei Transaktionen Details"
+            },
+            "en": {
+                "releaseDate": "01/08/2024",
+                "changeLog": "Chnaged:\n- Fixed android biometric bypass\n\nRemoved:\n- Max power in detailed transactions"
+            },
+            "hidden": true
+        }
+    },
+    "iOS": {
+        "1.0.6": {
             "de": {
                 "releaseDate": "30.11.2023",
                 "changeLog": "Hinzugefügt:\n- Letzte Nachricht vom Server Indikator in den Details einer laufenden Transaktion\n\nBehoben:\n- Flackernde Anzeige in der Ladepunktliste"
@@ -9,23 +34,8 @@
             "en": {
                 "releaseDate": "11/30/2023",
                 "changeLog": "Added:\n- Last message from server indicator in the details of a active transaction\n\nFixed:\n- Flickering in charging point list"
-            },
-            "hidden": false
+            }
         },
-        "android": {
-            "version": "1.0.6",
-            "de": {
-                "releaseDate": "30.11.2023",
-                "changeLog": "Hinzugefügt:\n- Letzte Nachricht vom Server Indikator in den Details einer laufenden Transaktion\n\nBehoben:\n- Flackernde Anzeige in der Ladepunktliste\n\n⚠️ Problem melden Funktion ist temporär deaktiviert!"
-            },
-            "en": {
-                "releaseDate": "11/30/2023",
-                "changeLog": "Added:\n- Last message from server indicator in the details of a active transaction\n\nFixed:\n- Flickering in charging point list\n\n⚠️ Temporarily disabled report problem feature!"
-            },
-            "hidden": false
-        }
-    },
-    "iOS": {
         "1.0.5": {
             "de": {
                 "releaseDate": "29.09.2023",
@@ -318,6 +328,16 @@
         }
     },
     "android": {
+        "1.0.6": {
+            "de": {
+                "releaseDate": "30.11.2023",
+                "changeLog": "Hinzugefügt:\n- Letzte Nachricht vom Server Indikator in den Details einer laufenden Transaktion\n\nBehoben:\n- Flackernde Anzeige in der Ladepunktliste\n\n⚠️ Problem melden Funktion ist temporär deaktiviert!"
+            },
+            "en": {
+                "releaseDate": "11/30/2023",
+                "changeLog": "Added:\n- Last message from server indicator in the details of a active transaction\n\nFixed:\n- Flickering in charging point list\n\n⚠️ Temporarily disabled report problem feature!"
+            }
+        },
         "1.0.5": {
             "de": {
                 "releaseDate": "29.09.2023",
