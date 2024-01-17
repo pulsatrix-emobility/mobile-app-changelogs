@@ -1,7 +1,32 @@
 {
     "current": {
         "iOS": {
-            "version": "PRE-1.0.7-1",
+            "version": "PRE-1.0.7-2",
+            "de": {
+                "releaseDate": "17.01.2024",
+                "changeLog": "Hinzugefügt:\n- Abmelden button bei Account wieder herstellen Ansicht"
+            },
+            "en": {
+                "releaseDate": "01/17/2024",
+                "changeLog": "Added:\n- SignOut button in recover account screen"
+            },
+            "hidden": false
+        },
+        "android": {
+            "version": "PRE-1.0.7-2",
+            "de": {
+                "releaseDate": "17.01.2024",
+                "changeLog": "Hinzugefügt:\n- Abmelden button bei Account wieder herstellen Ansicht"
+            },
+            "en": {
+                "releaseDate": "01/17/2024",
+                "changeLog": "Added:\n- SignOut button in recover account screen"
+            },
+            "hidden": false
+        }
+    },
+    "iOS": {
+        "PRE-1.0.7-1": {
             "de": {
                 "releaseDate": "08.01.2024",
                 "changeLog": "Geändert:\n- Passwort anzeigen Icon Sichtbarkeit behoben\n\nEntfernt:\n- Maximaler Strom Anzeige bei Transaktionen Details"
@@ -9,23 +34,8 @@
             "en": {
                 "releaseDate": "01/08/2024",
                 "changeLog": "Chnaged:\n- Fixed show icon password visibility\n\nRemoved:\n- Max power in detailed transactions"
-            },
-            "hidden": true
+            }
         },
-        "android": {
-            "version": "PRE-1.0.7-1",
-            "de": {
-                "releaseDate": "08.01.2024",
-                "changeLog": "Geändert:\n- Biometrische Authentifizierung Umgehung behoben\n\nEntfernt:\n- Maximaler Strom Anzeige bei Transaktionen Details"
-            },
-            "en": {
-                "releaseDate": "01/08/2024",
-                "changeLog": "Chnaged:\n- Fixed android biometric bypass\n\nRemoved:\n- Max power in detailed transactions"
-            },
-            "hidden": true
-        }
-    },
-    "iOS": {
         "1.0.6": {
             "de": {
                 "releaseDate": "30.11.2023",
@@ -328,6 +338,16 @@
         }
     },
     "android": {
+        "PRE-1.0.7-1": {
+            "de": {
+                "releaseDate": "08.01.2024",
+                "changeLog": "Geändert:\n- Biometrische Authentifizierung Umgehung behoben\n\nEntfernt:\n- Maximaler Strom Anzeige bei Transaktionen Details"
+            },
+            "en": {
+                "releaseDate": "01/08/2024",
+                "changeLog": "Chnaged:\n- Fixed android biometric bypass\n\nRemoved:\n- Max power in detailed transactions"
+            }
+        },
         "1.0.6": {
             "de": {
                 "releaseDate": "30.11.2023",
