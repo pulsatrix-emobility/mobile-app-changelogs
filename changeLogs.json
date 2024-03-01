@@ -1,31 +1,41 @@
 {
     "current": {
         "iOS": {
-            "version": "PRE-1.0.7-2",
+            "version": "PRE-1.0.7-3",
             "de": {
-                "releaseDate": "17.01.2024",
-                "changeLog": "Hinzugefügt:\n- Abmelden button bei Account wieder herstellen Ansicht"
+                "releaseDate": "01.03.2024",
+                "changeLog": "Behoben:\n- Vergangene Transaktionen zeigen falsche kW Summe an\n- Vergangene Transaktionen Liste aktualisiert sich inkorrekt beim scrollen"
             },
             "en": {
-                "releaseDate": "01/17/2024",
-                "changeLog": "Added:\n- SignOut button in recover account screen"
+                "releaseDate": "03/01/2024",
+                "changeLog": "Fixed:\n- DeepLinks open the app on unwanted URL's\n- Past transactions show incorrect kW total\n- Past transactions list does not update correctly on scroll"
             },
             "hidden": false
         },
         "android": {
-            "version": "PRE-1.0.7-2",
+            "version": "PRE-1.0.7-3",
             "de": {
-                "releaseDate": "17.01.2024",
-                "changeLog": "Hinzugefügt:\n- Abmelden button bei Account wieder herstellen Ansicht"
+                "releaseDate": "01.03.2024",
+                "changeLog": "Behoben:\n- DeepLinks öffnen App bei ungewollten URL's\n- Vergangene Transaktionen Liste aktualisiert sich inkorrekt beim scrollen"
             },
             "en": {
-                "releaseDate": "01/17/2024",
-                "changeLog": "Added:\n- SignOut button in recover account screen"
+                "releaseDate": "03/01/2024",
+                "changeLog": "Fixed:\n- DeepLinks open the app on unwanted URL's\n- Past transactions list does not update correctly on scroll"
             },
             "hidden": false
         }
     },
     "iOS": {
+        "PRE-1.0.7-2": {
+            "de": {
+                "releaseDate": "17.01.2024",
+                "changeLog": "Hinzugefügt:\n- Abmelden button bei Account wieder herstellen Ansicht"
+            },
+            "en": {
+                "releaseDate": "01/17/2024",
+                "changeLog": "Added:\n- SignOut button in recover account screen"
+            }
+        },
         "PRE-1.0.7-1": {
             "de": {
                 "releaseDate": "08.01.2024",
@@ -338,6 +348,16 @@
         }
     },
     "android": {
+        "PRE-1.0.7-2": {
+            "de": {
+                "releaseDate": "17.01.2024",
+                "changeLog": "Hinzugefügt:\n- Abmelden button bei Account wieder herstellen Ansicht"
+            },
+            "en": {
+                "releaseDate": "01/17/2024",
+                "changeLog": "Added:\n- SignOut button in recover account screen"
+            }
+        },
         "PRE-1.0.7-1": {
             "de": {
                 "releaseDate": "08.01.2024",
