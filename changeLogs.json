@@ -8,7 +8,7 @@
             },
             "en": {
                 "releaseDate": "03/01/2024",
-                "changeLog": "Fixed:\n- DeepLinks open the app on unwanted URL's\n- Past transactions show incorrect kW total\n- Past transactions list does not update correctly on scroll"
+                "changeLog": "Fixed:\n- Past transactions show incorrect kW total\n- Past transactions list does not update correctly on scroll"
             },
             "hidden": false
         },
