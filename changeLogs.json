@@ -1,7 +1,32 @@
 {
     "current": {
         "iOS": {
-            "version": "PRE-1.0.7-3",
+            "version": "PRE-1.0.7-4",
+            "de": {
+                "releaseDate": "11.03.2024",
+                "changeLog": "Behoben:\n- Laufende Transaktionen zeigen in der Produktionsumgebung keine Werte an"
+            },
+            "en": {
+                "releaseDate": "03/11/2024",
+                "changeLog": "Fixed:\n- Active transactions don't show any values in production"
+            },
+            "hidden": false
+        },
+        "android": {
+            "version": "PRE-1.0.7-4",
+            "de": {
+                "releaseDate": "11.03.2024",
+                "changeLog": "Behoben:\n- Laufende Transaktionen zeigen in der Produktionsumgebung keine Werte an"
+            },
+            "en": {
+                "releaseDate": "03/11/2024",
+                "changeLog": "Fixed:\n- Active transactions don't show any values in production"
+            },
+            "hidden": false
+        }
+    },
+    "iOS": {
+        "PRE-1.0.7-3": {
             "de": {
                 "releaseDate": "01.03.2024",
                 "changeLog": "Behoben:\n- Vergangene Transaktionen zeigen falsche kW Summe an\n- Vergangene Transaktionen Liste aktualisiert sich inkorrekt beim scrollen"
@@ -9,23 +34,8 @@
             "en": {
                 "releaseDate": "03/01/2024",
                 "changeLog": "Fixed:\n- Past transactions show incorrect kW total\n- Past transactions list does not update correctly on scroll"
-            },
-            "hidden": false
+            }
         },
-        "android": {
-            "version": "PRE-1.0.7-3",
-            "de": {
-                "releaseDate": "01.03.2024",
-                "changeLog": "Behoben:\n- DeepLinks öffnen App bei ungewollten URL's\n- Vergangene Transaktionen Liste aktualisiert sich inkorrekt beim scrollen"
-            },
-            "en": {
-                "releaseDate": "03/01/2024",
-                "changeLog": "Fixed:\n- DeepLinks open the app on unwanted URL's\n- Past transactions list does not update correctly on scroll"
-            },
-            "hidden": false
-        }
-    },
-    "iOS": {
         "PRE-1.0.7-2": {
             "de": {
                 "releaseDate": "17.01.2024",
@@ -348,6 +358,16 @@
         }
     },
     "android": {
+        "PRE-1.0.7-3": {
+            "de": {
+                "releaseDate": "01.03.2024",
+                "changeLog": "Behoben:\n- DeepLinks öffnen App bei ungewollten URL's\n- Vergangene Transaktionen Liste aktualisiert sich inkorrekt beim scrollen"
+            },
+            "en": {
+                "releaseDate": "03/01/2024",
+                "changeLog": "Fixed:\n- DeepLinks open the app on unwanted URL's\n- Past transactions list does not update correctly on scroll"
+            }
+        },
         "PRE-1.0.7-2": {
             "de": {
                 "releaseDate": "17.01.2024",
