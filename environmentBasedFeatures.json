@@ -1,3 +1,4 @@
 {
-    "addRfidCardUsingNfcIos": 0
+    "addRfidCardUsingNfcIos": 0,
+    "immuneTransactionStates": 1
 }

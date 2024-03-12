@@ -1,31 +1,41 @@
 {
     "current": {
         "iOS": {
-            "version": "PRE-1.0.7-4",
+            "version": "PRE-1.0.7-5",
             "de": {
-                "releaseDate": "11.03.2024",
-                "changeLog": "Behoben:\n- Laufende Transaktionen zeigen in der Produktionsumgebung keine Werte an"
+                "releaseDate": "12.03.2024",
+                "changeLog": "Hinzugefügt:\n- Umgebungsspezifische Berechnung des Transaktionsstatus\n\nBehoben:\n- Laufende Transaktionen zeigen in der Produktionsumgebung keine Werte an"
             },
             "en": {
-                "releaseDate": "03/11/2024",
-                "changeLog": "Fixed:\n- Active transactions don't show any values in production"
+                "releaseDate": "03/12/2024",
+                "changeLog": "Added:\n- Environment dependend calculation of transaction states\n\nFixed:\n- Active transactions don't show any values in production"
             },
             "hidden": false
         },
         "android": {
-            "version": "PRE-1.0.7-4",
+            "version": "PRE-1.0.7-5",
             "de": {
-                "releaseDate": "11.03.2024",
-                "changeLog": "Behoben:\n- Laufende Transaktionen zeigen in der Produktionsumgebung keine Werte an"
+                "releaseDate": "12.03.2024",
+                "changeLog": "Hinzugefügt:\n- Umgebungsspezifische Berechnung des Transaktionsstatus\n\nBehoben:\n- Laufende Transaktionen zeigen in der Produktionsumgebung keine Werte an"
             },
             "en": {
-                "releaseDate": "03/11/2024",
-                "changeLog": "Fixed:\n- Active transactions don't show any values in production"
+                "releaseDate": "03/12/2024",
+                "changeLog": "Added:\n- Environment dependend calculation of transaction states\n\nFixed:\n- Active transactions don't show any values in production"
             },
             "hidden": false
         }
     },
     "iOS": {
+        "PRE-1.0.7-4": {
+            "de": {
+                "releaseDate": "11.03.2024",
+                "changeLog": "Behoben:\n- Laufende Transaktionen zeigen in der Produktionsumgebung keine Werte an"
+            },
+            "en": {
+                "releaseDate": "03/11/2024",
+                "changeLog": "Fixed:\n- Active transactions don't show any values in production"
+            }
+        },
         "PRE-1.0.7-3": {
             "de": {
                 "releaseDate": "01.03.2024",
@@ -358,6 +368,16 @@
         }
     },
     "android": {
+        "PRE-1.0.7-4": {
+            "de": {
+                "releaseDate": "11.03.2024",
+                "changeLog": "Behoben:\n- Laufende Transaktionen zeigen in der Produktionsumgebung keine Werte an"
+            },
+            "en": {
+                "releaseDate": "03/11/2024",
+                "changeLog": "Fixed:\n- Active transactions don't show any values in production"
+            }
+        },
         "PRE-1.0.7-3": {
             "de": {
                 "releaseDate": "01.03.2024",
