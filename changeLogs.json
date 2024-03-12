@@ -1,31 +1,41 @@
 {
     "current": {
         "iOS": {
-            "version": "PRE-1.0.7-5",
+            "version": "PRE-1.0.7-6",
             "de": {
                 "releaseDate": "12.03.2024",
-                "changeLog": "Hinzugefügt:\n- Umgebungsspezifische Berechnung des Transaktionsstatus\n\nBehoben:\n- Laufende Transaktionen zeigen in der Produktionsumgebung keine Werte an"
+                "changeLog": "Hinzugefügt:\n- RFID Tokens werden seperat vom Nutzer angezeigt\n\nBehoben:\n- Accountwechsel nicht möglich\n- Sprachenwechsel nicht möglich"
             },
             "en": {
                 "releaseDate": "03/12/2024",
-                "changeLog": "Added:\n- Environment dependend calculation of transaction states\n\nFixed:\n- Active transactions don't show any values in production"
+                "changeLog": "Added:\n- RFID Tokens get displayed seperatly from usernames\n\nFixed:\n- Account switching not possible\n- Language switching not possible"
             },
             "hidden": false
         },
         "android": {
-            "version": "PRE-1.0.7-5",
+            "version": "PRE-1.0.7-6",
             "de": {
                 "releaseDate": "12.03.2024",
-                "changeLog": "Hinzugefügt:\n- Umgebungsspezifische Berechnung des Transaktionsstatus\n\nBehoben:\n- Laufende Transaktionen zeigen in der Produktionsumgebung keine Werte an"
+                "changeLog": "Hinzugefügt:\n- RFID Tokens werden seperat vom Nutzer angezeigt\n\nBehoben:\n- Accountwechsel nicht möglich\n- Sprachenwechsel nicht möglich"
             },
             "en": {
                 "releaseDate": "03/12/2024",
-                "changeLog": "Added:\n- Environment dependend calculation of transaction states\n\nFixed:\n- Active transactions don't show any values in production"
+                "changeLog": "Added:\n- RFID Tokens get displayed seperatly from usernames\n\nFixed:\n- Account switching not possible\n- Language switching not possible"
             },
             "hidden": false
         }
     },
     "iOS": {
+        "PRE-1.0.7-5": {
+            "de": {
+                "releaseDate": "12.03.2024",
+                "changeLog": "Hinzugefügt:\n- Umgebungsspezifische Berechnung des Transaktionsstatus\n\nBehoben:\n- Laufende Transaktionen zeigen in der Produktionsumgebung keine Werte an"
+            },
+            "en": {
+                "releaseDate": "03/12/2024",
+                "changeLog": "Added:\n- Environment dependend calculation of transaction states\n\nFixed:\n- Active transactions don't show any values in production"
+            }
+        },
         "PRE-1.0.7-4": {
             "de": {
                 "releaseDate": "11.03.2024",
@@ -368,6 +378,16 @@
         }
     },
     "android": {
+        "PRE-1.0.7-5": {
+            "de": {
+                "releaseDate": "12.03.2024",
+                "changeLog": "Hinzugefügt:\n- Umgebungsspezifische Berechnung des Transaktionsstatus\n\nBehoben:\n- Laufende Transaktionen zeigen in der Produktionsumgebung keine Werte an"
+            },
+            "en": {
+                "releaseDate": "03/12/2024",
+                "changeLog": "Added:\n- Environment dependend calculation of transaction states\n\nFixed:\n- Active transactions don't show any values in production"
+            }
+        },
         "PRE-1.0.7-4": {
             "de": {
                 "releaseDate": "11.03.2024",
