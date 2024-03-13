@@ -1,31 +1,41 @@
 {
     "current": {
         "iOS": {
-            "version": "PRE-1.0.7-6",
+            "version": "1.0.7",
             "de": {
-                "releaseDate": "12.03.2024",
-                "changeLog": "Hinzugefügt:\n- RFID Tokens werden seperat vom Nutzer angezeigt\n\nBehoben:\n- Accountwechsel nicht möglich\n- Sprachenwechsel nicht möglich"
+                "releaseDate": "13.03.2024",
+                "changeLog": "Behoben:\n- Vergangene Transaktionen zeigen falsche kW Summe an\n- Vergangene Transaktionen Liste aktualisiert sich beim scrollen nicht korrekt"
             },
             "en": {
-                "releaseDate": "03/12/2024",
-                "changeLog": "Added:\n- RFID Tokens get displayed seperatly from usernames\n\nFixed:\n- Account switching not possible\n- Language switching not possible"
+                "releaseDate": "03/13/2024",
+                "changeLog": "Fixed:\n- Past transactions show incorrect kW values\n- Past transaction list does not update corrextly on scroll"
             },
-            "hidden": false
+            "hidden": true
         },
         "android": {
-            "version": "PRE-1.0.7-6",
+            "version": "1.0.7",
             "de": {
-                "releaseDate": "12.03.2024",
-                "changeLog": "Hinzugefügt:\n- RFID Tokens werden seperat vom Nutzer angezeigt\n\nBehoben:\n- Accountwechsel nicht möglich\n- Sprachenwechsel nicht möglich"
+                "releaseDate": "13.03.2024",
+                "changeLog": "Behoben:\n- Vergangene Transaktionen zeigen falsche kW Summe an\n- Vergangene Transaktionen Liste aktualisiert sich beim scrollen nicht korrekt"
             },
             "en": {
-                "releaseDate": "03/12/2024",
-                "changeLog": "Added:\n- RFID Tokens get displayed seperatly from usernames\n\nFixed:\n- Account switching not possible\n- Language switching not possible"
+                "releaseDate": "03/13/2024",
+                "changeLog": "Fixed:\n- Past transactions show incorrect kW values\n- Past transaction list does not update corrextly on scroll"
             },
-            "hidden": false
+            "hidden": true
         }
     },
     "iOS": {
+        "PRE-1.0.7-6": {
+            "de": {
+                "releaseDate": "12.03.2024",
+                "changeLog": "Hinzugefügt:\n- RFID Tokens werden seperat vom Nutzer angezeigt\n\nBehoben:\n- Accountwechsel nicht möglich\n- Sprachenwechsel nicht möglich"
+            },
+            "en": {
+                "releaseDate": "03/12/2024",
+                "changeLog": "Added:\n- RFID Tokens get displayed seperatly from usernames\n\nFixed:\n- Account switching not possible\n- Language switching not possible"
+            }
+        },
         "PRE-1.0.7-5": {
             "de": {
                 "releaseDate": "12.03.2024",
@@ -378,6 +388,16 @@
         }
     },
     "android": {
+        "PRE-1.0.7-6": {
+            "de": {
+                "releaseDate": "12.03.2024",
+                "changeLog": "Hinzugefügt:\n- RFID Tokens werden seperat vom Nutzer angezeigt\n\nBehoben:\n- Accountwechsel nicht möglich\n- Sprachenwechsel nicht möglich"
+            },
+            "en": {
+                "releaseDate": "03/12/2024",
+                "changeLog": "Added:\n- RFID Tokens get displayed seperatly from usernames\n\nFixed:\n- Account switching not possible\n- Language switching not possible"
+            }
+        },
         "PRE-1.0.7-5": {
             "de": {
                 "releaseDate": "12.03.2024",
