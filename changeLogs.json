@@ -10,7 +10,7 @@
                 "releaseDate": "03/13/2024",
                 "changeLog": "Fixed:\n- Past transactions show incorrect kW values\n- Past transaction list does not update corrextly on scroll"
             },
-            "hidden": true
+            "hidden": false
         },
         "android": {
             "version": "1.0.7",
@@ -22,7 +22,7 @@
                 "releaseDate": "03/13/2024",
                 "changeLog": "Fixed:\n- Past transactions show incorrect kW values\n- Past transaction list does not update corrextly on scroll"
             },
-            "hidden": true
+            "hidden": false
         }
     },
     "iOS": {
