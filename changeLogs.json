@@ -22,7 +22,7 @@
                 "releaseDate": "07/26/2024",
                 "changeLog": "Added:\n- Language: Romanian\n- Language: Englisch (US) to support other formats for floating point numbers and dates\n\nFixed:\n- Minor UI bugs & imperfections"
             },
-            "hidden": true
+            "hidden": false
         }
     },
     "iOS": {
