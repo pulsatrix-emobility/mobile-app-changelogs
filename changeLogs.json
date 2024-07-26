@@ -13,7 +13,7 @@
             "hidden": true
         },
         "android": {
-            "version": "PRE-1.0.8",
+            "version": "1.0.8",
             "de": {
                 "releaseDate": "26.07.2024",
                 "changeLog": "Hinzugefügt:\n- Sprache: Rumänisch\n- Sprache: Englisch (US) für andere Formatierung von Kommazahlen und Daten\n\nBehoben:\n- Kleinere UI Fehler & Unschönheiten"
