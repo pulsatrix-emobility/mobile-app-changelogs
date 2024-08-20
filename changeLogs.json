@@ -1,31 +1,41 @@
 {
     "current": {
         "iOS": {
-            "version": "1.0.8",
+            "version": "PRE-1.0.9-1",
             "de": {
-                "releaseDate": "26.07.2024",
-                "changeLog": "Hinzugefügt:\n- Sprache: Rumänisch\n- Sprache: Englisch (US) für andere Formatierung von Kommazahlen und Daten\n\nBehoben:\n- Kleinere UI Fehler & Unschönheiten"
+                "releaseDate": "20.08.2024",
+                "changeLog": "Hinzugefügt:\n- Benachrichtigungseinstellungen\n\nBehoben:\n- Account wechseln crasht die App"
             },
             "en": {
-                "releaseDate": "07/26/2024",
-                "changeLog": "Added:\n- Language: Romanian\n- Language: Englisch (US) to support other formats for floating point numbers and dates\n\nFixed:\n- Minor UI bugs & imperfections"
+                "releaseDate": "08/20/2024",
+                "changeLog": "Added:\n- Notificaion settings\n\nFixed:\n- Switching accounts crashes the app"
             },
             "hidden": false
         },
         "android": {
-            "version": "1.0.8",
+            "version": "PRE-1.0.9-1",
             "de": {
-                "releaseDate": "26.07.2024",
-                "changeLog": "Hinzugefügt:\n- Sprache: Rumänisch\n- Sprache: Englisch (US) für andere Formatierung von Kommazahlen und Daten\n\nBehoben:\n- Kleinere UI Fehler & Unschönheiten"
+                "releaseDate": "20.08.2024",
+                "changeLog": "Hinzugefügt:\n- Benachrichtigungseinstellungen"
             },
             "en": {
-                "releaseDate": "07/26/2024",
-                "changeLog": "Added:\n- Language: Romanian\n- Language: Englisch (US) to support other formats for floating point numbers and dates\n\nFixed:\n- Minor UI bugs & imperfections"
+                "releaseDate": "08/20/2024",
+                "changeLog": "Added:\n- Notificaion settings"
             },
             "hidden": false
         }
     },
     "iOS": {
+        "1.0.8": {
+            "de": {
+                "releaseDate": "26.07.2024",
+                "changeLog": "Hinzugefügt:\n- Sprache: Rumänisch\n- Sprache: Englisch (US) für andere Formatierung von Kommazahlen und Daten\n\nBehoben:\n- Kleinere UI Fehler & Unschönheiten"
+            },
+            "en": {
+                "releaseDate": "07/26/2024",
+                "changeLog": "Added:\n- Language: Romanian\n- Language: Englisch (US) to support other formats for floating point numbers and dates\n\nFixed:\n- Minor UI bugs & imperfections"
+            }
+        },
         "PRE-1.0.8-1": {
             "de": {
                 "releaseDate": "28.05.2024",
@@ -408,6 +418,16 @@
         }
     },
     "android": {
+        "1.0.8": {
+            "de": {
+                "releaseDate": "26.07.2024",
+                "changeLog": "Hinzugefügt:\n- Sprache: Rumänisch\n- Sprache: Englisch (US) für andere Formatierung von Kommazahlen und Daten\n\nBehoben:\n- Kleinere UI Fehler & Unschönheiten"
+            },
+            "en": {
+                "releaseDate": "07/26/2024",
+                "changeLog": "Added:\n- Language: Romanian\n- Language: Englisch (US) to support other formats for floating point numbers and dates\n\nFixed:\n- Minor UI bugs & imperfections"
+            }
+        },
         "PRE-1.0.8-1": {
             "de": {
                 "releaseDate": "28.05.2024",
