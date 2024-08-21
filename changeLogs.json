@@ -1,7 +1,32 @@
 {
     "current": {
         "iOS": {
-            "version": "PRE-1.0.9-1",
+            "version": "PRE-1.0.9-2",
+            "de": {
+                "releaseDate": "21.08.2024",
+                "changeLog": "Behoben:\n- Benachrichtigungseinstellungen werden nicht korrekt gespeichert"
+            },
+            "en": {
+                "releaseDate": "08/21/2024",
+                "changeLog": "Fixed:\n- Notification settings are not saved correctly"
+            },
+            "hidden": false
+        },
+        "android": {
+            "version": "PRE-1.0.9-2",
+            "de": {
+                "releaseDate": "21.08.2024",
+                "changeLog": "Behoben:\n- Benachrichtigungseinstellungen werden nicht korrekt gespeichert"
+            },
+            "en": {
+                "releaseDate": "08/21/2024",
+                "changeLog": "Fixed:\n- Notification settings are not saved correctly"
+            },
+            "hidden": true
+        }
+    },
+    "iOS": {
+        "PRE-1.0.9-1": {
             "de": {
                 "releaseDate": "20.08.2024",
                 "changeLog": "Hinzugefügt:\n- Benachrichtigungseinstellungen\n\nBehoben:\n- Account wechseln crasht die App"
@@ -9,23 +34,8 @@
             "en": {
                 "releaseDate": "08/20/2024",
                 "changeLog": "Added:\n- Notificaion settings\n\nFixed:\n- Switching accounts crashes the app"
-            },
-            "hidden": false
+            }
         },
-        "android": {
-            "version": "PRE-1.0.9-1",
-            "de": {
-                "releaseDate": "20.08.2024",
-                "changeLog": "Hinzugefügt:\n- Benachrichtigungseinstellungen"
-            },
-            "en": {
-                "releaseDate": "08/20/2024",
-                "changeLog": "Added:\n- Notificaion settings"
-            },
-            "hidden": false
-        }
-    },
-    "iOS": {
         "1.0.8": {
             "de": {
                 "releaseDate": "26.07.2024",
@@ -418,6 +428,16 @@
         }
     },
     "android": {
+        "PRE-1.0.9-1": {
+            "de": {
+                "releaseDate": "20.08.2024",
+                "changeLog": "Hinzugefügt:\n- Benachrichtigungseinstellungen"
+            },
+            "en": {
+                "releaseDate": "08/20/2024",
+                "changeLog": "Added:\n- Notificaion settings"
+            }
+        },
         "1.0.8": {
             "de": {
                 "releaseDate": "26.07.2024",
