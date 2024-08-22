@@ -22,7 +22,7 @@
                 "releaseDate": "08/21/2024",
                 "changeLog": "Fixed:\n- Notification settings are not saved correctly"
             },
-            "hidden": true
+            "hidden": false
         }
     },
     "iOS": {
