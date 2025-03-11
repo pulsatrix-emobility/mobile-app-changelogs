@@ -1,11 +1,6 @@
 {
     "android": {
-        "*": [
-            {
-                "de": "Report issues Funktion ist auf Android temporär nicht verfügbar.",
-                "en": "Report issues function is temporarily not available on Android."
-            }
-        ],
+        "*": [],
         "0": [],
         "1": [],
         "2": []

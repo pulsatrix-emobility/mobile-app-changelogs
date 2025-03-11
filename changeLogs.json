@@ -1,31 +1,41 @@
 {
     "current": {
         "iOS": {
-            "version": "PRE-1.0.9-2",
+            "version": "PRE-1.0.9-3",
             "de": {
-                "releaseDate": "21.08.2024",
-                "changeLog": "Behoben:\n- Benachrichtigungseinstellungen werden nicht korrekt gespeichert"
+                "releaseDate": "11.03.2025",
+                "changeLog": "Hinzugefügt:\n- Neues multi-platform Design\n- An die WebApp angepasste Ladestatus-Farben\n- Neue Ladegruppen Logik löst PowerDomain Logik ab\n\n⚠️ Benachrichtigungseinstellungen sind aufgrund eines noch unbekannten Fehlers nicht verfügbar."
             },
             "en": {
-                "releaseDate": "08/21/2024",
-                "changeLog": "Fixed:\n- Notification settings are not saved correctly"
+                "releaseDate": "03/11/2025",
+                "changeLog": "Added:\n- New multi-platform design\n- Charging status colors adapted to the WebApp\n- New charging group logic replaces PowerDomain logic\n\n⚠️ Notification settings are not available due to an unknown error."
             },
-            "hidden": false
+            "hidden": true
         },
         "android": {
-            "version": "PRE-1.0.9-2",
+            "version": "PRE-1.0.9-3",
             "de": {
-                "releaseDate": "21.08.2024",
-                "changeLog": "Behoben:\n- Benachrichtigungseinstellungen werden nicht korrekt gespeichert"
+                "releaseDate": "11.03.2025",
+                "changeLog": "Hinzugefügt:\n- Neues multi-platform Design\n- An die WebApp angepasste Ladestatus-Farben\n- Neue Ladegruppen Logik löst PowerDomain Logik ab\n\n⚠️ Benachrichtigungseinstellungen sind aufgrund eines noch unbekannten Fehlers nicht verfügbar."
             },
             "en": {
-                "releaseDate": "08/21/2024",
-                "changeLog": "Fixed:\n- Notification settings are not saved correctly"
+                "releaseDate": "03/11/2025",
+                "changeLog": "Added:\n- New multi-platform design\n- Charging status colors adapted to the WebApp\n- New charging group logic replaces PowerDomain logic\n\n⚠️ Notification settings are not available due to an unknown error."
             },
-            "hidden": false
+            "hidden": true
         }
     },
     "iOS": {
+        "PRE-1.0.9-2": {
+            "de": {
+                "releaseDate": "21.08.2024",
+                "changeLog": "Behoben:\n- Benachrichtigungseinstellungen werden nicht korrekt gespeichert"
+            },
+            "en": {
+                "releaseDate": "08/21/2024",
+                "changeLog": "Fixed:\n- Notification settings are not saved correctly"
+            }
+        },
         "PRE-1.0.9-1": {
             "de": {
                 "releaseDate": "20.08.2024",
@@ -428,6 +438,16 @@
         }
     },
     "android": {
+        "PRE-1.0.9-2": {
+            "de": {
+                "releaseDate": "21.08.2024",
+                "changeLog": "Behoben:\n- Benachrichtigungseinstellungen werden nicht korrekt gespeichert"
+            },
+            "en": {
+                "releaseDate": "08/21/2024",
+                "changeLog": "Fixed:\n- Notification settings are not saved correctly"
+            }
+        },
         "PRE-1.0.9-1": {
             "de": {
                 "releaseDate": "20.08.2024",
