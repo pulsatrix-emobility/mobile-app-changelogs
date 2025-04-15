@@ -22,7 +22,7 @@
                 "releaseDate": "04/15/2025",
                 "changeLog": "Added:\n- Status colors uniform to the pulsatrix Webapp\n- More efficient UI"
             },
-            "hidden": true
+            "hidden": false
         }
     },
     "iOS": {
