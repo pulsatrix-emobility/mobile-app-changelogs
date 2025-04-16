@@ -1,19 +1,32 @@
 {
     "current": {
         "iOS": {
-            "version": "1.0.9",
+            "version": "1.0.9_1",
             "de": {
-                "releaseDate": "15.04.2025",
-                "changeLog": "Hinzugefügt:\n- Einheitliche Statusfarben zur pulsatrix Webapp\n- Effizientere Benutzeroberfläche"
+                "releaseDate": "16.04.2025",
+                "changeLog": "Hinzugefügt:\n- Neue Anmeldeumgebung"
             },
             "en": {
-                "releaseDate": "04/15/2025",
-                "changeLog": "Added:\n- Status colors uniform to the pulsatrix Webapp\n- More efficient UI"
+                "releaseDate": "04/16/2025",
+                "changeLog": "Added:\n- New authentication environment"
             },
             "hidden": false
         },
         "android": {
-            "version": "1.0.9",
+            "version": "1.0.9_1",
+            "de": {
+                "releaseDate": "16.04.2025",
+                "changeLog": "Hinzugefügt:\n- Neue Anmeldeumgebung"
+            },
+            "en": {
+                "releaseDate": "04/16/2025",
+                "changeLog": "Added:\n- New authentication environment"
+            },
+            "hidden": true
+        }
+    },
+    "iOS": {
+        "1.0.9": {
             "de": {
                 "releaseDate": "15.04.2025",
                 "changeLog": "Hinzugefügt:\n- Einheitliche Statusfarben zur pulsatrix Webapp\n- Effizientere Benutzeroberfläche"
@@ -21,11 +34,8 @@
             "en": {
                 "releaseDate": "04/15/2025",
                 "changeLog": "Added:\n- Status colors uniform to the pulsatrix Webapp\n- More efficient UI"
-            },
-            "hidden": false
-        }
-    },
-    "iOS": {
+            }
+        },
         "PRE-1.0.9-3":{ 
             "de": {
                 "releaseDate": "11.03.2025",
@@ -448,6 +458,16 @@
         }
     },
     "android": {
+        "1.0.9": {
+            "de": {
+                "releaseDate": "15.04.2025",
+                "changeLog": "Hinzugefügt:\n- Einheitliche Statusfarben zur pulsatrix Webapp\n- Effizientere Benutzeroberfläche"
+            },
+            "en": {
+                "releaseDate": "04/15/2025",
+                "changeLog": "Added:\n- Status colors uniform to the pulsatrix Webapp\n- More efficient UI"
+            }
+        },
         "PRE-1.0.9-3": {
             "de": {
                 "releaseDate": "11.03.2025",
