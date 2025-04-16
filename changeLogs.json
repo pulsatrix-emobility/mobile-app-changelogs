@@ -10,7 +10,7 @@
                 "releaseDate": "04/16/2025",
                 "changeLog": "Added:\n- New authentication environment"
             },
-            "hidden": false
+            "hidden": true
         },
         "android": {
             "version": "1.0.9_1",
@@ -22,7 +22,7 @@
                 "releaseDate": "04/16/2025",
                 "changeLog": "Added:\n- New authentication environment"
             },
-            "hidden": true
+            "hidden": false
         }
     },
     "iOS": {
