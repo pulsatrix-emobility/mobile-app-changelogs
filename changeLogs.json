@@ -1,31 +1,41 @@
 {
     "current": {
         "iOS": {
-            "version": "1.0.9_1",
+            "version": "1.0.10",
             "de": {
-                "releaseDate": "16.04.2025",
-                "changeLog": "Hinzugefügt:\n- Neue Anmeldeumgebung"
+                "releaseDate": "10.05.2025",
+                "changeLog": "Hinzugefügt:\n- RFID-Karten Registrierung mit NFC\n\nGeändert:\n- Neue Anmeldeumgebung (für Producation)"
             },
             "en": {
-                "releaseDate": "04/16/2025",
-                "changeLog": "Added:\n- New authentication environment"
+                "releaseDate": "05/10/2025",
+                "changeLog": "Added:\n- RFID card registration with NFC\n\nChanged:\n- New producation authentication environment"
             },
-            "hidden": false
+            "hidden": true
         },
         "android": {
-            "version": "1.0.9_1",
+            "version": "1.0.10",
             "de": {
-                "releaseDate": "16.04.2025",
-                "changeLog": "Hinzugefügt:\n- Neue Anmeldeumgebung"
+                "releaseDate": "10.05.2025",
+                "changeLog": "Geändert:\n- Neue Anmeldeumgebung (für Producation)"
             },
             "en": {
-                "releaseDate": "04/16/2025",
-                "changeLog": "Added:\n- New authentication environment"
+                "releaseDate": "05/10/2025",
+                "changeLog": "Changed:\n- New producation authentication environment"
             },
-            "hidden": false
+            "hidden": true
         }
     },
     "iOS": {
+        "1.0.9_1": {
+            "de": {
+                "releaseDate": "16.04.2025",
+                "changeLog": "Hinzugefügt:\n- Neue Anmeldeumgebung"
+            },
+            "en": {
+                "releaseDate": "04/16/2025",
+                "changeLog": "Added:\n- New authentication environment"
+            }
+        },
         "1.0.9": {
             "de": {
                 "releaseDate": "15.04.2025",
@@ -458,6 +468,16 @@
         }
     },
     "android": {
+        "1.0.9_1": {
+            "de": {
+                "releaseDate": "16.04.2025",
+                "changeLog": "Hinzugefügt:\n- Neue Anmeldeumgebung"
+            },
+            "en": {
+                "releaseDate": "04/16/2025",
+                "changeLog": "Added:\n- New authentication environment"
+            }
+        },
         "1.0.9": {
             "de": {
                 "releaseDate": "15.04.2025",
