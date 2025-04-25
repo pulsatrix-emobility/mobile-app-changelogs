@@ -22,7 +22,7 @@
                 "releaseDate": "04/16/2025",
                 "changeLog": "Added:\n- New authentication environment"
             },
-            "hidden": false
+            "hidden": true
         }
     },
     "iOS": {
