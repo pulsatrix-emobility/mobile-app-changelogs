@@ -1,7 +1,7 @@
 {
     "current": {
         "iOS": {
-            "version": "1.0.10",
+            "version": "1.1.0",
             "de": {
                 "releaseDate": "10.05.2025",
                 "changeLog": "Hinzugefügt:\n- RFID-Karten Registrierung mit NFC\n\nGeändert:\n- Neue Anmeldeumgebung (für Production)"
@@ -10,10 +10,10 @@
                 "releaseDate": "05/10/2025",
                 "changeLog": "Added:\n- RFID card registration with NFC\n\nChanged:\n- New production authentication environment"
             },
-            "hidden": true
+            "hidden": false
         },
         "android": {
-            "version": "1.0.10",
+            "version": "1.1.0",
             "de": {
                 "releaseDate": "10.05.2025",
                 "changeLog": "Geändert:\n- Neue Anmeldeumgebung (für Production)"
@@ -22,7 +22,7 @@
                 "releaseDate": "05/10/2025",
                 "changeLog": "Changed:\n- New production authentication environment"
             },
-            "hidden": true
+            "hidden": false
         }
     },
     "iOS": {
