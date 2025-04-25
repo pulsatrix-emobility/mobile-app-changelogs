@@ -13,16 +13,16 @@
             "hidden": false
         },
         "android": {
-            "version": "1.0.9_1",
+            "version": "1.1.1",
             "de": {
-                "releaseDate": "16.04.2025",
-                "changeLog": "Hinzugefügt:\n- Neue Anmeldeumgebung"
+                "releaseDate": "25.04.2025",
+                "changeLog": "Rollback:\n- prod authentication environment"
             },
             "en": {
-                "releaseDate": "04/16/2025",
-                "changeLog": "Added:\n- New authentication environment"
+                "releaseDate": "04/25/2025",
+                "changeLog": "Rollback:\n- prod authentication environment"
             },
-            "hidden": true
+            "hidden": false
         }
     },
     "iOS": {
@@ -458,6 +458,16 @@
         }
     },
     "android": {
+        "1.0.9_1": {
+            "de": {
+                "releaseDate": "16.04.2025",
+                "changeLog": "Hinzugefügt:\n- Neue Anmeldeumgebung"
+            },
+            "en": {
+                "releaseDate": "04/16/2025",
+                "changeLog": "Added:\n- New authentication environment"
+            }
+        },
         "1.0.9": {
             "de": {
                 "releaseDate": "15.04.2025",
