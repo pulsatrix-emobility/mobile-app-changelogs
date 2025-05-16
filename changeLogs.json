@@ -1,31 +1,41 @@
 {
     "current": {
         "iOS": {
-            "version": "1.1.2",
+            "version": "1.1.3",
             "de": {
-                "releaseDate": "10.05.2025",
-                "changeLog": "Hinzugefügt:\n- RFID-Karten Registrierung mit NFC\n\nGeändert:\n- Neue Anmeldeumgebung (für Production)"
+                "releaseDate": "16.05.2025",
+                "changeLog": "Behoben:\n- Uhrzeitenformat ist nicht sprachspezifisch"
             },
             "en": {
-                "releaseDate": "05/10/2025",
-                "changeLog": "Added:\n- RFID card registration with NFC\n\nChanged:\n- New production authentication environment"
+                "releaseDate": "05/16/2025",
+                "changeLog": "Fixed:\n- Time format is not language specific"
             },
             "hidden": false
         },
         "android": {
-            "version": "1.1.2",
+            "version": "1.1.3",
             "de": {
-                "releaseDate": "10.05.2025",
-                "changeLog": "Geändert:\n- Neue Anmeldeumgebung (für Production)"
+                "releaseDate": "16.05.2025",
+                "changeLog": "Behoben:\n- Uhrzeitenformat ist nicht sprachspezifisch"
             },
             "en": {
-                "releaseDate": "05/10/2025",
-                "changeLog": "Changed:\n- New production authentication environment"
+                "releaseDate": "05/16/2025",
+                "changeLog": "Fixed:\n- Time format is not language specific"
             },
             "hidden": false
         }
     },
     "iOS": {
+        "1.1.2": {
+            "de": {
+                "releaseDate": "16.05.2025",
+                "changeLog": "Hinzugefügt:\n- RFID-Karten Registrierung mit NFC\n\nGeändert:\n- Neue Anmeldeumgebung (für Production)"
+            },
+            "en": {
+                "releaseDate": "05/16/2025",
+                "changeLog": "Added:\n- RFID card registration with NFC\n\nChanged:\n- New production authentication environment"
+            }
+        },
         "1.0.9_1": {
             "de": {
                 "releaseDate": "16.04.2025",
@@ -468,6 +478,16 @@
         }
     },
     "android": {
+        "1.1.2": {
+            "de": {
+                "releaseDate": "16.05.2025",
+                "changeLog": "Hinzugefügt:\n- RFID-Karten Registrierung mit NFC\n\nGeändert:\n- Neue Anmeldeumgebung (für Production)"
+            },
+            "en": {
+                "releaseDate": "05/16/2025",
+                "changeLog": "Added:\n- RFID card registration with NFC\n\nChanged:\n- New production authentication environment"
+            }
+        },
         "1.1.1": {
             "de": {
                 "releaseDate": "10.05.2025",
