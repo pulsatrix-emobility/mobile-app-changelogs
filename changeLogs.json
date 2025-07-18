@@ -478,6 +478,16 @@
         }
     },
     "android": {
+        "1.1.6": {
+            "de": {
+                "releaseDate": "18.07.2025",
+                "changeLog": "Unterstützung für neuste Android-Versionen."
+            },
+            "en": {
+                "releaseDate": "07/18/2025",
+                "changeLog": "Support for latest Android versions."
+            }
+        },
         "1.1.3": {
             "de": {
                 "releaseDate": "16.05.2025",
