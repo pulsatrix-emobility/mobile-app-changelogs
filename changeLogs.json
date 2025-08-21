@@ -26,6 +26,16 @@
         }
     },
     "iOS": {
+        "1.1.8": {
+            "de": {
+                "releaseDate": "21.08.2025",
+                "changeLog": "- UI für Transaktionsdaten reduziert bei Ladepunkten ohne aktive Transaktion\n- Anzeige der sichtbaren/gesamten Ladepunkte bei aktiven Filtern\n- Neue Einstellungen für Datums-, Zeit- und Zahlenformate\n- Möglichkeit, laufende Ladevorgänge direkt aus der App zu beenden\n- Neuer Indikator (\"Ampel\") für die Leistungsauslastung eines Ladeparks, bzw. verfügbarer Ressourcen am Ladepunkt\n- Überarbeitete Übersetzungen"
+            },
+            "en": {
+                "releaseDate": "08/21/2025",
+                "changeLog": "- UI for transaction data simplified for charging points without active transactions\n- Display of visible/total charging points when filters are active\n- New settings for date, time, and number formats\n- Ability to end ongoing charging processes directly from the app\n- New indicator (\"traffic light\") for the power utilization of a charging park or available resources at the charging point\n- Revised translations\n"
+            }
+        },
         "1.1.7": {
             "de": {
                 "releaseDate": "31.07.2025",
@@ -488,6 +498,16 @@
         }
     },
     "android": {
+        "1.1.8": {
+            "de": {
+                "releaseDate": "21.08.2025",
+                "changeLog": "- UI für Transaktionsdaten reduziert bei Ladepunkten ohne aktive Transaktion\n- Anzeige der sichtbaren/gesamten Ladepunkte bei aktiven Filtern\n- Neue Einstellungen für Datums-, Zeit- und Zahlenformate\n- Möglichkeit, laufende Ladevorgänge direkt aus der App zu beenden\n- Neuer Indikator (\"Ampel\") für die Leistungsauslastung eines Ladeparks, bzw. verfügbarer Ressourcen am Ladepunkt\n- Überarbeitete Übersetzungen"
+            },
+            "en": {
+                "releaseDate": "08/21/2025",
+                "changeLog": "- UI for transaction data simplified for charging points without active transactions\n- Display of visible/total charging points when filters are active\n- New settings for date, time, and number formats\n- Ability to end ongoing charging processes directly from the app\n- New indicator (\"traffic light\") for the power utilization of a charging park or available resources at the charging point\n- Revised translations\n"
+            }
+        },
         "1.1.7": {
             "de": {
                 "releaseDate": "31.07.2025",
