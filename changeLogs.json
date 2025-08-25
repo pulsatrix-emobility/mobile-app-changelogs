@@ -29,11 +29,11 @@
         "1.2.0": {
             "de": {
                 "releaseDate": "26.08.2025",
-                "changeLog": "- Probleme mit biometrischer Anmeldung behoben\n- Benutzeroberfläche für Umgebungswechsel verbessert\n- mehr Vorschauwerte in den Einstellungen\n- QR-Scan Kamerafehler behoben\n- Tastatursprache passt sich der App-Sprache an"
+                "changeLog": "- Probleme mit biometrischer Anmeldung behoben\n- Benutzeroberfläche für Umgebungswechsel verbessert\n- zusätzliche Benutzerprofile können nun vom Gerät gelöscht werden\n- mehr Vorschauwerte in den Einstellungen\n- QR-Scan Kamerafehler behoben\n- Tastatursprache passt sich der App-Sprache an"
             },
             "en": {
                 "releaseDate": "08/26/2025",
-                "changeLog": "- Fixed biometric login issues\n- Improved user account interface for switching environments\n- Added more preview options in settings\n- Resolved QR scanning camera issue\n- Keyboard language now syncs with app language"
+                "changeLog": "- Fixed biometric login issues\n- Improved user account interface for switching environments\n- Additional accounts can now be deleted from the device\n- Added more preview options in settings\n- Resolved QR scanning camera issue\n- Keyboard language now syncs with app language"
             }
         },
         "1.1.8": {
@@ -511,11 +511,11 @@
         "1.2.0": {
             "de": {
                 "releaseDate": "26.08.2025",
-                "changeLog": "- Probleme mit biometrischer Anmeldung behoben\n- Benutzeroberfläche für Umgebungswechsel verbessert\n- mehr Vorschauwerte in den Einstellungen\n- NFC-Einstellungen für direkten Zugriff optimiert"
+                "changeLog": "- Probleme mit biometrischer Anmeldung behoben\n- Benutzeroberfläche für Umgebungswechsel verbessert\n- zusätzliche Benutzerprofile können nun vom Gerät gelöscht werden\n- mehr Vorschauwerte in den Einstellungen\n- NFC-Einstellungen für direkten Zugriff optimiert"
             },
             "en": {
                 "releaseDate": "08/26/2025",
-                "changeLog": "- Fixed biometric login issues\n- Improved user account interface for switching environments\n- Added more preview options in settings\n- Enhanced NFC settings for direct access"
+                "changeLog": "- Fixed biometric login issues\n- Improved user account interface for switching environments\n- Additional accounts can now be deleted from the device\n- Added more preview options in settings\n- Enhanced NFC settings for direct access"
             }
         },
         "1.1.8": {
