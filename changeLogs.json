@@ -26,6 +26,16 @@
         }
     },
     "iOS": {
+        "1.2.0": {
+            "de": {
+                "releaseDate": "26.08.2025",
+                "changeLog": "- Probleme mit biometrischer Anmeldung behoben\n- Benutzeroberfläche für Umgebungswechsel verbessert\n- mehr Vorschauwerte in den Einstellungen\n- QR-Scan Kamerafehler behoben\n- Tastatursprache passt sich der App-Sprache an"
+            },
+            "en": {
+                "releaseDate": "08/26/2025",
+                "changeLog": "- Fixed biometric login issues\n- Improved user account interface for switching environments\n- Added more preview options in settings\n- Resolved QR scanning camera issue\n- Keyboard language now syncs with app language"
+            }
+        },
         "1.1.8": {
             "de": {
                 "releaseDate": "21.08.2025",
@@ -498,6 +508,16 @@
         }
     },
     "android": {
+        "1.2.0": {
+            "de": {
+                "releaseDate": "26.08.2025",
+                "changeLog": "- Probleme mit biometrischer Anmeldung behoben\n- Benutzeroberfläche für Umgebungswechsel verbessert\n- mehr Vorschauwerte in den Einstellungen\n- NFC-Einstellungen für direkten Zugriff optimiert"
+            },
+            "en": {
+                "releaseDate": "08/26/2025",
+                "changeLog": "- Fixed biometric login issues\n- Improved user account interface for switching environments\n- Added more preview options in settings\n- Enhanced NFC settings for direct access"
+            }
+        },
         "1.1.8": {
             "de": {
                 "releaseDate": "21.08.2025",
