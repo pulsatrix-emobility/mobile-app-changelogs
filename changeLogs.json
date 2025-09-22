@@ -26,6 +26,16 @@
         }
     },
     "iOS": {
+        "1.2.2": {
+            "de": {
+                "releaseDate": "22.09.2025",
+                "changeLog": "- Software-interne Verbesserungen"
+            },
+            "en": {
+                "releaseDate": "09/22/2025",
+                "changeLog": "- Software internal improvements"
+            }
+        },
         "1.2.1": {
             "de": {
                 "releaseDate": "05.09.2025",
@@ -518,10 +528,20 @@
         }
     },
     "android": {
+        "1.2.2": {
+            "de": {
+                "releaseDate": "22.09.2025",
+                "changeLog": "- Software-interne Verbesserungen"
+            },
+            "en": {
+                "releaseDate": "09/22/2025",
+                "changeLog": "- Software internal improvements"
+            }
+        },
         "1.2.1": {
             "de": {
                 "releaseDate": "05.09.2025",
-                "changeLog": "- Transaktionen können beim Zustand \"Verbunden\" nicht mehr beendet werden\n- Formatierung und Darstellung der Dauer eines Ladevorgangs vereinheitlicht"
+                    "changeLog": "- Transaktionen können beim Zustand \"Verbunden\" nicht mehr beendet werden\n- Formatierung und Darstellung der Dauer eines Ladevorgangs vereinheitlicht"
             },
             "en": {
                 "releaseDate": "09/05/2025",
