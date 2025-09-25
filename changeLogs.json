@@ -26,6 +26,16 @@
         }
     },
     "iOS": {
+        "1.2.3": {
+            "de": {
+                "releaseDate": "25.09.2025",
+                "changeLog": "- Probleme bei der Live-Daten Synchronisation behoben"
+            },
+            "en": {
+                "releaseDate": "09/25/2025",
+                "changeLog": "- Resolved issues with live data synchronisation"
+            }
+        },
         "1.2.2": {
             "de": {
                 "releaseDate": "22.09.2025",
@@ -528,6 +538,16 @@
         }
     },
     "android": {
+        "1.2.3": {
+            "de": {
+                "releaseDate": "25.09.2025",
+                "changeLog": "- Probleme bei der Live-Daten Synchronisation behoben"
+            },
+            "en": {
+                "releaseDate": "09/25/2025",
+                "changeLog": "- Resolved issues with live data synchronisation"
+            }
+        },
         "1.2.2": {
             "de": {
                 "releaseDate": "22.09.2025",
