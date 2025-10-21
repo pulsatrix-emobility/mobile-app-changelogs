@@ -1,1082 +1,1102 @@
 {
-    "current": {
-        "iOS": {
-            "version": "1.1.7",
-            "de": {
-                "releaseDate": "31.07.2025",
-                "changeLog": "Behoben:\n- Synchronisationsabbruch von Ladepunkt-Live-Daten"
-            },
-            "en": {
-                "releaseDate": "07/31/2025",
-                "changeLog": "Fixed:\n- Sync issues with charging point live data"
-            },
-            "hidden": false
-        },
-        "android": {
-            "version": "1.1.7",
-            "de": {
-                "releaseDate": "31.07.2025",
-                "changeLog": "Behoben:\n- Synchronisationsabbruch von Ladepunkt-Live-Daten"
-            },
-            "en": {
-                "releaseDate": "07/31/2025",
-                "changeLog": "Fixed:\n- Sync issues with charging point live data"
-            },
-            "hidden": false
-        }
-    },
+  "current": {
     "iOS": {
-        "1.2.3": {
-            "de": {
-                "releaseDate": "25.09.2025",
-                "changeLog": "- Probleme bei der Live-Daten Synchronisation behoben"
-            },
-            "en": {
-                "releaseDate": "09/25/2025",
-                "changeLog": "- Resolved issues with live data synchronisation"
-            }
-        },
-        "1.2.2": {
-            "de": {
-                "releaseDate": "22.09.2025",
-                "changeLog": "- Software-interne Verbesserungen"
-            },
-            "en": {
-                "releaseDate": "09/22/2025",
-                "changeLog": "- Software internal improvements"
-            }
-        },
-        "1.2.1": {
-            "de": {
-                "releaseDate": "05.09.2025",
-                "changeLog": "- Transaktionen können beim Zustand \"Verbunden\" nicht mehr beendet werden\n- Formatierung und Darstellung der Dauer eines Ladevorgangs vereinheitlicht"
-            },
-            "en": {
-                "releaseDate": "09/05/2025",
-                "changeLog": "- Transactions can no longer be ended in the \"Connected\" state\n- Unified formatting and display of charging duration"
-            }
-        },
-        "1.2.0": {
-            "de": {
-                "releaseDate": "26.08.2025",
-                "changeLog": "- Probleme mit biometrischer Anmeldung behoben\n- Benutzeroberfläche für Umgebungswechsel verbessert\n- zusätzliche Benutzerprofile können nun vom Gerät gelöscht werden\n- mehr Vorschauwerte in den Einstellungen\n- QR-Scan Kamerafehler behoben\n- Tastatursprache passt sich der App-Sprache an"
-            },
-            "en": {
-                "releaseDate": "08/26/2025",
-                "changeLog": "- Fixed biometric login issues\n- Improved user account interface for switching environments\n- Additional accounts can now be deleted from the device\n- Added more preview options in settings\n- Resolved QR scanning camera issue\n- Keyboard language now syncs with app language"
-            }
-        },
-        "1.1.8": {
-            "de": {
-                "releaseDate": "21.08.2025",
-                "changeLog": "- UI für Transaktionsdaten reduziert bei Ladepunkten ohne aktive Transaktion\n- Anzeige der sichtbaren/gesamten Ladepunkte bei aktiven Filtern\n- Neue Einstellungen für Datums-, Zeit- und Zahlenformate\n- Möglichkeit, laufende Ladevorgänge direkt aus der App zu beenden\n- Neuer Indikator (\"Ampel\") für die Leistungsauslastung eines Ladeparks, bzw. verfügbarer Ressourcen am Ladepunkt\n- Überarbeitete Übersetzungen"
-            },
-            "en": {
-                "releaseDate": "08/21/2025",
-                "changeLog": "- UI for transaction data simplified for charging points without active transactions\n- Display of visible/total charging points when filters are active\n- New settings for date, time, and number formats\n- Ability to end ongoing charging processes directly from the app\n- New indicator (\"traffic light\") for the power utilization of a charging park or available resources at the charging point\n- Revised translations\n"
-            }
-        },
-        "1.1.7": {
-            "de": {
-                "releaseDate": "31.07.2025",
-                "changeLog": "Behoben:\n- Synchronisationsabbruch von Ladepunkt-Live-Daten"
-            },
-            "en": {
-                "releaseDate": "07/31/2025",
-                "changeLog": "Fixed:\n- Sync issues with charging point live data"
-            }
-        },
-        "1.1.2": {
-            "de": {
-                "releaseDate": "16.05.2025",
-                "changeLog": "Hinzugefügt:\n- RFID-Karten Registrierung mit NFC\n\nGeändert:\n- Neue Anmeldeumgebung (für Production)"
-            },
-            "en": {
-                "releaseDate": "05/16/2025",
-                "changeLog": "Added:\n- RFID card registration with NFC\n\nChanged:\n- New production authentication environment"
-            }
-        },
-        "1.0.9_1": {
-            "de": {
-                "releaseDate": "16.04.2025",
-                "changeLog": "Hinzugefügt:\n- Neue Anmeldeumgebung"
-            },
-            "en": {
-                "releaseDate": "04/16/2025",
-                "changeLog": "Added:\n- New authentication environment"
-            }
-        },
-        "1.0.9": {
-            "de": {
-                "releaseDate": "15.04.2025",
-                "changeLog": "Hinzugefügt:\n- Einheitliche Statusfarben zur pulsatrix Webapp\n- Effizientere Benutzeroberfläche"
-            },
-            "en": {
-                "releaseDate": "04/15/2025",
-                "changeLog": "Added:\n- Status colors uniform to the pulsatrix Webapp\n- More efficient UI"
-            }
-        },
-        "PRE-1.0.9-3":{ 
-            "de": {
-                "releaseDate": "11.03.2025",
-                "changeLog": "Hinzugefügt:\n- Neues multi-platform Design\n- An die WebApp angepasste Ladestatus-Farben\n- Neue Ladegruppen Logik löst PowerDomain Logik ab\n\n⚠️ Benachrichtigungseinstellungen sind aufgrund eines noch unbekannten Fehlers nicht verfügbar."
-            },
-            "en": {
-                "releaseDate": "03/11/2025",
-                "changeLog": "Added:\n- New multi-platform design\n- Charging status colors adapted to the WebApp\n- New charging group logic replaces PowerDomain logic\n\n⚠️ Notification settings are not available due to an unknown error."
-            }
-        },
-        "PRE-1.0.9-2": {
-            "de": {
-                "releaseDate": "21.08.2024",
-                "changeLog": "Behoben:\n- Benachrichtigungseinstellungen werden nicht korrekt gespeichert"
-            },
-            "en": {
-                "releaseDate": "08/21/2024",
-                "changeLog": "Fixed:\n- Notification settings are not saved correctly"
-            }
-        },
-        "PRE-1.0.9-1": {
-            "de": {
-                "releaseDate": "20.08.2024",
-                "changeLog": "Hinzugefügt:\n- Benachrichtigungseinstellungen\n\nBehoben:\n- Account wechseln crasht die App"
-            },
-            "en": {
-                "releaseDate": "08/20/2024",
-                "changeLog": "Added:\n- Notificaion settings\n\nFixed:\n- Switching accounts crashes the app"
-            }
-        },
-        "1.0.8": {
-            "de": {
-                "releaseDate": "26.07.2024",
-                "changeLog": "Hinzugefügt:\n- Sprache: Rumänisch\n- Sprache: Englisch (US) für andere Formatierung von Kommazahlen und Daten\n\nBehoben:\n- Kleinere UI Fehler & Unschönheiten"
-            },
-            "en": {
-                "releaseDate": "07/26/2024",
-                "changeLog": "Added:\n- Language: Romanian\n- Language: Englisch (US) to support other formats for floating point numbers and dates\n\nFixed:\n- Minor UI bugs & imperfections"
-            }
-        },
-        "PRE-1.0.8-1": {
-            "de": {
-                "releaseDate": "28.05.2024",
-                "changeLog": "Hinzugefügt:\n- Sprache: Rumänisch\n- Sprache: Englisch (US) für andere Formatierung von Kommazahlen und Daten\n\nBehoben:\n- Kleinere UI Fehler & Unschönheiten"
-            },
-            "en": {
-                "releaseDate": "05/28/2024",
-                "changeLog": "Added:\n- Language: Romanian\n- Language: Englisch (US) to support other formats for floating point numbers and dates\n\nFixed:\n- Minor UI bugs & imperfections"
-            }
-        },
-        "1.0.7": {
-            "de": {
-                "releaseDate": "13.03.2024",
-                "changeLog": "Behoben:\n- Vergangene Transaktionen zeigen falsche kW Summe an\n- Vergangene Transaktionen Liste aktualisiert sich beim scrollen nicht korrekt"
-            },
-            "en": {
-                "releaseDate": "03/13/2024",
-                "changeLog": "Fixed:\n- Past transactions show incorrect kW values\n- Past transaction list does not update corrextly on scroll"
-            }
-        },
-        "PRE-1.0.7-6": {
-            "de": {
-                "releaseDate": "12.03.2024",
-                "changeLog": "Hinzugefügt:\n- RFID Tokens werden seperat vom Nutzer angezeigt\n\nBehoben:\n- Accountwechsel nicht möglich\n- Sprachenwechsel nicht möglich"
-            },
-            "en": {
-                "releaseDate": "03/12/2024",
-                "changeLog": "Added:\n- RFID Tokens get displayed seperatly from usernames\n\nFixed:\n- Account switching not possible\n- Language switching not possible"
-            }
-        },
-        "PRE-1.0.7-5": {
-            "de": {
-                "releaseDate": "12.03.2024",
-                "changeLog": "Hinzugefügt:\n- Umgebungsspezifische Berechnung des Transaktionsstatus\n\nBehoben:\n- Laufende Transaktionen zeigen in der Produktionsumgebung keine Werte an"
-            },
-            "en": {
-                "releaseDate": "03/12/2024",
-                "changeLog": "Added:\n- Environment dependend calculation of transaction states\n\nFixed:\n- Active transactions don't show any values in production"
-            }
-        },
-        "PRE-1.0.7-4": {
-            "de": {
-                "releaseDate": "11.03.2024",
-                "changeLog": "Behoben:\n- Laufende Transaktionen zeigen in der Produktionsumgebung keine Werte an"
-            },
-            "en": {
-                "releaseDate": "03/11/2024",
-                "changeLog": "Fixed:\n- Active transactions don't show any values in production"
-            }
-        },
-        "PRE-1.0.7-3": {
-            "de": {
-                "releaseDate": "01.03.2024",
-                "changeLog": "Behoben:\n- Vergangene Transaktionen zeigen falsche kW Summe an\n- Vergangene Transaktionen Liste aktualisiert sich inkorrekt beim scrollen"
-            },
-            "en": {
-                "releaseDate": "03/01/2024",
-                "changeLog": "Fixed:\n- Past transactions show incorrect kW total\n- Past transactions list does not update correctly on scroll"
-            }
-        },
-        "PRE-1.0.7-2": {
-            "de": {
-                "releaseDate": "17.01.2024",
-                "changeLog": "Hinzugefügt:\n- Abmelden button bei Account wieder herstellen Ansicht"
-            },
-            "en": {
-                "releaseDate": "01/17/2024",
-                "changeLog": "Added:\n- SignOut button in recover account screen"
-            }
-        },
-        "PRE-1.0.7-1": {
-            "de": {
-                "releaseDate": "08.01.2024",
-                "changeLog": "Geändert:\n- Passwort anzeigen Icon Sichtbarkeit behoben\n\nEntfernt:\n- Maximaler Strom Anzeige bei Transaktionen Details"
-            },
-            "en": {
-                "releaseDate": "01/08/2024",
-                "changeLog": "Chnaged:\n- Fixed show icon password visibility\n\nRemoved:\n- Max power in detailed transactions"
-            }
-        },
-        "1.0.6": {
-            "de": {
-                "releaseDate": "30.11.2023",
-                "changeLog": "Hinzugefügt:\n- Letzte Nachricht vom Server Indikator in den Details einer laufenden Transaktion\n\nBehoben:\n- Flackernde Anzeige in der Ladepunktliste"
-            },
-            "en": {
-                "releaseDate": "11/30/2023",
-                "changeLog": "Added:\n- Last message from server indicator in the details of a active transaction\n\nFixed:\n- Flickering in charging point list"
-            }
-        },
-        "1.0.5": {
-            "de": {
-                "releaseDate": "29.09.2023",
-                "changeLog": "Behoben:\n- Transaktionen werden nicht angezeigt\n- Ladevorgänge können nicht übernommen werden\n- Zu große Schriftarten machen Teile der App unnutzbar"
-            },
-            "en": {
-                "releaseDate": "09/29/2023",
-                "changeLog": "Fixed:\n- Transactions are not displayed\n- Active transactions cannot be assigned to your account\n- Fonts that are too large make parts of the app unusable"
-            }
-        },
-        "1.0.4": {
-            "de": {
-                "releaseDate": "18.08.2023",
-                "changeLog": "Hinzugefügt:\n- Anzeige für zu meinem Account zugewiesenen, aktiven Transaktionen\n- 'Pausiert durch Fahrzeug' Status\n- Unendliche RFID-Karten Lebensdauer\n- Hinzufügen von RFID Karten über pulsatrix Ladepunkte\n\nBehoben:\n- Ladestationen zeigen falschen Status an\n- Extrem hoher Datenverbrauch\n- Nutzer können aus unerklärlichen Gründen Transaktionen nicht übernehmen\n- Webseite und App nutzen unterschiedliche Bezeichnungen und zeigen komplett andere Dinge an\n- Zu lange RFID-Karten Namen schieben das Logo über den Kartenrand"
-            },
-            "en": {
-                "releaseDate": "08/18/2023",
-                "changeLog": "Added:\n- Display for active transactions that are assigned to my account\n- 'Suspended by vehicle' state\n- Unlimited RFID-Card lifespand\n- Add RFID cards with pulsatrix charging points\n\nFixed:\n- Charging points display incorrect state\n- Extremly high data usage\n- Users can't assume ownership of transactions for seemingly no reason\n- Webapp and mobile-app use different names and display completely different states\n- To long RFID-Card names push the logo over the card border"
-            }
-        },
-        "PRE-1.0.4-7": {
-            "de": {
-                "releaseDate": "13.08.2023",
-                "changeLog": "Hinzugefügt:\n- 'Pausiert durch Fahrzeug' Status\n- Schnelles Wechseln zwischen mehreren Konten\n\nBehoben:\n- Ladestationen zeigen falschen Status an\n- Extrem hoher Datenverbrauch"
-            },
-            "en": {
-                "releaseDate": "08/13/2023",
-                "changeLog": "Added:\n- 'Suspended by vehicle' state\n- Account hotswitching\n\nFixed:\n- Charging points display incorrect state\n- Extremly high data usage"
-            }
-        },
-        "PRE-1.0.4-6": {
-            "de": {
-                "releaseDate": "29.07.2023",
-                "changeLog": "Hinzugefügt:\n- Erweiterte Optionen über REST API\n\nGeändert:\n- Neues Datum für unendliche RFID Karten"
-            },
-            "en": {
-                "releaseDate": "07/29/2023",
-                "changeLog": "Added:\n- Advanced Options over REST API\n\nChanged:\n- New date for unlimited RFID cards"
-            }
-        },
-        "PRE-1.0.4-5": {
-            "de": {
-                "releaseDate": "26.07.2023",
-                "changeLog": "Hinzugefügt:\n- Hinzufügen von RFID Karten über pulsatrix Ladepunkte\n- Hinzufügen von RFID Karten über NFC/RFID am Handy (Nur auf TEST verfügbar)\n- Can-Connect Werte werden am Anfang einmal veruscht zu laden und geben einen Fehler aus wenn sie nicht gelesen werden können"
-            },
-            "en": {
-                "releaseDate": "07/26/2023",
-                "changeLog": "Added:\n- Add RFID cards with pulsatrix charging points\n- Adding RFID cards with NFC/RFID using your phone (Only available in TEST)\n- Can-Connect values are read once at the beginning and show an error if they can not be read"
-            }
-        },
-        "PRE-1.0.4-4": {
-            "de": {
-                "releaseDate": "26.07.2023",
-                "changeLog": "Hinzugefügt:\n- Anzeige für zu meinem Account zugewiesenen, aktiven Transaktionen"
-            },
-            "en": {
-                "releaseDate": "07/26/2023",
-                "changeLog": "Added:\n- Display for active transactions that are assigned to my account"
-            }
-        },
-        "PRE-1.0.4-3": {
-            "de": {
-                "releaseDate": "24.07.2023",
-                "changeLog": "Hinzugefügt:\n- Einfache Implementierung von einer Can-Connect Debug Seite (Nur für Techniker)\n\nBehoben:\n- Nutzer können aus unerklärlichen Gründen Transaktionen nicht übernehmen"
-            },
-            "en": {
-                "releaseDate": "07/24/2023",
-                "changeLog": "Added:\n- Basic Can-Connect Debug screen (for technicians only)\n\nFixed:\n- Users can't assume ownership of transactions for seemingly no reason"
-            }
-        },
-        "PRE-1.0.4-2": {
-            "de": {
-                "releaseDate": "23.07.2023",
-                "changeLog": "Hinzugefügt:\n- Einfache Implementierung von erweiterten Optionen (Nur für Techniker)"
-            },
-            "en": {
-                "releaseDate": "07/23/2023",
-                "changeLog": "Added:\n- Basic advanced options (for technicians only)"
-            }
-        },
-        "PRE-1.0.4-1": {
-            "de": {
-                "releaseDate": "21.07.2023",
-                "changeLog": "Hinzugefügt:\n- Unendliche RFID-Karten Lebensdauer\n\nBehoben:\n- Webseite und App nutzen unterschiedliche Bezeichnungen und zeigen komplett andere Dinge an\n- Zu lange RFID-Karten Namen schieben das Logo über den Kartenrand"
-            },
-            "en": {
-                "releaseDate": "07/21/2023",
-                "changeLog": "Added:\n- Unlimited RFID-Card lifespand\n\nFixed:\n- Webapp and mobile-app use different names and display completely different states\n- To long RFID-Card names push the logo over the card border"
-            }
-        },
-        "1.0.3": {
-            "de": {
-                "releaseDate": "19.04.2023",
-                "changeLog": "Behoben:\n- Grauer Bildschirm bei zu schnellem Wechseln zwischen aktiven Transaktionen"
-            },
-            "en": {
-                "releaseDate": "04/19/2023",
-                "changeLog": "Fixed:\n- Gray screen when switching to fast between active transactions"
-            }
-        },
-        "1.0.2": {
-            "de": {
-                "releaseDate": "12.04.2023",
-                "changeLog": "Hinzugefügt:\n- Kompatibilität für iPad's (BETA)\n- Probleme melden in der App\n\nBehoben:\n- Zu viele Nachkommastellen bei abgeschlossenen Transaktionen"
-            },
-            "en": {
-                "releaseDate": "04/12/2023",
-                "changeLog": "Added:\n- Support for iPad's (BETA)\n- Report issues through the app\n\nFixed:\n- To many floating points on past transactions"
-            }
-        },
-        "PRE-1.0.2-2": {
-            "de": {
-                "releaseDate": "06.04.2023",
-                "changeLog": "Hinzugefügt:\n- Kompatibilität für iPad und MacBook\n\nBehoben:\n- Zu viele Nachkommastellen bei abgeschlossenen Transaktionen"
-            },
-            "en": {
-                "releaseDate": "04/06/2023",
-                "changeLog": "Added:\n- Support for iPad and MacBook\n\nFixed:\n- To many floating points on past transactions"
-            }
-        },
-        "PRE-1.0.2-1": {
-            "de": {
-                "releaseDate": "03.04.2023",
-                "changeLog": "Hinzugefügt:\n- Probleme melden in der App"
-            },
-            "en": {
-                "releaseDate": "04/03/2023",
-                "changeLog": "Added:\n- Report issues through the App"
-            }
-        },
-        "1.0.1": {
-            "de": {
-                "releaseDate": "28.03.2023",
-                "changeLog": "Hinzugefügt:\n- Neuer Filter (Nur freie Ladepunkte anzeigen)\n\nGeändert:\n- Neues Filter GUI\n\nBehoben:\n- \"Station Scannen\" button reagiert an manchen Stellen nicht\n- RFID Karte aktuallisiert ihren Status nach Reaktivierung nicht"
-            },
-            "en": {
-                "releaseDate": "03/28/2023",
-                "changeLog": "Added:\n- New filter (Only show unused charging points)\n\nChanged:\n- New filter GUI\n\nFixed:\n- \"Scan Station\" button doesn't react in some spots\n- RFID Card doesn't update it's state after reactivation"
-            }
-        },
-        "PRE-1.0.1-1": {
-            "de": {
-                "releaseDate": "23.03.2023",
-                "changeLog": "Hinzugefügt:\n- Neuer Filter (Nur freie Ladepunkte anzeigen)\n\nGeändert:\n- Neues Filter GUI\n\nBehoben:\n- \"Station Scannen\" button reagiert an manchen Stellen nicht"
-            },
-            "en": {
-                "releaseDate": "03/23/2023",
-                "changeLog": "Added:\n- New filter (Only show unused charging points)\n\nChanged:\n- New filter GUI\n\nFixed:\n- \"Scan Station\" button doesn't react in some spots"
-            }
-        },
-        "1.0.0": {
-            "de": {
-                "releaseDate": "21.03.2023",
-                "changeLog": "Veröffentlichung! 🎉"
-            },
-            "en": {
-                "releaseDate": "03/21/2023",
-                "changeLog": "Public launch! 🎉"
-            }
-        },
-        "PRE-1.0.0-13": {
-            "de": {
-                "releaseDate": "19.03.2023",
-                "changeLog": "Hinzugefügt:\n- RFID Karten mit einem Ladepunkt hinzufügen (Nur für spezielle Beta Tester)"
-            },
-            "en": {
-                "releaseDate": "03/19/2023",
-                "changeLog": "Added:\n- Add RFID cards with a charging point (Special Beta Testers only)"
-            }
-        },
-        "PRE-1.0.0-12": {
-            "de": {
-                "releaseDate": "17.03.2023",
-                "changeLog": "Entfernt:\n- RFID Karten hinzufügen (temporär)\n\nGeändert:\n- Sortierung für Ladestations Liste (ABC, 123)\n- Kleine Änderungen auf der Anmelden & Registrieren Seite"
-            },
-            "en": {
-                "releaseDate": "03/17/2023",
-                "changeLog": "Removed:\n- Add RFID cards (temporary)\n\nChanged:\n- Sorting for charging stations list (ABC, 123)\n- Small changes on the SignIn & SignUp page"
-            }
-        },
-        "PRE-1.0.0-11": {
-            "de": {
-                "releaseDate": "16.03.2023",
-                "changeLog": "Hinzugefügt:\n- Einstellungen und Verwaltung für RFID Karten\n- Filter für Ladestationen Liste\n\nBehoben:\n- Umlaute werden nicht richtig angezeigt"
-            },
-            "en": {
-                "releaseDate": "03/16/2023",
-                "changeLog": "Added:\n- Settings and management for RFID cards\n- Filter for charging stations list\n\nFixed:\n- Certain letters are not displayed correctly"
-            }
-        },
-        "PRE-1.0.0-10": {
-            "de": {
-                "releaseDate": "08.03.2023",
-                "changeLog": "Behoben:\n- Keine Fehlermeldung wenn die Transaktionsliste leer ist"
-            },
-            "en": {
-                "releaseDate": "03/08/2023",
-                "changeLog": "Fixed:\n- Missing error if history is empty"
-            }
-        },
-        "PRE-1.0.0-9": {
-            "de": {
-                "releaseDate": "06.03.2023",
-                "changeLog": "Behoben:\n- Powerdomains werden nicht gruppiert\n- Schnell wechselnder Transaktionsstatus"
-            },
-            "en": {
-                "releaseDate": "03/06/2023",
-                "changeLog": "Fixed:\n- Powerdomains don't group correctly\n- Flickering transaction state"
-            }
-        },
-        "PRE-1.0.0-8": {
-            "de": {
-                "releaseDate": "05.03.2023",
-                "changeLog": "Behoben:\n- Powerdomains öffnen und schließen sich von alleine"
-            },
-            "en": {
-                "releaseDate": "03/05/2023",
-                "changeLog": "Fixed:\n- Powerdomains opening and closing by themselves"
-            }
-        },
-        "PRE-1.0.0-7": {
-            "de": {
-                "releaseDate": "05.03.2023",
-                "changeLog": "Hinzugefügt:\n- Transaktion Übersicht Seite\n- Station scannen (QR und NFC)\n\nBehoben:\n- Jahrestrenner in Transaktionsliste unsichtbar"
-            },
-            "en": {
-                "releaseDate": "03/05/2023",
-                "changeLog": "Added:\n- Transaction Overview Page\n- Scan Station (QR and NFC)\n\nFixed:\n- New year indicator in history invisible"
-            }
-        },
-        "PRE-1.0.0-6": {
-            "de": {
-                "releaseDate": "30.12.2022",
-                "changeLog": "Hinzugefügt:\n- Ladestationen Seite\n\nEntfernt:\n- Tenant aus basis Transaktionsliste entfernt (wird später in die detailierte Seite verschoben)\n\n⚠️Detailierte Übersichten der Ladevorgänge und eine aktuelle Liste von ihnen zugewiesenen Ladestationen sind noch nicht verfügbar."
-            },
-            "en": {
-                "releaseDate": "12/30/2022",
-                "changeLog": "Added:\n- Charging Stations page\n\nRemoved:\n- Removed tenant from basic history view (will later be moved into the details page)\n\n⚠️Detailed information for running transactions and a list of transactions that are assigned to your account are currently not available."
-            }
-        },
-        "PRE-1.0.0-5": {
-            "de": {
-                "releaseDate": "26.12.2022",
-                "changeLog": "Hinzugefügt:\n- Transaktionen Seite\n\n⚠️Station Auswählen Seite ist aktuell noch nicht verfügbar."
-            },
-            "en": {
-                "releaseDate": "12/26/2022",
-                "changeLog": "Added:\n- Transactions page\n\n⚠️Select Station screen is not available at this point."
-            }
-        },
-        "PRE-1.0.0-4": {
-            "de": {
-                "releaseDate": "25.12.2022",
-                "changeLog": "Behoben:\n- Änderungsprotokolldaten laden nicht\n\n⚠️Transaktionen und Station Auswählen Seiten sind aktuell noch nicht verfügbar."
-            },
-            "en": {
-                "releaseDate": "12/25/2022",
-                "changeLog": "Fixed:\n- Changelog data not loading\n\n⚠️History and Select Station screens are not available at this point."
-            }
-        },
-        "PRE-1.0.0-3": {
-            "de": {
-                "releaseDate": "24.12.2022 🎄",
-                "changeLog": "Hinzugefügt:\n- Biometrische Appsperre nach Fokusverlust der App\n\n⚠️Transaktionen und Station Auswählen Seiten sind aktuell noch nicht verfügbar."
-            },
-            "en": {
-                "releaseDate": "12/24/2022 🎄",
-                "changeLog": "Added:\n- Biometric App Lock after app focus loss\n\n⚠️History and Select Station screens are not available at this point."
-            }
-        },
-        "PRE-1.0.0-2": {
-            "de": {
-                "releaseDate": "24.12.2022 🎄",
-                "changeLog": "- Alle Schreibfehler korrigiert\n\nHinzugefügt:\n- Biometrische Appsperre\n- Zugangsdaten Autovervollständigung\n\n⚠️Transaktionen und Station Auswählen Seiten sind aktuell noch nicht verfügbar."
-            },
-            "en": {
-                "releaseDate": "12/24/2022 🎄",
-                "changeLog": "- Corrected all spelling mistakes\n\nAdded:\n- Biometric App Lock\n- Autofill credentials\n\n⚠️History and Select Station screens are not available at this point."
-            }
-        },
-        "PRE-1.0.0-1": {
-            "de": {
-                "releaseDate": "24.12.2022 🎄",
-                "changeLog": "- Komplett neues Design\n- Sprache wird jetzt standartmäßig auf Systemstandartsprache gestellt\n- Ladebildschirm bewegt sich wärend dem Laden nicht mehr\n\n⚠️Transaktionen und Station Auswählen Seiten sind aktuell noch nicht verfügbar."
-            },
-            "en": {
-                "releaseDate": "12/24/2022 🎄",
-                "changeLog": "- Completely new design\n- Language is now defaulted to the system language\n- Fixed Splash screen moving while loading\n\n⚠️History and Select Station screens are not available at this point."
-            }
-        }
+      "version": "1.2.4",
+      "de": {
+        "releaseDate": "21.10.2025",
+        "changeLog": "- Verbessertes Verhalten der Buttons für \"Ladevorgang übernehmen\" und \"Laden beenden\""
+      },
+      "en": {
+        "releaseDate": "10/21/2025",
+        "changeLog": "- Improved behavior of 'Assume ownership' and 'Stop charging' buttons"
+      },
+      "hidden": false
     },
     "android": {
-        "1.2.3": {
-            "de": {
-                "releaseDate": "25.09.2025",
-                "changeLog": "- Probleme bei der Live-Daten Synchronisation behoben"
-            },
-            "en": {
-                "releaseDate": "09/25/2025",
-                "changeLog": "- Resolved issues with live data synchronisation"
-            }
-        },
-        "1.2.2": {
-            "de": {
-                "releaseDate": "22.09.2025",
-                "changeLog": "- Software-interne Verbesserungen"
-            },
-            "en": {
-                "releaseDate": "09/22/2025",
-                "changeLog": "- Software internal improvements"
-            }
-        },
-        "1.2.1": {
-            "de": {
-                "releaseDate": "05.09.2025",
-                    "changeLog": "- Transaktionen können beim Zustand \"Verbunden\" nicht mehr beendet werden\n- Formatierung und Darstellung der Dauer eines Ladevorgangs vereinheitlicht"
-            },
-            "en": {
-                "releaseDate": "09/05/2025",
-                "changeLog": "- Transactions can no longer be ended in the \"Connected\" state\n- Unified formatting and display of charging duration"
-            }
-        },
-        "1.2.0": {
-            "de": {
-                "releaseDate": "26.08.2025",
-                "changeLog": "- Probleme mit biometrischer Anmeldung behoben\n- Benutzeroberfläche für Umgebungswechsel verbessert\n- zusätzliche Benutzerprofile können nun vom Gerät gelöscht werden\n- mehr Vorschauwerte in den Einstellungen\n- NFC-Einstellungen für direkten Zugriff optimiert"
-            },
-            "en": {
-                "releaseDate": "08/26/2025",
-                "changeLog": "- Fixed biometric login issues\n- Improved user account interface for switching environments\n- Additional accounts can now be deleted from the device\n- Added more preview options in settings\n- Enhanced NFC settings for direct access"
-            }
-        },
-        "1.1.8": {
-            "de": {
-                "releaseDate": "21.08.2025",
-                "changeLog": "- UI für Transaktionsdaten reduziert bei Ladepunkten ohne aktive Transaktion\n- Anzeige der sichtbaren/gesamten Ladepunkte bei aktiven Filtern\n- Neue Einstellungen für Datums-, Zeit- und Zahlenformate\n- Möglichkeit, laufende Ladevorgänge direkt aus der App zu beenden\n- Neuer Indikator (\"Ampel\") für die Leistungsauslastung eines Ladeparks, bzw. verfügbarer Ressourcen am Ladepunkt\n- Überarbeitete Übersetzungen"
-            },
-            "en": {
-                "releaseDate": "08/21/2025",
-                "changeLog": "- UI for transaction data simplified for charging points without active transactions\n- Display of visible/total charging points when filters are active\n- New settings for date, time, and number formats\n- Ability to end ongoing charging processes directly from the app\n- New indicator (\"traffic light\") for the power utilization of a charging park or available resources at the charging point\n- Revised translations\n"
-            }
-        },
-        "1.1.7": {
-            "de": {
-                "releaseDate": "31.07.2025",
-                "changeLog": "Behoben:\n- Synchronisationsabbruch von Ladepunkt-Live-Daten"
-            },
-            "en": {
-                "releaseDate": "07/31/2025",
-                "changeLog": "Fixed:\n- Sync issues with charging point live data"
-            }
-        },
-        "1.1.6": {
-            "de": {
-                "releaseDate": "18.07.2025",
-                "changeLog": "Unterstützung für neuste Android-Versionen."
-            },
-            "en": {
-                "releaseDate": "07/18/2025",
-                "changeLog": "Support for latest Android versions."
-            }
-        },
-        "1.1.3": {
-            "de": {
-                "releaseDate": "16.05.2025",
-                "changeLog": "Behoben:\n- Uhrzeitenformat ist nicht sprachspezifisch"
-            },
-            "en": {
-                "releaseDate": "05/16/2025",
-                "changeLog": "Fixed:\n- Time format is not language specific"
-            }
-        },
-        "1.1.2": {
-            "de": {
-                "releaseDate": "16.05.2025",
-                "changeLog": "Hinzugefügt:\n- RFID-Karten Registrierung mit NFC\n\nGeändert:\n- Neue Anmeldeumgebung (für Production)"
-            },
-            "en": {
-                "releaseDate": "05/16/2025",
-                "changeLog": "Added:\n- RFID card registration with NFC\n\nChanged:\n- New production authentication environment"
-            }
-        },
-        "1.1.1": {
-            "de": {
-                "releaseDate": "10.05.2025",
-                "changeLog": "Rollback:\n- prod authentication environment"
-            },
-            "en": {
-                "releaseDate": "05/10/2025",
-                "changeLog": "Rollback:\n- prod authentication environment"
-            }
-        },
-        "1.0.9_1": {
-            "de": {
-                "releaseDate": "16.04.2025",
-                "changeLog": "Hinzugefügt:\n- Neue Anmeldeumgebung"
-            },
-            "en": {
-                "releaseDate": "04/16/2025",
-                "changeLog": "Added:\n- New authentication environment"
-            }
-        },
-        "1.0.9": {
-            "de": {
-                "releaseDate": "15.04.2025",
-                "changeLog": "Hinzugefügt:\n- Einheitliche Statusfarben zur pulsatrix Webapp\n- Effizientere Benutzeroberfläche"
-            },
-            "en": {
-                "releaseDate": "04/15/2025",
-                "changeLog": "Added:\n- Status colors uniform to the pulsatrix Webapp\n- More efficient UI"
-            }
-        },
-        "PRE-1.0.9-3": {
-            "de": {
-                "releaseDate": "11.03.2025",
-                "changeLog": "Hinzugefügt:\n- Neues multi-platform Design\n- An die WebApp angepasste Ladestatus-Farben\n- Neue Ladegruppen Logik löst PowerDomain Logik ab\n\n⚠️ Benachrichtigungseinstellungen sind aufgrund eines noch unbekannten Fehlers nicht verfügbar."
-            },
-            "en": {
-                "releaseDate": "03/11/2025",
-                "changeLog": "Added:\n- New multi-platform design\n- Charging status colors adapted to the WebApp\n- New charging group logic replaces PowerDomain logic\n\n⚠️ Notification settings are not available due to an unknown error."
-            }
-        },
-        "PRE-1.0.9-2": {
-            "de": {
-                "releaseDate": "21.08.2024",
-                "changeLog": "Behoben:\n- Benachrichtigungseinstellungen werden nicht korrekt gespeichert"
-            },
-            "en": {
-                "releaseDate": "08/21/2024",
-                "changeLog": "Fixed:\n- Notification settings are not saved correctly"
-            }
-        },
-        "PRE-1.0.9-1": {
-            "de": {
-                "releaseDate": "20.08.2024",
-                "changeLog": "Hinzugefügt:\n- Benachrichtigungseinstellungen"
-            },
-            "en": {
-                "releaseDate": "08/20/2024",
-                "changeLog": "Added:\n- Notificaion settings"
-            }
-        },
-        "1.0.8": {
-            "de": {
-                "releaseDate": "26.07.2024",
-                "changeLog": "Hinzugefügt:\n- Sprache: Rumänisch\n- Sprache: Englisch (US) für andere Formatierung von Kommazahlen und Daten\n\nBehoben:\n- Kleinere UI Fehler & Unschönheiten"
-            },
-            "en": {
-                "releaseDate": "07/26/2024",
-                "changeLog": "Added:\n- Language: Romanian\n- Language: Englisch (US) to support other formats for floating point numbers and dates\n\nFixed:\n- Minor UI bugs & imperfections"
-            }
-        },
-        "PRE-1.0.8-1": {
-            "de": {
-                "releaseDate": "28.05.2024",
-                "changeLog": "Hinzugefügt:\n- Sprache: Rumänisch\n- Sprache: Englisch (US) für andere Formatierung von Kommazahlen und Daten\n\nBehoben:\n- Kleinere UI Fehler & Unschönheiten"
-            },
-            "en": {
-                "releaseDate": "05/28/2024",
-                "changeLog": "Added:\n- Language: Romanian\n- Language: Englisch (US) to support other formats for floating point numbers and dates\n\nFixed:\n- Minor UI bugs & imperfections"
-            }
-        },
-        "1.0.7": {
-            "de": {
-                "releaseDate": "13.03.2024",
-                "changeLog": "Behoben:\n- Vergangene Transaktionen zeigen falsche kW Summe an\n- Vergangene Transaktionen Liste aktualisiert sich beim scrollen nicht korrekt"
-            },
-            "en": {
-                "releaseDate": "03/13/2024",
-                "changeLog": "Fixed:\n- Past transactions show incorrect kW values\n- Past transaction list does not update corrextly on scroll"
-            }
-        },
-        "PRE-1.0.7-6": {
-            "de": {
-                "releaseDate": "12.03.2024",
-                "changeLog": "Hinzugefügt:\n- RFID Tokens werden seperat vom Nutzer angezeigt\n\nBehoben:\n- Accountwechsel nicht möglich\n- Sprachenwechsel nicht möglich"
-            },
-            "en": {
-                "releaseDate": "03/12/2024",
-                "changeLog": "Added:\n- RFID Tokens get displayed seperatly from usernames\n\nFixed:\n- Account switching not possible\n- Language switching not possible"
-            }
-        },
-        "PRE-1.0.7-5": {
-            "de": {
-                "releaseDate": "12.03.2024",
-                "changeLog": "Hinzugefügt:\n- Umgebungsspezifische Berechnung des Transaktionsstatus\n\nBehoben:\n- Laufende Transaktionen zeigen in der Produktionsumgebung keine Werte an"
-            },
-            "en": {
-                "releaseDate": "03/12/2024",
-                "changeLog": "Added:\n- Environment dependend calculation of transaction states\n\nFixed:\n- Active transactions don't show any values in production"
-            }
-        },
-        "PRE-1.0.7-4": {
-            "de": {
-                "releaseDate": "11.03.2024",
-                "changeLog": "Behoben:\n- Laufende Transaktionen zeigen in der Produktionsumgebung keine Werte an"
-            },
-            "en": {
-                "releaseDate": "03/11/2024",
-                "changeLog": "Fixed:\n- Active transactions don't show any values in production"
-            }
-        },
-        "PRE-1.0.7-3": {
-            "de": {
-                "releaseDate": "01.03.2024",
-                "changeLog": "Behoben:\n- DeepLinks öffnen App bei ungewollten URL's\n- Vergangene Transaktionen Liste aktualisiert sich inkorrekt beim scrollen"
-            },
-            "en": {
-                "releaseDate": "03/01/2024",
-                "changeLog": "Fixed:\n- DeepLinks open the app on unwanted URL's\n- Past transactions list does not update correctly on scroll"
-            }
-        },
-        "PRE-1.0.7-2": {
-            "de": {
-                "releaseDate": "17.01.2024",
-                "changeLog": "Hinzugefügt:\n- Abmelden button bei Account wieder herstellen Ansicht"
-            },
-            "en": {
-                "releaseDate": "01/17/2024",
-                "changeLog": "Added:\n- SignOut button in recover account screen"
-            }
-        },
-        "PRE-1.0.7-1": {
-            "de": {
-                "releaseDate": "08.01.2024",
-                "changeLog": "Geändert:\n- Biometrische Authentifizierung Umgehung behoben\n\nEntfernt:\n- Maximaler Strom Anzeige bei Transaktionen Details"
-            },
-            "en": {
-                "releaseDate": "01/08/2024",
-                "changeLog": "Chnaged:\n- Fixed android biometric bypass\n\nRemoved:\n- Max power in detailed transactions"
-            }
-        },
-        "1.0.6": {
-            "de": {
-                "releaseDate": "30.11.2023",
-                "changeLog": "Hinzugefügt:\n- Letzte Nachricht vom Server Indikator in den Details einer laufenden Transaktion\n\nBehoben:\n- Flackernde Anzeige in der Ladepunktliste\n\n⚠️ Problem melden Funktion ist temporär deaktiviert!"
-            },
-            "en": {
-                "releaseDate": "11/30/2023",
-                "changeLog": "Added:\n- Last message from server indicator in the details of a active transaction\n\nFixed:\n- Flickering in charging point list\n\n⚠️ Temporarily disabled report problem feature!"
-            }
-        },
-        "1.0.5": {
-            "de": {
-                "releaseDate": "29.09.2023",
-                "changeLog": "Behoben:\n- App wird bei älteren Geräten nicht im PlayStore angezeigt\n- Transaktionen werden nicht angezeigt\n- Ladevorgänge können nicht übernommen werden\n- Zu große Schriftarten machen Teile der App unnutzbar"
-            },
-            "en": {
-                "releaseDate": "09/29/2023",
-                "changeLog": "Fixed:\n- App does not show up in the PlayStore on older devices\n- Transactions are not displayed\n- Active transactions cannot be assigned to your account\n- Fonts that are too large make parts of the app unusable"
-            }
-        },
-        "1.0.4": {
-            "de": {
-                "releaseDate": "18.08.2023",
-                "changeLog": "Hinzugefügt:\n- Anzeige für zu meinem Account zugewiesenen, aktiven Transaktionen\n- 'Pausiert durch Fahrzeug' Status\n- Unendliche RFID-Karten Lebensdauer\n- Hinzufügen von RFID Karten über pulsatrix Ladepunkte\n\nBehoben:\n- Ladestationen zeigen falschen Status an\n- Extrem hoher Datenverbrauch\n- Nutzer können aus unerklärlichen Gründen Transaktionen nicht übernehmen\n- Webseite und App nutzen unterschiedliche Bezeichnungen und zeigen komplett andere Dinge an\n- Zu lange RFID-Karten Namen schieben das Logo über den Kartenrand"
-            },
-            "en": {
-                "releaseDate": "08/18/2023",
-                "changeLog": "Added:\n- 'Suspended by vehicle' state\n- Account hotswitching\n\nFixed:\n- Charging points display incorrect state\n- Extremly high data usage"
-            }
-        },
-        "PRE-1.0.4-7": {
-            "de": {
-                "releaseDate": "13.08.2023",
-                "changeLog": "Hinzugefügt:\n- 'Pausiert durch Fahrzeug' Status\n- Schnelles Wechseln zwischen mehreren Konten\n\nBehoben:\n- Ladestationen zeigen falschen Status an\n- Extrem hoher Datenverbrauch"
-            },
-            "en": {
-                "releaseDate": "08/13/2023",
-                "changeLog": "Added:\n- 'Suspended by vehicle' state\n- Account hotswitching\n\nFixed:\n- Charging points display incorrect state\n- Extremly high data usage"
-            }
-        },
-        "PRE-1.0.4-6": {
-            "de": {
-                "releaseDate": "29.07.2023",
-                "changeLog": "Hinzugefügt:\n- Erweiterte Optionen über REST API\n\nGeändert:\n- Neues Datum für unendliche RFID Karten"
-            },
-            "en": {
-                "releaseDate": "07/29/2023",
-                "changeLog": "Added:\n- Advanced Options over REST API\n\nChanged:\n- New date for unlimited RFID cards"
-            }
-        },
-        "PRE-1.0.4-5": {
-            "de": {
-                "releaseDate": "26.07.2023",
-                "changeLog": "Hinzugefügt:\n- Hinzufügen von RFID Karten über pulsatrix Ladepunkte\n- Can-Connect Werte werden am Anfang einmal veruscht zu laden und geben einen Fehler aus wenn sie nicht gelesen werden können"
-            },
-            "en": {
-                "releaseDate": "07/26/2023",
-                "changeLog": "Added:\n- Add RFID cards with pulsatrix charging points\n- Can-Connect values are read once at the beginning and show an error if they can not be read"
-            }
-        },
-        "PRE-1.0.4-4": {
-            "de": {
-                "releaseDate": "26.07.2023",
-                "changeLog": "Hinzugefügt:\n- Anzeige für zu meinem Account zugewiesenen, aktiven Transaktionen"
-            },
-            "en": {
-                "releaseDate": "07/26/2023",
-                "changeLog": "Added:\n- Display for active transactions that are assigned to my account"
-            }
-        },
-        "PRE-1.0.4-3": {
-            "de": {
-                "releaseDate": "24.07.2023",
-                "changeLog": "Hinzugefügt:\n- Einfache Implementierung von einer Can-Connect Debug Seite (Nur für Techniker)\n\nBehoben:\n- Nutzer können aus unerklärlichen Gründen Transaktionen nicht übernehmen"
-            },
-            "en": {
-                "releaseDate": "07/24/2023",
-                "changeLog": "Added:\n- Basic Can-Connect Debug screen (for technicians only)\n\nFixed:\n- Users can't assume ownership of transactions for seemingly no reason"
-            }
-        },
-        "PRE-1.0.4-2": {
-            "de": {
-                "releaseDate": "23.07.2023",
-                "changeLog": "Hinzugefügt:\n- Einfache Implementierung von erweiterten Optionen (Nur für Techniker)\n\nBehoben:\n- Grauer Bildschirm bei 'Ladestationen' wenn der Benutzer keine Ladestationen hat"
-            },
-            "en": {
-                "releaseDate": "07/23/2023",
-                "changeLog": "Added:\n- Basic advanced options (for technicians only)\n\nFixed:\n- Gray screen on 'Charging Stations' when the user doesn't have any charging stations"
-            }
-        },
-        "PRE-1.0.4-1": {
-            "de": {
-                "releaseDate": "21.07.2023",
-                "changeLog": "Hinzugefügt:\n- Unendliche RFID-Karten Lebensdauer\n\nBehoben:\n- Webseite und App nutzen unterschiedliche Bezeichnungen und zeigen komplett andere Dinge an\n- Zu lange RFID-Karten Namen schieben das Logo über den Kartenrand"
-            },
-            "en": {
-                "releaseDate": "07/21/2023",
-                "changeLog": "Added:\n- Unlimited RFID-Card lifespand\n\nFixed:\n- Webapp and mobile-app use different names and display completely different states\n- To long RFID-Card names push the logo over the card border"
-            }
-        },
-        "1.0.3": {
-            "de": {
-                "releaseDate": "19.04.2023",
-                "changeLog": "Behoben:\n- Grauer Bildschirm bei zu schnellem Wechseln zwischen aktiven Transaktionen"
-            },
-            "en": {
-                "releaseDate": "04/19/2023",
-                "changeLog": "Fixed:\n- Gray screen when switching to fast between active transactions"
-            }
-        },
-        "1.0.2": {
-            "de": {
-                "releaseDate": "12.04.2023",
-                "changeLog": "Hinzugefügt:\n- Probleme melden in der App\n\nBehoben:\n- Zu viele Nachkommastellen bei abgeschlossenen Transaktionen"
-            },
-            "en": {
-                "releaseDate": "04/12/2023",
-                "changeLog": "Added:\n- Report issues through the app\n\nFixed:\n- To many floating points on past transactions"
-            }
-        },
-        "PRE-1.0.2-2": {
-            "de": {
-                "releaseDate": "06.04.2023",
-                "changeLog": "Behoben:\n- Zu viele Nachkommastellen bei abgeschlossenen Transaktionen\n- Bekannte Probleme werden nicht angezeigt"
-            },
-            "en": {
-                "releaseDate": "04/06/2023",
-                "changeLog": "Fixed:\n- To many floating points on past transactions\n- Known issues don't show up"
-            }
-        },
-        "PRE-1.0.2-1": {
-            "de": {
-                "releaseDate": "03.04.2023",
-                "changeLog": "Hinzugefügt:\n- Probleme melden in der App"
-            },
-            "en": {
-                "releaseDate": "04/03/2023",
-                "changeLog": "Added:\n- Report issues through the App"
-            }
-        },
-        "1.0.1": {
-            "de": {
-                "releaseDate": "28.03.2023",
-                "changeLog": "Hinzugefügt:\n- Neuer Filter (Nur freie Ladepunkte anzeigen)\n\nGeändert:\n- Neues Filter GUI\n\nBehoben:\n- RFID Karte aktuallisiert ihren Status nach Reaktivierung nicht"
-            },
-            "en": {
-                "releaseDate": "03/28/2023",
-                "changeLog": "Added:\n- New filter (Only show unused charging points)\n\nChanged:\n- New filter GUI\n\nFixed:\n- RFID Card doesn't update it's state after reactivation"
-            }
-        },
-        "PRE-1.0.1-1": {
-            "de": {
-                "releaseDate": "23.03.2023",
-                "changeLog": "Hinzugefügt:\n- Neuer Filter (Nur freie Ladepunkte anzeigen)\n\nGeändert:\n- Neues Filter GUI"
-            },
-            "en": {
-                "releaseDate": "03/23/2023",
-                "changeLog": "Added:\n- New filter (Only show unused charging points)\n\nChanged:\n- New filter GUI"
-            }
-        },
-        "1.0.0": {
-            "de": {
-                "releaseDate": "21.03.2023",
-                "changeLog": "Veröffentlichung! 🎉"
-            },
-            "en": {
-                "releaseDate": "03/21/2023",
-                "changeLog": "Public launch! 🎉"
-            }
-        },
-        "PRE-1.0.0-13": {
-            "de": {
-                "releaseDate": "19.03.2023",
-                "changeLog": "Hinzugefügt:\n- RFID Karten mit einem Ladepunkt hinzufügen (Nur für spezielle Beta Tester)"
-            },
-            "en": {
-                "releaseDate": "03/19/2023",
-                "changeLog": "Added:\n- Add RFID cards with a charging point (Special Beta Testers only)"
-            }
-        },
-        "PRE-1.0.0-12": {
-            "de": {
-                "releaseDate": "17.03.2023",
-                "changeLog": "Geändert:\n- Sortierung für Ladestations Liste (ABC, 123)\n- Kleine Änderungen auf der Anmelden & Registrieren Seite"
-            },
-            "en": {
-                "releaseDate": "03/17/2023",
-                "changeLog": "Changed:\n- Sorting for charging stations list (ABC, 123)\n- Small changes on the SignIn & SignUp page"
-            }
-        },
-        "PRE-1.0.0-11": {
-            "de": {
-                "releaseDate": "16.03.2023",
-                "changeLog": "Hinzugefügt:\n- Einstellungen und Verwaltung für RFID Karten\n- Filter für Ladestationen Liste\n\nBehoben:\n- Umlaute werden nicht richtig angezeigt"
-            },
-            "en": {
-                "releaseDate": "03/16/2023",
-                "changeLog": "Added:\n- Settings and management for RFID cards\n- Filter for charging stations list\n\nFixed:\n- Certain letters are not displayed correctly"
-            }
-        },
-        "PRE-1.0.0-10": {
-            "de": {
-                "releaseDate": "08.03.2023",
-                "changeLog": "Hinzugefügt:\n- Neues Design bei den Einstellungem\n\nBehoben:\n- Keine Fehlermeldung wenn die Transaktionsliste leer ist"
-            },
-            "en": {
-                "releaseDate": "03/08/2023",
-                "changeLog": "Added:\n- New design for settings page\n\nFixed:\n- Missing error if history is empty"
-            }
-        },
-        "PRE-1.0.0-9": {
-            "de": {
-                "releaseDate": "06.03.2023",
-                "changeLog": "Behoben:\n- Powerdomains werden nicht gruppiert\n- Schnell wechselnder Transaktionsstatus"
-            },
-            "en": {
-                "releaseDate": "03/06/2023",
-                "changeLog": "Fixed:\n- Powerdomains don't group correctly\n- Flickering transaction state"
-            }
-        },
-        "PRE-1.0.0-8": {
-            "de": {
-                "releaseDate": "05.03.2023",
-                "changeLog": "Behoben:\n- Powerdomains öffnen und schließen sich von alleine"
-            },
-            "en": {
-                "releaseDate": "03/05/2023",
-                "changeLog": "Fixed:\n- Powerdomains opening and closing by themselves"
-            }
-        },
-        "PRE-1.0.0-7": {
-            "de": {
-                "releaseDate": "05.03.2023",
-                "changeLog": "Hinzugefügt:\n- Transaktion Übersicht Seite\n- Scannen (QR und NFC)\n\nBehoben:\n- Jahrestrenner in Transaktionsliste unsichtbar\n- Biometrische Authentifizierung wird bei erster Aktivierung nicht gespeichert"
-            },
-            "en": {
-                "releaseDate": "03/05/2023",
-                "changeLog": "Added:\n- Transaction Overview Page\n- Scan Station (QR and NFC)\n\nFixed:\n- New year indicator in history invisible\n- Biometric authentication not saved on first activation"
-            }
-        },
-        "PRE-1.0.0-6": {
-            "de": {
-                "releaseDate": "30.12.2022",
-                "changeLog": "Hinzugefügt:\n- Ladestationen Seite\n\nEntfernt:\n- Tenant aus basis Transaktionsliste entfernt (wird später in die detailierte Seite verschoben)\n\n⚠️Detailierte Übersichten der Ladevorgänge und eine aktuelle Liste von ihnen zugewiesenen Ladestationen sind noch nicht verfügbar."
-            },
-            "en": {
-                "releaseDate": "12/30/2022",
-                "changeLog": "Added:\n- Charging Stations page\n\nRemoved:\n- Removed tenant from basic history view (will later be moved into the details page)\n\n⚠️Detailed information for running transactions and a list of transactions that are assigned to your account are currently not available."
-            }
-        },
-        "PRE-1.0.0-5": {
-            "de": {
-                "releaseDate": "26.12.2022",
-                "changeLog": "Hinzugefügt:\n- Transaktionen Seite\n\n⚠️Station Auswählen Seite ist aktuell noch nicht verfügbar."
-            },
-            "en": {
-                "releaseDate": "12/26/2022",
-                "changeLog": "Added:\n- Transactions page\n\n⚠️Select Station screen is not available at this point."
-            }
-        },
-        "PRE-1.0.0-4": {
-            "de": {
-                "releaseDate": "25.12.2022",
-                "changeLog": "Behoben:\n- Änderungsprotokolldaten laden nicht\n\n⚠️Transaktionen und Station Auswählen Seiten sind aktuell noch nicht verfügbar."
-            },
-            "en": {
-                "releaseDate": "12/25/2022",
-                "changeLog": "Fixed:\n- Changelog data not loading\n\n⚠️History and Select Station screens are not available at this point."
-            }
-        },
-        "PRE-1.0.0-3": {
-            "de": {
-                "releaseDate": "24.12.2022 🎄",
-                "changeLog": "Hinzugefügt:\n- Biometrische Appsperre nach Fokusverlust der App\n\n⚠️Transaktionen und Station Auswählen Seiten sind aktuell noch nicht verfügbar."
-            },
-            "en": {
-                "releaseDate": "12/24/2022 🎄",
-                "changeLog": "Added:\n- Biometric App Lock after app focus loss\n\n⚠️History and Select Station screens are not available at this point."
-            }
-        },
-        "PRE-1.0.0-2": {
-            "de": {
-                "releaseDate": "24.12.2022 🎄",
-                "changeLog": "- Alle Schreibfehler korrigiert\n\nHinzugefügt:\n- Biometrische Appsperre\n\n⚠️Transaktionen und Station Auswählen Seiten sind aktuell noch nicht verfügbar."
-            },
-            "en": {
-                "releaseDate": "12/24/2022 🎄",
-                "changeLog": "- Corrected all spelling mistakes\n\nAdded:\n- Biometric App Lock\n\n⚠️History and Select Station screens are not available at this point."
-            }
-        },
-        "PRE-1.0.0-1": {
-            "de": {
-                "releaseDate": "24.12.2022 🎄",
-                "changeLog": "- Komplett neues Design\n- Sprache wird jetzt standartmäßig auf Systemstandartsprache gestellt\n- Ladebildschirm bewegt sich wärend dem Laden nicht mehr\n\n⚠️Transaktionen und Station Auswählen Seiten sind aktuell noch nicht verfügbar."
-            },
-            "en": {
-                "releaseDate": "12/24/2022 🎄",
-                "changeLog": "- Completely new design\n- Language is now defaulted to the system language\n- Fixed Splash screen moving while loading\n\n⚠️History and Select Station screens are not available at this point."
-            }
-        }
+      "version": "1.2.4",
+      "de": {
+        "releaseDate": "21.10.2025",
+        "changeLog": "- Verbessertes Verhalten der Buttons für \"Ladevorgang übernehmen\" und \"Laden beenden\""
+      },
+      "en": {
+        "releaseDate": "10/21/2025",
+        "changeLog": "- Improved behavior of 'Assume ownership' and 'Stop charging' buttons"
+      },
+      "hidden": false
     }
+  },
+  "iOS": {
+    "1.2.4": {
+      "de": {
+        "releaseDate": "21.10.2025",
+        "changeLog": "- Verbessertes Verhalten der Buttons für \"Ladevorgang übernehmen\" und \"Laden beenden\""
+      },
+      "en": {
+        "releaseDate": "10/21/2025",
+        "changeLog": "- Improved behavior of 'Assume ownership' and 'Stop charging' buttons"
+      }
+    },
+    "1.2.3": {
+      "de": {
+        "releaseDate": "25.09.2025",
+        "changeLog": "- Probleme bei der Live-Daten Synchronisation behoben"
+      },
+      "en": {
+        "releaseDate": "09/25/2025",
+        "changeLog": "- Resolved issues with live data synchronisation"
+      }
+    },
+    "1.2.2": {
+      "de": {
+        "releaseDate": "22.09.2025",
+        "changeLog": "- Software-interne Verbesserungen"
+      },
+      "en": {
+        "releaseDate": "09/22/2025",
+        "changeLog": "- Software internal improvements"
+      }
+    },
+    "1.2.1": {
+      "de": {
+        "releaseDate": "05.09.2025",
+        "changeLog": "- Transaktionen können beim Zustand \"Verbunden\" nicht mehr beendet werden\n- Formatierung und Darstellung der Dauer eines Ladevorgangs vereinheitlicht"
+      },
+      "en": {
+        "releaseDate": "09/05/2025",
+        "changeLog": "- Transactions can no longer be ended in the \"Connected\" state\n- Unified formatting and display of charging duration"
+      }
+    },
+    "1.2.0": {
+      "de": {
+        "releaseDate": "26.08.2025",
+        "changeLog": "- Probleme mit biometrischer Anmeldung behoben\n- Benutzeroberfläche für Umgebungswechsel verbessert\n- zusätzliche Benutzerprofile können nun vom Gerät gelöscht werden\n- mehr Vorschauwerte in den Einstellungen\n- QR-Scan Kamerafehler behoben\n- Tastatursprache passt sich der App-Sprache an"
+      },
+      "en": {
+        "releaseDate": "08/26/2025",
+        "changeLog": "- Fixed biometric login issues\n- Improved user account interface for switching environments\n- Additional accounts can now be deleted from the device\n- Added more preview options in settings\n- Resolved QR scanning camera issue\n- Keyboard language now syncs with app language"
+      }
+    },
+    "1.1.8": {
+      "de": {
+        "releaseDate": "21.08.2025",
+        "changeLog": "- UI für Transaktionsdaten reduziert bei Ladepunkten ohne aktive Transaktion\n- Anzeige der sichtbaren/gesamten Ladepunkte bei aktiven Filtern\n- Neue Einstellungen für Datums-, Zeit- und Zahlenformate\n- Möglichkeit, laufende Ladevorgänge direkt aus der App zu beenden\n- Neuer Indikator (\"Ampel\") für die Leistungsauslastung eines Ladeparks, bzw. verfügbarer Ressourcen am Ladepunkt\n- Überarbeitete Übersetzungen"
+      },
+      "en": {
+        "releaseDate": "08/21/2025",
+        "changeLog": "- UI for transaction data simplified for charging points without active transactions\n- Display of visible/total charging points when filters are active\n- New settings for date, time, and number formats\n- Ability to end ongoing charging processes directly from the app\n- New indicator (\"traffic light\") for the power utilization of a charging park or available resources at the charging point\n- Revised translations\n"
+      }
+    },
+    "1.1.7": {
+      "de": {
+        "releaseDate": "31.07.2025",
+        "changeLog": "Behoben:\n- Synchronisationsabbruch von Ladepunkt-Live-Daten"
+      },
+      "en": {
+        "releaseDate": "07/31/2025",
+        "changeLog": "Fixed:\n- Sync issues with charging point live data"
+      }
+    },
+    "1.1.2": {
+      "de": {
+        "releaseDate": "16.05.2025",
+        "changeLog": "Hinzugefügt:\n- RFID-Karten Registrierung mit NFC\n\nGeändert:\n- Neue Anmeldeumgebung (für Production)"
+      },
+      "en": {
+        "releaseDate": "05/16/2025",
+        "changeLog": "Added:\n- RFID card registration with NFC\n\nChanged:\n- New production authentication environment"
+      }
+    },
+    "1.0.9_1": {
+      "de": {
+        "releaseDate": "16.04.2025",
+        "changeLog": "Hinzugefügt:\n- Neue Anmeldeumgebung"
+      },
+      "en": {
+        "releaseDate": "04/16/2025",
+        "changeLog": "Added:\n- New authentication environment"
+      }
+    },
+    "1.0.9": {
+      "de": {
+        "releaseDate": "15.04.2025",
+        "changeLog": "Hinzugefügt:\n- Einheitliche Statusfarben zur pulsatrix Webapp\n- Effizientere Benutzeroberfläche"
+      },
+      "en": {
+        "releaseDate": "04/15/2025",
+        "changeLog": "Added:\n- Status colors uniform to the pulsatrix Webapp\n- More efficient UI"
+      }
+    },
+    "PRE-1.0.9-3": {
+      "de": {
+        "releaseDate": "11.03.2025",
+        "changeLog": "Hinzugefügt:\n- Neues multi-platform Design\n- An die WebApp angepasste Ladestatus-Farben\n- Neue Ladegruppen Logik löst PowerDomain Logik ab\n\n⚠️ Benachrichtigungseinstellungen sind aufgrund eines noch unbekannten Fehlers nicht verfügbar."
+      },
+      "en": {
+        "releaseDate": "03/11/2025",
+        "changeLog": "Added:\n- New multi-platform design\n- Charging status colors adapted to the WebApp\n- New charging group logic replaces PowerDomain logic\n\n⚠️ Notification settings are not available due to an unknown error."
+      }
+    },
+    "PRE-1.0.9-2": {
+      "de": {
+        "releaseDate": "21.08.2024",
+        "changeLog": "Behoben:\n- Benachrichtigungseinstellungen werden nicht korrekt gespeichert"
+      },
+      "en": {
+        "releaseDate": "08/21/2024",
+        "changeLog": "Fixed:\n- Notification settings are not saved correctly"
+      }
+    },
+    "PRE-1.0.9-1": {
+      "de": {
+        "releaseDate": "20.08.2024",
+        "changeLog": "Hinzugefügt:\n- Benachrichtigungseinstellungen\n\nBehoben:\n- Account wechseln crasht die App"
+      },
+      "en": {
+        "releaseDate": "08/20/2024",
+        "changeLog": "Added:\n- Notificaion settings\n\nFixed:\n- Switching accounts crashes the app"
+      }
+    },
+    "1.0.8": {
+      "de": {
+        "releaseDate": "26.07.2024",
+        "changeLog": "Hinzugefügt:\n- Sprache: Rumänisch\n- Sprache: Englisch (US) für andere Formatierung von Kommazahlen und Daten\n\nBehoben:\n- Kleinere UI Fehler & Unschönheiten"
+      },
+      "en": {
+        "releaseDate": "07/26/2024",
+        "changeLog": "Added:\n- Language: Romanian\n- Language: Englisch (US) to support other formats for floating point numbers and dates\n\nFixed:\n- Minor UI bugs & imperfections"
+      }
+    },
+    "PRE-1.0.8-1": {
+      "de": {
+        "releaseDate": "28.05.2024",
+        "changeLog": "Hinzugefügt:\n- Sprache: Rumänisch\n- Sprache: Englisch (US) für andere Formatierung von Kommazahlen und Daten\n\nBehoben:\n- Kleinere UI Fehler & Unschönheiten"
+      },
+      "en": {
+        "releaseDate": "05/28/2024",
+        "changeLog": "Added:\n- Language: Romanian\n- Language: Englisch (US) to support other formats for floating point numbers and dates\n\nFixed:\n- Minor UI bugs & imperfections"
+      }
+    },
+    "1.0.7": {
+      "de": {
+        "releaseDate": "13.03.2024",
+        "changeLog": "Behoben:\n- Vergangene Transaktionen zeigen falsche kW Summe an\n- Vergangene Transaktionen Liste aktualisiert sich beim scrollen nicht korrekt"
+      },
+      "en": {
+        "releaseDate": "03/13/2024",
+        "changeLog": "Fixed:\n- Past transactions show incorrect kW values\n- Past transaction list does not update corrextly on scroll"
+      }
+    },
+    "PRE-1.0.7-6": {
+      "de": {
+        "releaseDate": "12.03.2024",
+        "changeLog": "Hinzugefügt:\n- RFID Tokens werden seperat vom Nutzer angezeigt\n\nBehoben:\n- Accountwechsel nicht möglich\n- Sprachenwechsel nicht möglich"
+      },
+      "en": {
+        "releaseDate": "03/12/2024",
+        "changeLog": "Added:\n- RFID Tokens get displayed seperatly from usernames\n\nFixed:\n- Account switching not possible\n- Language switching not possible"
+      }
+    },
+    "PRE-1.0.7-5": {
+      "de": {
+        "releaseDate": "12.03.2024",
+        "changeLog": "Hinzugefügt:\n- Umgebungsspezifische Berechnung des Transaktionsstatus\n\nBehoben:\n- Laufende Transaktionen zeigen in der Produktionsumgebung keine Werte an"
+      },
+      "en": {
+        "releaseDate": "03/12/2024",
+        "changeLog": "Added:\n- Environment dependend calculation of transaction states\n\nFixed:\n- Active transactions don't show any values in production"
+      }
+    },
+    "PRE-1.0.7-4": {
+      "de": {
+        "releaseDate": "11.03.2024",
+        "changeLog": "Behoben:\n- Laufende Transaktionen zeigen in der Produktionsumgebung keine Werte an"
+      },
+      "en": {
+        "releaseDate": "03/11/2024",
+        "changeLog": "Fixed:\n- Active transactions don't show any values in production"
+      }
+    },
+    "PRE-1.0.7-3": {
+      "de": {
+        "releaseDate": "01.03.2024",
+        "changeLog": "Behoben:\n- Vergangene Transaktionen zeigen falsche kW Summe an\n- Vergangene Transaktionen Liste aktualisiert sich inkorrekt beim scrollen"
+      },
+      "en": {
+        "releaseDate": "03/01/2024",
+        "changeLog": "Fixed:\n- Past transactions show incorrect kW total\n- Past transactions list does not update correctly on scroll"
+      }
+    },
+    "PRE-1.0.7-2": {
+      "de": {
+        "releaseDate": "17.01.2024",
+        "changeLog": "Hinzugefügt:\n- Abmelden button bei Account wieder herstellen Ansicht"
+      },
+      "en": {
+        "releaseDate": "01/17/2024",
+        "changeLog": "Added:\n- SignOut button in recover account screen"
+      }
+    },
+    "PRE-1.0.7-1": {
+      "de": {
+        "releaseDate": "08.01.2024",
+        "changeLog": "Geändert:\n- Passwort anzeigen Icon Sichtbarkeit behoben\n\nEntfernt:\n- Maximaler Strom Anzeige bei Transaktionen Details"
+      },
+      "en": {
+        "releaseDate": "01/08/2024",
+        "changeLog": "Chnaged:\n- Fixed show icon password visibility\n\nRemoved:\n- Max power in detailed transactions"
+      }
+    },
+    "1.0.6": {
+      "de": {
+        "releaseDate": "30.11.2023",
+        "changeLog": "Hinzugefügt:\n- Letzte Nachricht vom Server Indikator in den Details einer laufenden Transaktion\n\nBehoben:\n- Flackernde Anzeige in der Ladepunktliste"
+      },
+      "en": {
+        "releaseDate": "11/30/2023",
+        "changeLog": "Added:\n- Last message from server indicator in the details of a active transaction\n\nFixed:\n- Flickering in charging point list"
+      }
+    },
+    "1.0.5": {
+      "de": {
+        "releaseDate": "29.09.2023",
+        "changeLog": "Behoben:\n- Transaktionen werden nicht angezeigt\n- Ladevorgänge können nicht übernommen werden\n- Zu große Schriftarten machen Teile der App unnutzbar"
+      },
+      "en": {
+        "releaseDate": "09/29/2023",
+        "changeLog": "Fixed:\n- Transactions are not displayed\n- Active transactions cannot be assigned to your account\n- Fonts that are too large make parts of the app unusable"
+      }
+    },
+    "1.0.4": {
+      "de": {
+        "releaseDate": "18.08.2023",
+        "changeLog": "Hinzugefügt:\n- Anzeige für zu meinem Account zugewiesenen, aktiven Transaktionen\n- 'Pausiert durch Fahrzeug' Status\n- Unendliche RFID-Karten Lebensdauer\n- Hinzufügen von RFID Karten über pulsatrix Ladepunkte\n\nBehoben:\n- Ladestationen zeigen falschen Status an\n- Extrem hoher Datenverbrauch\n- Nutzer können aus unerklärlichen Gründen Transaktionen nicht übernehmen\n- Webseite und App nutzen unterschiedliche Bezeichnungen und zeigen komplett andere Dinge an\n- Zu lange RFID-Karten Namen schieben das Logo über den Kartenrand"
+      },
+      "en": {
+        "releaseDate": "08/18/2023",
+        "changeLog": "Added:\n- Display for active transactions that are assigned to my account\n- 'Suspended by vehicle' state\n- Unlimited RFID-Card lifespand\n- Add RFID cards with pulsatrix charging points\n\nFixed:\n- Charging points display incorrect state\n- Extremly high data usage\n- Users can't assume ownership of transactions for seemingly no reason\n- Webapp and mobile-app use different names and display completely different states\n- To long RFID-Card names push the logo over the card border"
+      }
+    },
+    "PRE-1.0.4-7": {
+      "de": {
+        "releaseDate": "13.08.2023",
+        "changeLog": "Hinzugefügt:\n- 'Pausiert durch Fahrzeug' Status\n- Schnelles Wechseln zwischen mehreren Konten\n\nBehoben:\n- Ladestationen zeigen falschen Status an\n- Extrem hoher Datenverbrauch"
+      },
+      "en": {
+        "releaseDate": "08/13/2023",
+        "changeLog": "Added:\n- 'Suspended by vehicle' state\n- Account hotswitching\n\nFixed:\n- Charging points display incorrect state\n- Extremly high data usage"
+      }
+    },
+    "PRE-1.0.4-6": {
+      "de": {
+        "releaseDate": "29.07.2023",
+        "changeLog": "Hinzugefügt:\n- Erweiterte Optionen über REST API\n\nGeändert:\n- Neues Datum für unendliche RFID Karten"
+      },
+      "en": {
+        "releaseDate": "07/29/2023",
+        "changeLog": "Added:\n- Advanced Options over REST API\n\nChanged:\n- New date for unlimited RFID cards"
+      }
+    },
+    "PRE-1.0.4-5": {
+      "de": {
+        "releaseDate": "26.07.2023",
+        "changeLog": "Hinzugefügt:\n- Hinzufügen von RFID Karten über pulsatrix Ladepunkte\n- Hinzufügen von RFID Karten über NFC/RFID am Handy (Nur auf TEST verfügbar)\n- Can-Connect Werte werden am Anfang einmal veruscht zu laden und geben einen Fehler aus wenn sie nicht gelesen werden können"
+      },
+      "en": {
+        "releaseDate": "07/26/2023",
+        "changeLog": "Added:\n- Add RFID cards with pulsatrix charging points\n- Adding RFID cards with NFC/RFID using your phone (Only available in TEST)\n- Can-Connect values are read once at the beginning and show an error if they can not be read"
+      }
+    },
+    "PRE-1.0.4-4": {
+      "de": {
+        "releaseDate": "26.07.2023",
+        "changeLog": "Hinzugefügt:\n- Anzeige für zu meinem Account zugewiesenen, aktiven Transaktionen"
+      },
+      "en": {
+        "releaseDate": "07/26/2023",
+        "changeLog": "Added:\n- Display for active transactions that are assigned to my account"
+      }
+    },
+    "PRE-1.0.4-3": {
+      "de": {
+        "releaseDate": "24.07.2023",
+        "changeLog": "Hinzugefügt:\n- Einfache Implementierung von einer Can-Connect Debug Seite (Nur für Techniker)\n\nBehoben:\n- Nutzer können aus unerklärlichen Gründen Transaktionen nicht übernehmen"
+      },
+      "en": {
+        "releaseDate": "07/24/2023",
+        "changeLog": "Added:\n- Basic Can-Connect Debug screen (for technicians only)\n\nFixed:\n- Users can't assume ownership of transactions for seemingly no reason"
+      }
+    },
+    "PRE-1.0.4-2": {
+      "de": {
+        "releaseDate": "23.07.2023",
+        "changeLog": "Hinzugefügt:\n- Einfache Implementierung von erweiterten Optionen (Nur für Techniker)"
+      },
+      "en": {
+        "releaseDate": "07/23/2023",
+        "changeLog": "Added:\n- Basic advanced options (for technicians only)"
+      }
+    },
+    "PRE-1.0.4-1": {
+      "de": {
+        "releaseDate": "21.07.2023",
+        "changeLog": "Hinzugefügt:\n- Unendliche RFID-Karten Lebensdauer\n\nBehoben:\n- Webseite und App nutzen unterschiedliche Bezeichnungen und zeigen komplett andere Dinge an\n- Zu lange RFID-Karten Namen schieben das Logo über den Kartenrand"
+      },
+      "en": {
+        "releaseDate": "07/21/2023",
+        "changeLog": "Added:\n- Unlimited RFID-Card lifespand\n\nFixed:\n- Webapp and mobile-app use different names and display completely different states\n- To long RFID-Card names push the logo over the card border"
+      }
+    },
+    "1.0.3": {
+      "de": {
+        "releaseDate": "19.04.2023",
+        "changeLog": "Behoben:\n- Grauer Bildschirm bei zu schnellem Wechseln zwischen aktiven Transaktionen"
+      },
+      "en": {
+        "releaseDate": "04/19/2023",
+        "changeLog": "Fixed:\n- Gray screen when switching to fast between active transactions"
+      }
+    },
+    "1.0.2": {
+      "de": {
+        "releaseDate": "12.04.2023",
+        "changeLog": "Hinzugefügt:\n- Kompatibilität für iPad's (BETA)\n- Probleme melden in der App\n\nBehoben:\n- Zu viele Nachkommastellen bei abgeschlossenen Transaktionen"
+      },
+      "en": {
+        "releaseDate": "04/12/2023",
+        "changeLog": "Added:\n- Support for iPad's (BETA)\n- Report issues through the app\n\nFixed:\n- To many floating points on past transactions"
+      }
+    },
+    "PRE-1.0.2-2": {
+      "de": {
+        "releaseDate": "06.04.2023",
+        "changeLog": "Hinzugefügt:\n- Kompatibilität für iPad und MacBook\n\nBehoben:\n- Zu viele Nachkommastellen bei abgeschlossenen Transaktionen"
+      },
+      "en": {
+        "releaseDate": "04/06/2023",
+        "changeLog": "Added:\n- Support for iPad and MacBook\n\nFixed:\n- To many floating points on past transactions"
+      }
+    },
+    "PRE-1.0.2-1": {
+      "de": {
+        "releaseDate": "03.04.2023",
+        "changeLog": "Hinzugefügt:\n- Probleme melden in der App"
+      },
+      "en": {
+        "releaseDate": "04/03/2023",
+        "changeLog": "Added:\n- Report issues through the App"
+      }
+    },
+    "1.0.1": {
+      "de": {
+        "releaseDate": "28.03.2023",
+        "changeLog": "Hinzugefügt:\n- Neuer Filter (Nur freie Ladepunkte anzeigen)\n\nGeändert:\n- Neues Filter GUI\n\nBehoben:\n- \"Station Scannen\" button reagiert an manchen Stellen nicht\n- RFID Karte aktuallisiert ihren Status nach Reaktivierung nicht"
+      },
+      "en": {
+        "releaseDate": "03/28/2023",
+        "changeLog": "Added:\n- New filter (Only show unused charging points)\n\nChanged:\n- New filter GUI\n\nFixed:\n- \"Scan Station\" button doesn't react in some spots\n- RFID Card doesn't update it's state after reactivation"
+      }
+    },
+    "PRE-1.0.1-1": {
+      "de": {
+        "releaseDate": "23.03.2023",
+        "changeLog": "Hinzugefügt:\n- Neuer Filter (Nur freie Ladepunkte anzeigen)\n\nGeändert:\n- Neues Filter GUI\n\nBehoben:\n- \"Station Scannen\" button reagiert an manchen Stellen nicht"
+      },
+      "en": {
+        "releaseDate": "03/23/2023",
+        "changeLog": "Added:\n- New filter (Only show unused charging points)\n\nChanged:\n- New filter GUI\n\nFixed:\n- \"Scan Station\" button doesn't react in some spots"
+      }
+    },
+    "1.0.0": {
+      "de": {
+        "releaseDate": "21.03.2023",
+        "changeLog": "Veröffentlichung! 🎉"
+      },
+      "en": {
+        "releaseDate": "03/21/2023",
+        "changeLog": "Public launch! 🎉"
+      }
+    },
+    "PRE-1.0.0-13": {
+      "de": {
+        "releaseDate": "19.03.2023",
+        "changeLog": "Hinzugefügt:\n- RFID Karten mit einem Ladepunkt hinzufügen (Nur für spezielle Beta Tester)"
+      },
+      "en": {
+        "releaseDate": "03/19/2023",
+        "changeLog": "Added:\n- Add RFID cards with a charging point (Special Beta Testers only)"
+      }
+    },
+    "PRE-1.0.0-12": {
+      "de": {
+        "releaseDate": "17.03.2023",
+        "changeLog": "Entfernt:\n- RFID Karten hinzufügen (temporär)\n\nGeändert:\n- Sortierung für Ladestations Liste (ABC, 123)\n- Kleine Änderungen auf der Anmelden & Registrieren Seite"
+      },
+      "en": {
+        "releaseDate": "03/17/2023",
+        "changeLog": "Removed:\n- Add RFID cards (temporary)\n\nChanged:\n- Sorting for charging stations list (ABC, 123)\n- Small changes on the SignIn & SignUp page"
+      }
+    },
+    "PRE-1.0.0-11": {
+      "de": {
+        "releaseDate": "16.03.2023",
+        "changeLog": "Hinzugefügt:\n- Einstellungen und Verwaltung für RFID Karten\n- Filter für Ladestationen Liste\n\nBehoben:\n- Umlaute werden nicht richtig angezeigt"
+      },
+      "en": {
+        "releaseDate": "03/16/2023",
+        "changeLog": "Added:\n- Settings and management for RFID cards\n- Filter for charging stations list\n\nFixed:\n- Certain letters are not displayed correctly"
+      }
+    },
+    "PRE-1.0.0-10": {
+      "de": {
+        "releaseDate": "08.03.2023",
+        "changeLog": "Behoben:\n- Keine Fehlermeldung wenn die Transaktionsliste leer ist"
+      },
+      "en": {
+        "releaseDate": "03/08/2023",
+        "changeLog": "Fixed:\n- Missing error if history is empty"
+      }
+    },
+    "PRE-1.0.0-9": {
+      "de": {
+        "releaseDate": "06.03.2023",
+        "changeLog": "Behoben:\n- Powerdomains werden nicht gruppiert\n- Schnell wechselnder Transaktionsstatus"
+      },
+      "en": {
+        "releaseDate": "03/06/2023",
+        "changeLog": "Fixed:\n- Powerdomains don't group correctly\n- Flickering transaction state"
+      }
+    },
+    "PRE-1.0.0-8": {
+      "de": {
+        "releaseDate": "05.03.2023",
+        "changeLog": "Behoben:\n- Powerdomains öffnen und schließen sich von alleine"
+      },
+      "en": {
+        "releaseDate": "03/05/2023",
+        "changeLog": "Fixed:\n- Powerdomains opening and closing by themselves"
+      }
+    },
+    "PRE-1.0.0-7": {
+      "de": {
+        "releaseDate": "05.03.2023",
+        "changeLog": "Hinzugefügt:\n- Transaktion Übersicht Seite\n- Station scannen (QR und NFC)\n\nBehoben:\n- Jahrestrenner in Transaktionsliste unsichtbar"
+      },
+      "en": {
+        "releaseDate": "03/05/2023",
+        "changeLog": "Added:\n- Transaction Overview Page\n- Scan Station (QR and NFC)\n\nFixed:\n- New year indicator in history invisible"
+      }
+    },
+    "PRE-1.0.0-6": {
+      "de": {
+        "releaseDate": "30.12.2022",
+        "changeLog": "Hinzugefügt:\n- Ladestationen Seite\n\nEntfernt:\n- Tenant aus basis Transaktionsliste entfernt (wird später in die detailierte Seite verschoben)\n\n⚠️Detailierte Übersichten der Ladevorgänge und eine aktuelle Liste von ihnen zugewiesenen Ladestationen sind noch nicht verfügbar."
+      },
+      "en": {
+        "releaseDate": "12/30/2022",
+        "changeLog": "Added:\n- Charging Stations page\n\nRemoved:\n- Removed tenant from basic history view (will later be moved into the details page)\n\n⚠️Detailed information for running transactions and a list of transactions that are assigned to your account are currently not available."
+      }
+    },
+    "PRE-1.0.0-5": {
+      "de": {
+        "releaseDate": "26.12.2022",
+        "changeLog": "Hinzugefügt:\n- Transaktionen Seite\n\n⚠️Station Auswählen Seite ist aktuell noch nicht verfügbar."
+      },
+      "en": {
+        "releaseDate": "12/26/2022",
+        "changeLog": "Added:\n- Transactions page\n\n⚠️Select Station screen is not available at this point."
+      }
+    },
+    "PRE-1.0.0-4": {
+      "de": {
+        "releaseDate": "25.12.2022",
+        "changeLog": "Behoben:\n- Änderungsprotokolldaten laden nicht\n\n⚠️Transaktionen und Station Auswählen Seiten sind aktuell noch nicht verfügbar."
+      },
+      "en": {
+        "releaseDate": "12/25/2022",
+        "changeLog": "Fixed:\n- Changelog data not loading\n\n⚠️History and Select Station screens are not available at this point."
+      }
+    },
+    "PRE-1.0.0-3": {
+      "de": {
+        "releaseDate": "24.12.2022 🎄",
+        "changeLog": "Hinzugefügt:\n- Biometrische Appsperre nach Fokusverlust der App\n\n⚠️Transaktionen und Station Auswählen Seiten sind aktuell noch nicht verfügbar."
+      },
+      "en": {
+        "releaseDate": "12/24/2022 🎄",
+        "changeLog": "Added:\n- Biometric App Lock after app focus loss\n\n⚠️History and Select Station screens are not available at this point."
+      }
+    },
+    "PRE-1.0.0-2": {
+      "de": {
+        "releaseDate": "24.12.2022 🎄",
+        "changeLog": "- Alle Schreibfehler korrigiert\n\nHinzugefügt:\n- Biometrische Appsperre\n- Zugangsdaten Autovervollständigung\n\n⚠️Transaktionen und Station Auswählen Seiten sind aktuell noch nicht verfügbar."
+      },
+      "en": {
+        "releaseDate": "12/24/2022 🎄",
+        "changeLog": "- Corrected all spelling mistakes\n\nAdded:\n- Biometric App Lock\n- Autofill credentials\n\n⚠️History and Select Station screens are not available at this point."
+      }
+    },
+    "PRE-1.0.0-1": {
+      "de": {
+        "releaseDate": "24.12.2022 🎄",
+        "changeLog": "- Komplett neues Design\n- Sprache wird jetzt standartmäßig auf Systemstandartsprache gestellt\n- Ladebildschirm bewegt sich wärend dem Laden nicht mehr\n\n⚠️Transaktionen und Station Auswählen Seiten sind aktuell noch nicht verfügbar."
+      },
+      "en": {
+        "releaseDate": "12/24/2022 🎄",
+        "changeLog": "- Completely new design\n- Language is now defaulted to the system language\n- Fixed Splash screen moving while loading\n\n⚠️History and Select Station screens are not available at this point."
+      }
+    }
+  },
+  "android": {
+    "1.2.4": {
+      "de": {
+        "releaseDate": "21.10.2025",
+        "changeLog": "- Verbessertes Verhalten der Buttons für \"Ladevorgang übernehmen\" und \"Laden beenden\""
+      },
+      "en": {
+        "releaseDate": "10/21/2025",
+        "changeLog": "- Improved behavior of 'Assume ownership' and 'Stop charging' buttons"
+      }
+    },
+    "1.2.3": {
+      "de": {
+        "releaseDate": "25.09.2025",
+        "changeLog": "- Probleme bei der Live-Daten Synchronisation behoben"
+      },
+      "en": {
+        "releaseDate": "09/25/2025",
+        "changeLog": "- Resolved issues with live data synchronisation"
+      }
+    },
+    "1.2.2": {
+      "de": {
+        "releaseDate": "22.09.2025",
+        "changeLog": "- Software-interne Verbesserungen"
+      },
+      "en": {
+        "releaseDate": "09/22/2025",
+        "changeLog": "- Software internal improvements"
+      }
+    },
+    "1.2.1": {
+      "de": {
+        "releaseDate": "05.09.2025",
+        "changeLog": "- Transaktionen können beim Zustand \"Verbunden\" nicht mehr beendet werden\n- Formatierung und Darstellung der Dauer eines Ladevorgangs vereinheitlicht"
+      },
+      "en": {
+        "releaseDate": "09/05/2025",
+        "changeLog": "- Transactions can no longer be ended in the \"Connected\" state\n- Unified formatting and display of charging duration"
+      }
+    },
+    "1.2.0": {
+      "de": {
+        "releaseDate": "26.08.2025",
+        "changeLog": "- Probleme mit biometrischer Anmeldung behoben\n- Benutzeroberfläche für Umgebungswechsel verbessert\n- zusätzliche Benutzerprofile können nun vom Gerät gelöscht werden\n- mehr Vorschauwerte in den Einstellungen\n- NFC-Einstellungen für direkten Zugriff optimiert"
+      },
+      "en": {
+        "releaseDate": "08/26/2025",
+        "changeLog": "- Fixed biometric login issues\n- Improved user account interface for switching environments\n- Additional accounts can now be deleted from the device\n- Added more preview options in settings\n- Enhanced NFC settings for direct access"
+      }
+    },
+    "1.1.8": {
+      "de": {
+        "releaseDate": "21.08.2025",
+        "changeLog": "- UI für Transaktionsdaten reduziert bei Ladepunkten ohne aktive Transaktion\n- Anzeige der sichtbaren/gesamten Ladepunkte bei aktiven Filtern\n- Neue Einstellungen für Datums-, Zeit- und Zahlenformate\n- Möglichkeit, laufende Ladevorgänge direkt aus der App zu beenden\n- Neuer Indikator (\"Ampel\") für die Leistungsauslastung eines Ladeparks, bzw. verfügbarer Ressourcen am Ladepunkt\n- Überarbeitete Übersetzungen"
+      },
+      "en": {
+        "releaseDate": "08/21/2025",
+        "changeLog": "- UI for transaction data simplified for charging points without active transactions\n- Display of visible/total charging points when filters are active\n- New settings for date, time, and number formats\n- Ability to end ongoing charging processes directly from the app\n- New indicator (\"traffic light\") for the power utilization of a charging park or available resources at the charging point\n- Revised translations\n"
+      }
+    },
+    "1.1.7": {
+      "de": {
+        "releaseDate": "31.07.2025",
+        "changeLog": "Behoben:\n- Synchronisationsabbruch von Ladepunkt-Live-Daten"
+      },
+      "en": {
+        "releaseDate": "07/31/2025",
+        "changeLog": "Fixed:\n- Sync issues with charging point live data"
+      }
+    },
+    "1.1.6": {
+      "de": {
+        "releaseDate": "18.07.2025",
+        "changeLog": "Unterstützung für neuste Android-Versionen."
+      },
+      "en": {
+        "releaseDate": "07/18/2025",
+        "changeLog": "Support for latest Android versions."
+      }
+    },
+    "1.1.3": {
+      "de": {
+        "releaseDate": "16.05.2025",
+        "changeLog": "Behoben:\n- Uhrzeitenformat ist nicht sprachspezifisch"
+      },
+      "en": {
+        "releaseDate": "05/16/2025",
+        "changeLog": "Fixed:\n- Time format is not language specific"
+      }
+    },
+    "1.1.2": {
+      "de": {
+        "releaseDate": "16.05.2025",
+        "changeLog": "Hinzugefügt:\n- RFID-Karten Registrierung mit NFC\n\nGeändert:\n- Neue Anmeldeumgebung (für Production)"
+      },
+      "en": {
+        "releaseDate": "05/16/2025",
+        "changeLog": "Added:\n- RFID card registration with NFC\n\nChanged:\n- New production authentication environment"
+      }
+    },
+    "1.1.1": {
+      "de": {
+        "releaseDate": "10.05.2025",
+        "changeLog": "Rollback:\n- prod authentication environment"
+      },
+      "en": {
+        "releaseDate": "05/10/2025",
+        "changeLog": "Rollback:\n- prod authentication environment"
+      }
+    },
+    "1.0.9_1": {
+      "de": {
+        "releaseDate": "16.04.2025",
+        "changeLog": "Hinzugefügt:\n- Neue Anmeldeumgebung"
+      },
+      "en": {
+        "releaseDate": "04/16/2025",
+        "changeLog": "Added:\n- New authentication environment"
+      }
+    },
+    "1.0.9": {
+      "de": {
+        "releaseDate": "15.04.2025",
+        "changeLog": "Hinzugefügt:\n- Einheitliche Statusfarben zur pulsatrix Webapp\n- Effizientere Benutzeroberfläche"
+      },
+      "en": {
+        "releaseDate": "04/15/2025",
+        "changeLog": "Added:\n- Status colors uniform to the pulsatrix Webapp\n- More efficient UI"
+      }
+    },
+    "PRE-1.0.9-3": {
+      "de": {
+        "releaseDate": "11.03.2025",
+        "changeLog": "Hinzugefügt:\n- Neues multi-platform Design\n- An die WebApp angepasste Ladestatus-Farben\n- Neue Ladegruppen Logik löst PowerDomain Logik ab\n\n⚠️ Benachrichtigungseinstellungen sind aufgrund eines noch unbekannten Fehlers nicht verfügbar."
+      },
+      "en": {
+        "releaseDate": "03/11/2025",
+        "changeLog": "Added:\n- New multi-platform design\n- Charging status colors adapted to the WebApp\n- New charging group logic replaces PowerDomain logic\n\n⚠️ Notification settings are not available due to an unknown error."
+      }
+    },
+    "PRE-1.0.9-2": {
+      "de": {
+        "releaseDate": "21.08.2024",
+        "changeLog": "Behoben:\n- Benachrichtigungseinstellungen werden nicht korrekt gespeichert"
+      },
+      "en": {
+        "releaseDate": "08/21/2024",
+        "changeLog": "Fixed:\n- Notification settings are not saved correctly"
+      }
+    },
+    "PRE-1.0.9-1": {
+      "de": {
+        "releaseDate": "20.08.2024",
+        "changeLog": "Hinzugefügt:\n- Benachrichtigungseinstellungen"
+      },
+      "en": {
+        "releaseDate": "08/20/2024",
+        "changeLog": "Added:\n- Notificaion settings"
+      }
+    },
+    "1.0.8": {
+      "de": {
+        "releaseDate": "26.07.2024",
+        "changeLog": "Hinzugefügt:\n- Sprache: Rumänisch\n- Sprache: Englisch (US) für andere Formatierung von Kommazahlen und Daten\n\nBehoben:\n- Kleinere UI Fehler & Unschönheiten"
+      },
+      "en": {
+        "releaseDate": "07/26/2024",
+        "changeLog": "Added:\n- Language: Romanian\n- Language: Englisch (US) to support other formats for floating point numbers and dates\n\nFixed:\n- Minor UI bugs & imperfections"
+      }
+    },
+    "PRE-1.0.8-1": {
+      "de": {
+        "releaseDate": "28.05.2024",
+        "changeLog": "Hinzugefügt:\n- Sprache: Rumänisch\n- Sprache: Englisch (US) für andere Formatierung von Kommazahlen und Daten\n\nBehoben:\n- Kleinere UI Fehler & Unschönheiten"
+      },
+      "en": {
+        "releaseDate": "05/28/2024",
+        "changeLog": "Added:\n- Language: Romanian\n- Language: Englisch (US) to support other formats for floating point numbers and dates\n\nFixed:\n- Minor UI bugs & imperfections"
+      }
+    },
+    "1.0.7": {
+      "de": {
+        "releaseDate": "13.03.2024",
+        "changeLog": "Behoben:\n- Vergangene Transaktionen zeigen falsche kW Summe an\n- Vergangene Transaktionen Liste aktualisiert sich beim scrollen nicht korrekt"
+      },
+      "en": {
+        "releaseDate": "03/13/2024",
+        "changeLog": "Fixed:\n- Past transactions show incorrect kW values\n- Past transaction list does not update corrextly on scroll"
+      }
+    },
+    "PRE-1.0.7-6": {
+      "de": {
+        "releaseDate": "12.03.2024",
+        "changeLog": "Hinzugefügt:\n- RFID Tokens werden seperat vom Nutzer angezeigt\n\nBehoben:\n- Accountwechsel nicht möglich\n- Sprachenwechsel nicht möglich"
+      },
+      "en": {
+        "releaseDate": "03/12/2024",
+        "changeLog": "Added:\n- RFID Tokens get displayed seperatly from usernames\n\nFixed:\n- Account switching not possible\n- Language switching not possible"
+      }
+    },
+    "PRE-1.0.7-5": {
+      "de": {
+        "releaseDate": "12.03.2024",
+        "changeLog": "Hinzugefügt:\n- Umgebungsspezifische Berechnung des Transaktionsstatus\n\nBehoben:\n- Laufende Transaktionen zeigen in der Produktionsumgebung keine Werte an"
+      },
+      "en": {
+        "releaseDate": "03/12/2024",
+        "changeLog": "Added:\n- Environment dependend calculation of transaction states\n\nFixed:\n- Active transactions don't show any values in production"
+      }
+    },
+    "PRE-1.0.7-4": {
+      "de": {
+        "releaseDate": "11.03.2024",
+        "changeLog": "Behoben:\n- Laufende Transaktionen zeigen in der Produktionsumgebung keine Werte an"
+      },
+      "en": {
+        "releaseDate": "03/11/2024",
+        "changeLog": "Fixed:\n- Active transactions don't show any values in production"
+      }
+    },
+    "PRE-1.0.7-3": {
+      "de": {
+        "releaseDate": "01.03.2024",
+        "changeLog": "Behoben:\n- DeepLinks öffnen App bei ungewollten URL's\n- Vergangene Transaktionen Liste aktualisiert sich inkorrekt beim scrollen"
+      },
+      "en": {
+        "releaseDate": "03/01/2024",
+        "changeLog": "Fixed:\n- DeepLinks open the app on unwanted URL's\n- Past transactions list does not update correctly on scroll"
+      }
+    },
+    "PRE-1.0.7-2": {
+      "de": {
+        "releaseDate": "17.01.2024",
+        "changeLog": "Hinzugefügt:\n- Abmelden button bei Account wieder herstellen Ansicht"
+      },
+      "en": {
+        "releaseDate": "01/17/2024",
+        "changeLog": "Added:\n- SignOut button in recover account screen"
+      }
+    },
+    "PRE-1.0.7-1": {
+      "de": {
+        "releaseDate": "08.01.2024",
+        "changeLog": "Geändert:\n- Biometrische Authentifizierung Umgehung behoben\n\nEntfernt:\n- Maximaler Strom Anzeige bei Transaktionen Details"
+      },
+      "en": {
+        "releaseDate": "01/08/2024",
+        "changeLog": "Chnaged:\n- Fixed android biometric bypass\n\nRemoved:\n- Max power in detailed transactions"
+      }
+    },
+    "1.0.6": {
+      "de": {
+        "releaseDate": "30.11.2023",
+        "changeLog": "Hinzugefügt:\n- Letzte Nachricht vom Server Indikator in den Details einer laufenden Transaktion\n\nBehoben:\n- Flackernde Anzeige in der Ladepunktliste\n\n⚠️ Problem melden Funktion ist temporär deaktiviert!"
+      },
+      "en": {
+        "releaseDate": "11/30/2023",
+        "changeLog": "Added:\n- Last message from server indicator in the details of a active transaction\n\nFixed:\n- Flickering in charging point list\n\n⚠️ Temporarily disabled report problem feature!"
+      }
+    },
+    "1.0.5": {
+      "de": {
+        "releaseDate": "29.09.2023",
+        "changeLog": "Behoben:\n- App wird bei älteren Geräten nicht im PlayStore angezeigt\n- Transaktionen werden nicht angezeigt\n- Ladevorgänge können nicht übernommen werden\n- Zu große Schriftarten machen Teile der App unnutzbar"
+      },
+      "en": {
+        "releaseDate": "09/29/2023",
+        "changeLog": "Fixed:\n- App does not show up in the PlayStore on older devices\n- Transactions are not displayed\n- Active transactions cannot be assigned to your account\n- Fonts that are too large make parts of the app unusable"
+      }
+    },
+    "1.0.4": {
+      "de": {
+        "releaseDate": "18.08.2023",
+        "changeLog": "Hinzugefügt:\n- Anzeige für zu meinem Account zugewiesenen, aktiven Transaktionen\n- 'Pausiert durch Fahrzeug' Status\n- Unendliche RFID-Karten Lebensdauer\n- Hinzufügen von RFID Karten über pulsatrix Ladepunkte\n\nBehoben:\n- Ladestationen zeigen falschen Status an\n- Extrem hoher Datenverbrauch\n- Nutzer können aus unerklärlichen Gründen Transaktionen nicht übernehmen\n- Webseite und App nutzen unterschiedliche Bezeichnungen und zeigen komplett andere Dinge an\n- Zu lange RFID-Karten Namen schieben das Logo über den Kartenrand"
+      },
+      "en": {
+        "releaseDate": "08/18/2023",
+        "changeLog": "Added:\n- 'Suspended by vehicle' state\n- Account hotswitching\n\nFixed:\n- Charging points display incorrect state\n- Extremly high data usage"
+      }
+    },
+    "PRE-1.0.4-7": {
+      "de": {
+        "releaseDate": "13.08.2023",
+        "changeLog": "Hinzugefügt:\n- 'Pausiert durch Fahrzeug' Status\n- Schnelles Wechseln zwischen mehreren Konten\n\nBehoben:\n- Ladestationen zeigen falschen Status an\n- Extrem hoher Datenverbrauch"
+      },
+      "en": {
+        "releaseDate": "08/13/2023",
+        "changeLog": "Added:\n- 'Suspended by vehicle' state\n- Account hotswitching\n\nFixed:\n- Charging points display incorrect state\n- Extremly high data usage"
+      }
+    },
+    "PRE-1.0.4-6": {
+      "de": {
+        "releaseDate": "29.07.2023",
+        "changeLog": "Hinzugefügt:\n- Erweiterte Optionen über REST API\n\nGeändert:\n- Neues Datum für unendliche RFID Karten"
+      },
+      "en": {
+        "releaseDate": "07/29/2023",
+        "changeLog": "Added:\n- Advanced Options over REST API\n\nChanged:\n- New date for unlimited RFID cards"
+      }
+    },
+    "PRE-1.0.4-5": {
+      "de": {
+        "releaseDate": "26.07.2023",
+        "changeLog": "Hinzugefügt:\n- Hinzufügen von RFID Karten über pulsatrix Ladepunkte\n- Can-Connect Werte werden am Anfang einmal veruscht zu laden und geben einen Fehler aus wenn sie nicht gelesen werden können"
+      },
+      "en": {
+        "releaseDate": "07/26/2023",
+        "changeLog": "Added:\n- Add RFID cards with pulsatrix charging points\n- Can-Connect values are read once at the beginning and show an error if they can not be read"
+      }
+    },
+    "PRE-1.0.4-4": {
+      "de": {
+        "releaseDate": "26.07.2023",
+        "changeLog": "Hinzugefügt:\n- Anzeige für zu meinem Account zugewiesenen, aktiven Transaktionen"
+      },
+      "en": {
+        "releaseDate": "07/26/2023",
+        "changeLog": "Added:\n- Display for active transactions that are assigned to my account"
+      }
+    },
+    "PRE-1.0.4-3": {
+      "de": {
+        "releaseDate": "24.07.2023",
+        "changeLog": "Hinzugefügt:\n- Einfache Implementierung von einer Can-Connect Debug Seite (Nur für Techniker)\n\nBehoben:\n- Nutzer können aus unerklärlichen Gründen Transaktionen nicht übernehmen"
+      },
+      "en": {
+        "releaseDate": "07/24/2023",
+        "changeLog": "Added:\n- Basic Can-Connect Debug screen (for technicians only)\n\nFixed:\n- Users can't assume ownership of transactions for seemingly no reason"
+      }
+    },
+    "PRE-1.0.4-2": {
+      "de": {
+        "releaseDate": "23.07.2023",
+        "changeLog": "Hinzugefügt:\n- Einfache Implementierung von erweiterten Optionen (Nur für Techniker)\n\nBehoben:\n- Grauer Bildschirm bei 'Ladestationen' wenn der Benutzer keine Ladestationen hat"
+      },
+      "en": {
+        "releaseDate": "07/23/2023",
+        "changeLog": "Added:\n- Basic advanced options (for technicians only)\n\nFixed:\n- Gray screen on 'Charging Stations' when the user doesn't have any charging stations"
+      }
+    },
+    "PRE-1.0.4-1": {
+      "de": {
+        "releaseDate": "21.07.2023",
+        "changeLog": "Hinzugefügt:\n- Unendliche RFID-Karten Lebensdauer\n\nBehoben:\n- Webseite und App nutzen unterschiedliche Bezeichnungen und zeigen komplett andere Dinge an\n- Zu lange RFID-Karten Namen schieben das Logo über den Kartenrand"
+      },
+      "en": {
+        "releaseDate": "07/21/2023",
+        "changeLog": "Added:\n- Unlimited RFID-Card lifespand\n\nFixed:\n- Webapp and mobile-app use different names and display completely different states\n- To long RFID-Card names push the logo over the card border"
+      }
+    },
+    "1.0.3": {
+      "de": {
+        "releaseDate": "19.04.2023",
+        "changeLog": "Behoben:\n- Grauer Bildschirm bei zu schnellem Wechseln zwischen aktiven Transaktionen"
+      },
+      "en": {
+        "releaseDate": "04/19/2023",
+        "changeLog": "Fixed:\n- Gray screen when switching to fast between active transactions"
+      }
+    },
+    "1.0.2": {
+      "de": {
+        "releaseDate": "12.04.2023",
+        "changeLog": "Hinzugefügt:\n- Probleme melden in der App\n\nBehoben:\n- Zu viele Nachkommastellen bei abgeschlossenen Transaktionen"
+      },
+      "en": {
+        "releaseDate": "04/12/2023",
+        "changeLog": "Added:\n- Report issues through the app\n\nFixed:\n- To many floating points on past transactions"
+      }
+    },
+    "PRE-1.0.2-2": {
+      "de": {
+        "releaseDate": "06.04.2023",
+        "changeLog": "Behoben:\n- Zu viele Nachkommastellen bei abgeschlossenen Transaktionen\n- Bekannte Probleme werden nicht angezeigt"
+      },
+      "en": {
+        "releaseDate": "04/06/2023",
+        "changeLog": "Fixed:\n- To many floating points on past transactions\n- Known issues don't show up"
+      }
+    },
+    "PRE-1.0.2-1": {
+      "de": {
+        "releaseDate": "03.04.2023",
+        "changeLog": "Hinzugefügt:\n- Probleme melden in der App"
+      },
+      "en": {
+        "releaseDate": "04/03/2023",
+        "changeLog": "Added:\n- Report issues through the App"
+      }
+    },
+    "1.0.1": {
+      "de": {
+        "releaseDate": "28.03.2023",
+        "changeLog": "Hinzugefügt:\n- Neuer Filter (Nur freie Ladepunkte anzeigen)\n\nGeändert:\n- Neues Filter GUI\n\nBehoben:\n- RFID Karte aktuallisiert ihren Status nach Reaktivierung nicht"
+      },
+      "en": {
+        "releaseDate": "03/28/2023",
+        "changeLog": "Added:\n- New filter (Only show unused charging points)\n\nChanged:\n- New filter GUI\n\nFixed:\n- RFID Card doesn't update it's state after reactivation"
+      }
+    },
+    "PRE-1.0.1-1": {
+      "de": {
+        "releaseDate": "23.03.2023",
+        "changeLog": "Hinzugefügt:\n- Neuer Filter (Nur freie Ladepunkte anzeigen)\n\nGeändert:\n- Neues Filter GUI"
+      },
+      "en": {
+        "releaseDate": "03/23/2023",
+        "changeLog": "Added:\n- New filter (Only show unused charging points)\n\nChanged:\n- New filter GUI"
+      }
+    },
+    "1.0.0": {
+      "de": {
+        "releaseDate": "21.03.2023",
+        "changeLog": "Veröffentlichung! 🎉"
+      },
+      "en": {
+        "releaseDate": "03/21/2023",
+        "changeLog": "Public launch! 🎉"
+      }
+    },
+    "PRE-1.0.0-13": {
+      "de": {
+        "releaseDate": "19.03.2023",
+        "changeLog": "Hinzugefügt:\n- RFID Karten mit einem Ladepunkt hinzufügen (Nur für spezielle Beta Tester)"
+      },
+      "en": {
+        "releaseDate": "03/19/2023",
+        "changeLog": "Added:\n- Add RFID cards with a charging point (Special Beta Testers only)"
+      }
+    },
+    "PRE-1.0.0-12": {
+      "de": {
+        "releaseDate": "17.03.2023",
+        "changeLog": "Geändert:\n- Sortierung für Ladestations Liste (ABC, 123)\n- Kleine Änderungen auf der Anmelden & Registrieren Seite"
+      },
+      "en": {
+        "releaseDate": "03/17/2023",
+        "changeLog": "Changed:\n- Sorting for charging stations list (ABC, 123)\n- Small changes on the SignIn & SignUp page"
+      }
+    },
+    "PRE-1.0.0-11": {
+      "de": {
+        "releaseDate": "16.03.2023",
+        "changeLog": "Hinzugefügt:\n- Einstellungen und Verwaltung für RFID Karten\n- Filter für Ladestationen Liste\n\nBehoben:\n- Umlaute werden nicht richtig angezeigt"
+      },
+      "en": {
+        "releaseDate": "03/16/2023",
+        "changeLog": "Added:\n- Settings and management for RFID cards\n- Filter for charging stations list\n\nFixed:\n- Certain letters are not displayed correctly"
+      }
+    },
+    "PRE-1.0.0-10": {
+      "de": {
+        "releaseDate": "08.03.2023",
+        "changeLog": "Hinzugefügt:\n- Neues Design bei den Einstellungem\n\nBehoben:\n- Keine Fehlermeldung wenn die Transaktionsliste leer ist"
+      },
+      "en": {
+        "releaseDate": "03/08/2023",
+        "changeLog": "Added:\n- New design for settings page\n\nFixed:\n- Missing error if history is empty"
+      }
+    },
+    "PRE-1.0.0-9": {
+      "de": {
+        "releaseDate": "06.03.2023",
+        "changeLog": "Behoben:\n- Powerdomains werden nicht gruppiert\n- Schnell wechselnder Transaktionsstatus"
+      },
+      "en": {
+        "releaseDate": "03/06/2023",
+        "changeLog": "Fixed:\n- Powerdomains don't group correctly\n- Flickering transaction state"
+      }
+    },
+    "PRE-1.0.0-8": {
+      "de": {
+        "releaseDate": "05.03.2023",
+        "changeLog": "Behoben:\n- Powerdomains öffnen und schließen sich von alleine"
+      },
+      "en": {
+        "releaseDate": "03/05/2023",
+        "changeLog": "Fixed:\n- Powerdomains opening and closing by themselves"
+      }
+    },
+    "PRE-1.0.0-7": {
+      "de": {
+        "releaseDate": "05.03.2023",
+        "changeLog": "Hinzugefügt:\n- Transaktion Übersicht Seite\n- Scannen (QR und NFC)\n\nBehoben:\n- Jahrestrenner in Transaktionsliste unsichtbar\n- Biometrische Authentifizierung wird bei erster Aktivierung nicht gespeichert"
+      },
+      "en": {
+        "releaseDate": "03/05/2023",
+        "changeLog": "Added:\n- Transaction Overview Page\n- Scan Station (QR and NFC)\n\nFixed:\n- New year indicator in history invisible\n- Biometric authentication not saved on first activation"
+      }
+    },
+    "PRE-1.0.0-6": {
+      "de": {
+        "releaseDate": "30.12.2022",
+        "changeLog": "Hinzugefügt:\n- Ladestationen Seite\n\nEntfernt:\n- Tenant aus basis Transaktionsliste entfernt (wird später in die detailierte Seite verschoben)\n\n⚠️Detailierte Übersichten der Ladevorgänge und eine aktuelle Liste von ihnen zugewiesenen Ladestationen sind noch nicht verfügbar."
+      },
+      "en": {
+        "releaseDate": "12/30/2022",
+        "changeLog": "Added:\n- Charging Stations page\n\nRemoved:\n- Removed tenant from basic history view (will later be moved into the details page)\n\n⚠️Detailed information for running transactions and a list of transactions that are assigned to your account are currently not available."
+      }
+    },
+    "PRE-1.0.0-5": {
+      "de": {
+        "releaseDate": "26.12.2022",
+        "changeLog": "Hinzugefügt:\n- Transaktionen Seite\n\n⚠️Station Auswählen Seite ist aktuell noch nicht verfügbar."
+      },
+      "en": {
+        "releaseDate": "12/26/2022",
+        "changeLog": "Added:\n- Transactions page\n\n⚠️Select Station screen is not available at this point."
+      }
+    },
+    "PRE-1.0.0-4": {
+      "de": {
+        "releaseDate": "25.12.2022",
+        "changeLog": "Behoben:\n- Änderungsprotokolldaten laden nicht\n\n⚠️Transaktionen und Station Auswählen Seiten sind aktuell noch nicht verfügbar."
+      },
+      "en": {
+        "releaseDate": "12/25/2022",
+        "changeLog": "Fixed:\n- Changelog data not loading\n\n⚠️History and Select Station screens are not available at this point."
+      }
+    },
+    "PRE-1.0.0-3": {
+      "de": {
+        "releaseDate": "24.12.2022 🎄",
+        "changeLog": "Hinzugefügt:\n- Biometrische Appsperre nach Fokusverlust der App\n\n⚠️Transaktionen und Station Auswählen Seiten sind aktuell noch nicht verfügbar."
+      },
+      "en": {
+        "releaseDate": "12/24/2022 🎄",
+        "changeLog": "Added:\n- Biometric App Lock after app focus loss\n\n⚠️History and Select Station screens are not available at this point."
+      }
+    },
+    "PRE-1.0.0-2": {
+      "de": {
+        "releaseDate": "24.12.2022 🎄",
+        "changeLog": "- Alle Schreibfehler korrigiert\n\nHinzugefügt:\n- Biometrische Appsperre\n\n⚠️Transaktionen und Station Auswählen Seiten sind aktuell noch nicht verfügbar."
+      },
+      "en": {
+        "releaseDate": "12/24/2022 🎄",
+        "changeLog": "- Corrected all spelling mistakes\n\nAdded:\n- Biometric App Lock\n\n⚠️History and Select Station screens are not available at this point."
+      }
+    },
+    "PRE-1.0.0-1": {
+      "de": {
+        "releaseDate": "24.12.2022 🎄",
+        "changeLog": "- Komplett neues Design\n- Sprache wird jetzt standartmäßig auf Systemstandartsprache gestellt\n- Ladebildschirm bewegt sich wärend dem Laden nicht mehr\n\n⚠️Transaktionen und Station Auswählen Seiten sind aktuell noch nicht verfügbar."
+      },
+      "en": {
+        "releaseDate": "12/24/2022 🎄",
+        "changeLog": "- Completely new design\n- Language is now defaulted to the system language\n- Fixed Splash screen moving while loading\n\n⚠️History and Select Station screens are not available at this point."
+      }
+    }
+  }
 }
