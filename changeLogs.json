@@ -1,39 +1,39 @@
 {
   "current": {
     "iOS": {
-      "version": "1.2.4",
+      "version": "1.2.5",
       "de": {
-        "releaseDate": "21.10.2025",
-        "changeLog": "- Verbessertes Verhalten der Buttons für \"Ladevorgang übernehmen\" und \"Laden beenden\""
+        "releaseDate": "04.11.2025",
+        "changeLog": "- Verbessertes Verhalten der Buttons für \"Ladevorgang übernehmen\" und \"Laden beenden\"\n- Unterstützung für den Zustand \"Gestoppt\""
       },
       "en": {
-        "releaseDate": "10/21/2025",
-        "changeLog": "- Improved behavior of 'Assume ownership' and 'Stop charging' buttons"
+        "releaseDate": "11/04/2025",
+        "changeLog": "- Improved behavior of 'Assume ownership' and 'Stop charging' buttons\n- Support for Stopped State"
       },
       "hidden": false
     },
     "android": {
-      "version": "1.2.4",
+      "version": "1.2.5",
       "de": {
-        "releaseDate": "21.10.2025",
-        "changeLog": "- Verbessertes Verhalten der Buttons für \"Ladevorgang übernehmen\" und \"Laden beenden\""
+        "releaseDate": "04.11.2025",
+        "changeLog": "- Verbessertes Verhalten der Buttons für \"Ladevorgang übernehmen\" und \"Laden beenden\"\n- Unterstützung für den Zustand \"Gestoppt\""
       },
       "en": {
-        "releaseDate": "10/21/2025",
-        "changeLog": "- Improved behavior of 'Assume ownership' and 'Stop charging' buttons"
+        "releaseDate": "11/04/2025",
+        "changeLog": "- Improved behavior of 'Assume ownership' and 'Stop charging' buttons\n- Support for Stopped State"
       },
       "hidden": false
     }
   },
   "iOS": {
-    "1.2.4": {
+    "1.2.5": {
       "de": {
-        "releaseDate": "21.10.2025",
-        "changeLog": "- Verbessertes Verhalten der Buttons für \"Ladevorgang übernehmen\" und \"Laden beenden\""
+        "releaseDate": "04.11.2025",
+        "changeLog": "- Verbessertes Verhalten der Buttons für \"Ladevorgang übernehmen\" und \"Laden beenden\"\n- Unterstützung für den Zustand \"Gestoppt\""
       },
       "en": {
-        "releaseDate": "10/21/2025",
-        "changeLog": "- Improved behavior of 'Assume ownership' and 'Stop charging' buttons"
+        "releaseDate": "11/04/2025",
+        "changeLog": "- Improved behavior of 'Assume ownership' and 'Stop charging' buttons\n- Support for Stopped State"
       }
     },
     "1.2.3": {
@@ -548,14 +548,14 @@
     }
   },
   "android": {
-    "1.2.4": {
+    "1.2.5": {
       "de": {
-        "releaseDate": "21.10.2025",
-        "changeLog": "- Verbessertes Verhalten der Buttons für \"Ladevorgang übernehmen\" und \"Laden beenden\""
+        "releaseDate": "04.11.2025",
+        "changeLog": "- Verbessertes Verhalten der Buttons für \"Ladevorgang übernehmen\" und \"Laden beenden\"\n- Unterstützung für den Zustand \"Gestoppt\""
       },
       "en": {
-        "releaseDate": "10/21/2025",
-        "changeLog": "- Improved behavior of 'Assume ownership' and 'Stop charging' buttons"
+        "releaseDate": "11/04/2025",
+        "changeLog": "- Improved behavior of 'Assume ownership' and 'Stop charging' buttons\n- Support for Stopped State"
       }
     },
     "1.2.3": {
